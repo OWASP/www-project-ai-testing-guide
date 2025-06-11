@@ -2,7 +2,7 @@
 
 layout: col-sidebar
 title: OWASP AI Testing Guide
-tags: example-tag
+tags: AITG
 level: 4
 type: documentation
 pitch: Methodology to perform an AI System Assessment 
