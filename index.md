@@ -33,5 +33,5 @@ Finally all AI models live in ever-changing environments hence ongoing monitorin
 The OWASP AI Testing Guide is designed to serve as a comprehensive reference for software developers, architects, data analysts, researchers, and risk officers, ensuring that AI risks are systematically addressed throughout the product development lifecycle. It outlines a robust suite of tests, ranging from data‐centric validation and fairness assessments to adversarial robustness and continuous performance monitoring, that collectively provide documented evidence of risk validation and control. By following this guidance, teams can establish the level of trust required to confidently deploy AI systems into production, with verifiable assurances that potential biases, vulnerabilities, and performance degradations have been proactively identified and mitigated.
 
 
-### Start contributing [DRAFT](https://github.com/OWASP/www-project-ai-testing-guide/tree/main)
+### Start contributing [DRAFT](https://github.com/OWASP/www-project-ai-testing-guide)
 
