@@ -3,13 +3,13 @@
 layout: col-sidebar
 title: OWASP AI Testing Guide
 tags: example-tag
-level: 2
+level: 4
 type: documentation
-pitch: A very brief, one-line description of your project
+pitch: Methodology to perform an AI System Assessment 
 
 ---
 <div align="center">
-  <img src="assets/images/OWASP_AI_Testing_Guide.png" alt="Alt text">
+  <img src="assets/images/OWASP_AI_Testing_Guide.png" alt="Alt text" width="600">
 </div>
 
 As organizations increasingly adopt artificial intelligence (AI) solutions, the need for a robust framework to rigorously test AI systems for security, ethics, reliability, and compliance becomes essential. Although numerous application security testing guides exist, such as the OWASP Web Security Testing Guide (WSTG) and Mobile Security Testing Guide (MSTG), the unique risks and challenges of AI systems require specialized guidance.
