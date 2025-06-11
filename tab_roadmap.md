@@ -10,7 +10,7 @@ tags: AITG
 ### Road Map
 
 ### Road Map
-We wrote a first draft [here](https://github.com/MatOwasp/AI-Testing-Guide|https://github.com/MatOwasp/AI-Testing-Guide)
+We wrote a first draft [here](https://github.com/MatOwasp/AI-Testing-Guide)
 
 Phase 1: Initial Draft and Community Formation (JUNE 2025)
 Publish an initial project outline clearly defining the scope, mission, and testing categories.
