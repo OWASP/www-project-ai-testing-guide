@@ -131,7 +131,6 @@ The following tables present a mapping of Confidentiality, Integrity, and Availa
 
 *Note: While mapping threats to the CIA triad provides a foundational understanding of confidentiality, integrity, and availability risks across SAIF components, it’s important to recognize that resilience is equally critical for AI systems. To expand beyond CIA, we introduce the DIE Triad, Distributed, Immutable, Ephemeral \[20\] as a complementary lens. DIE emphasizes architectural robustness and operational survivability, which are essential for AI systems that are dynamic, large-scale, and continuously evolving. The mapping of DIE threats to SAIF components is provided in the Appendix B. Applying both CIA and DIE helps ensure AI components are not only secure, but also resilient by design.*
 
-NEXT: 2.1 [Identify AI Security Threats](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/2.1IdentifyAIThreats.md)
 
 While the CIA triad remains a foundational lens for identifying security threats, it is no longer sufficient on its own to capture the full risk landscape of modern AI systems. AI introduces unique attack surfaces, trust boundaries, and systemic behaviors that demand an expanded threat modeling approach. In the following sections, we aim to conduct a two-part analysis not only to enhance our existing methodology, but to ensure it is comprehensive and fit for purpose in the context of AI:
 
@@ -359,9 +358,6 @@ Given the above results, the following is a table with the 20 initial threats we
 
 ---
 
-## **NEXT:**
-
-NEXT: 2.2 [Identify AI System RAI and Trustworthy threats](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/2.2_Identify_AI_System_RAI_and_Trustworthy_threats.md)
 
 # **2.2 Identify AI System RAI and Trustworthy threats**
 
