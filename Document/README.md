@@ -2,7 +2,7 @@
 
 # OWASP AI Testing Guide Table of Contents
 
-## 1. [Introduction](content/Chapter_1:_Introduction.md)
+## 1. [Introduction](content/1._Introduction.md)
 
 - 1.1 [Objectives](content/1.2Objectives.md)
 
