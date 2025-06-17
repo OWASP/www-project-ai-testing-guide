@@ -88,7 +88,7 @@ The following is the mapping of CIA Threats to the SAIF components of the AI arc
 
 The following tables present a mapping of Confidentiality, Integrity, and Availability (CIA) threats to the components of the AI system architecture, organized by SAIF (Secure AI Framework) layers *(Note).* Each table corresponds to one of the four defined layers, Application, Model, Infrastructure, and Data and lists the individual components along with the specific threats identified during the threat modeling exercise. This layered view enables a structured assessment of security risks across the AI lifecycle and supports prioritization of mitigation efforts aligned with architectural boundaries.
 
-| Application Layer \- CIA Threats Mapping |  |
+| Application Layer \- CIA Threats Mapping | |
 | :---- | :---- |
 | **SAIF Component** | **Mapped CIA Threats** |
 | \#1 \- User | Confidentiality: User input leakage;  Integrity: Spoofed user identity;  Availability: User lockout or denial of input submission |
