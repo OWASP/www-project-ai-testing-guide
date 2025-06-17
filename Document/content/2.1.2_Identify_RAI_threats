@@ -1,0 +1,162 @@
+# **2.1.2 Identify AI System RAI and Trustworthy threats**
+
+## **Expanding Threat Modeling Beyond Security**
+
+Modern AI systems are not only susceptible to technical security threats like prompt injection or data poisoning, but also to ethical, social, and governance risks that affect trustworthiness, fairness, and compliance.  
+Threat Modeling performed in the previous paragraph is not enough, we need to expand the approach.  
+Before we review it, let's briefly revisit key Trustworthy AI concepts defined by NIST and European Commission guidelines:
+
+* Explainability & Transparency: AI outputs must be understandable to users.  
+* Fairness & Non-discrimination: AI must avoid bias and discriminatory outcomes.  
+* Robustness & Security: AI must withstand unintended use and adversarial attacks.  
+* Privacy & Data Governance: Personal data must be respected and protected.  
+* Human Agency & Oversight: AI systems should not undermine human autonomy or create excessive agency.  
+* Accountability: Clear responsibility mechanisms must exist for AI decisions.
+
+Based on these concepts, we carefully revise your previous identification of threats:  
+![Description][image2]
+
+### **Responsible AI / Trustworthy AI Additions Only**
+
+#### **🟦 AI Application (4 additions):**
+
+1. Hallucinations  
+2. Toxic Content Generation  
+3. Automation Bias  
+4. Lack of Explainability  
+5. Lack of Accountability in Agent/Plugin Actions
+
+#### **🟪 AI Model (3 additions):**
+
+6. Bias and Discrimination  
+7. Overfitting and Generalization  
+8. Misalignment with Human Intent
+
+#### **🟩 AI Infrastructure (2 additions):**
+
+9. Lack of Traceability & Auditability of Infrastructure Processes
+
+#### **🟨 AI Data (3 additions):**
+
+10. Non-representative Training Data  
+11. Toxic or Harmful Training Data  
+12. Data Privacy Violations
+
+---
+
+The following tables provide a structured overview, facilitating clear visibility for identifying, managing, and mitigating critical Responsible AI and Trustworthy AI (RT) threats across your entire AI system architecture.
+
+## **🟦 AI Application RT Threats**
+
+| \# | Component | Responsible & Trustworthy AI Threats |
+| ----- | ----- | ----- |
+| 1 | Application & User Interaction | Hallucinations, Toxic Content Generation, Automation Bias, Lack of Explainability |
+| 2 | Agent/Plugin | Lack of Accountability in Agent/Plugin Actions |
+
+---
+
+## **🟪 AI Model RT Threats**
+
+| \# | Component | Responsible & Trustworthy AI Threats |
+| ----- | ----- | ----- |
+| 3 | Model (Inference & Training) | Bias and Discrimination, Overfitting and Generalization, Misalignment with Human Intent |
+
+---
+
+## **🟩 AI Infrastructure RT Threats**
+
+| \# | Component | Responsible & Trustworthy AI Threats |
+| ----- | ----- | ----- |
+| 4 | Infrastructure (Storage, Serving, Frameworks, Training & Evaluation) | Lack of Traceability & Auditability of Infrastructure Processes |
+
+---
+
+## **🟨 AI Data RT Threats**
+
+| \# | Component | Responsible & Trustworthy AI Threats |
+| ----- | ----- | ----- |
+| 5 | Data (Sources, Processing, Storage) | Non-representative Training Data, Toxic or Harmful Training Data, Data Privacy Violations |
+
+---
+
+## **Four Pillars of AI Testing**
+
+Need an intro and this note
+
+The threat scenarios presented in this guide highlight AI-specific risks and corresponding security considerations. While we identify a range of potential threats, some associated security controls and test procedures fall outside the scope of this guide. Our intent is not to replace or duplicate existing, well-established security testing methodologies, but rather to extend them by focusing on threats unique to AI systems.
+
+For broader security assurance across networks, infrastructure, and traditional applications, we recommend using the following foundational testing references, which remain essential for comprehensive system-level evaluations such as Network Security \[17\] *NIST SP 800-115: Technical Guide to Information Security Testing and Assessment*. \[18\] *OSSTMM – Open Source Security Testing Methodology Manual* and \[19\] *OWASP Web Security Testing Guide (WSTG)*.
+
+### **1\. AI Application Testing**
+
+* Scope: Front-end UX, APIs, agents/plugins, user-AI interactions  
+* Threats:  
+  * Prompt injection (LLM01)  
+  * Output handling (LLM05)  
+  * Excessive agency (LLM06)  
+  * Misinformation (LLM09)  
+  * Automation bias  
+  * Hallucinations  
+  * Toxic content  
+  * Explainability gaps  
+* Testing Focus:  
+  * Behavior consistency  
+  * Ethical content validation  
+  * User interface abuse (e.g., phishing via AI)  
+  * Interpretability & transparency evaluation
+
+---
+
+### **2\. AI Model Testing**
+
+* Scope: Model training, fine-tuning, inference behavior  
+* Threats:  
+  * Model & data poisoning (LLM04)  
+  * Inversion/inference attacks  
+  * Bias/discrimination  
+  * Model exfiltration  
+  * Overfitting / generalization issues  
+  * Explainability & fairness gaps  
+* Testing Focus:  
+  * Adversarial robustness  
+  * Fairness auditing  
+  * Membership inference testing  
+  * Alignment and behavior under edge cases
+
+---
+
+### **3\. AI Infrastructure Testing**
+
+* Scope: Hosting, serving, orchestration, APIs, plugin permissions  
+* Threats:  
+  * System prompt leakage (LLM07)  
+  * Resource abuse (LLM10)  
+  * Supply chain poisoning (LLM03)  
+  * Unauthorized API control  
+  * Insecure agent capabilities  
+* Testing Focus:  
+  * Least privilege enforcement  
+  * Resource sandboxing  
+  * Plugin/agent boundary testing  
+  * Environment security (CI/CD, containers)
+
+---
+
+### **4\. AI Data Testing**
+
+* Scope: Data collection, curation, storage, labeling, filtering  
+* Threats:  
+  * Data poisoning (LLM04)  
+  * Training data leaks  
+  * Toxic/unrepresentative data  
+  * Bias introduced during preprocessing  
+  * Mislabeling or filtering inconsistencies  
+* Testing Focus:  
+  * Dataset integrity & labeling accuracy  
+  * Bias and diversity analysis  
+  * Data provenance validation  
+  * Filtering robustness (toxicity, duplication)
+
+---
+
+## 
