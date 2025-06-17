@@ -34,6 +34,7 @@ NEXT:  [AI Testing Guide Table of Content](Document/README.md)
 
 For contributions, feedback, or collaboration, reach out to the project leaders:
 
-- **Matteo Meucci** Email: [matteo.meucci@owasp.org](mailto:matteo.meucci@owasp.org)
-- **Marco Morana** Email: [marco.m.morana@gmail.com](mailto:marco.m.morana@gmail.com)
+- **Matteo Meucci**: 
+[matteo.meucci@owasp.org](mailto:matteo.meucci@owasp.org)
+- **Marco Morana**: [marco.m.morana@gmail.com](mailto:marco.m.morana@gmail.com)
 
