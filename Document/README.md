@@ -16,9 +16,9 @@
 
 - 2.1.2 [Identify AI System RAI threats](content/2.1.2_Identify_RAI_threats.md)
 
-## 3. [OWASP AI Testing Guide Framework](content/Chapter_3:_AI_Testing_Guide_Framework.md)
+## 3. [OWASP AI Testing Guide Framework](content/3.0_AI_Testing_Guide_Framework.md)
 
-3.1 🟦 [AI Application Testing](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AI_APPLICATION_TESTING.md)
+3.1 🟦 [AI Application Testing](content/tests/AI_APPLICATION_TESTING.md)
 
 | Test ID       | Test Name & Link |
 |---------------|------------------|
