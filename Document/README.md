@@ -2,15 +2,19 @@
 
 # OWASP AI Testing Guide Table of Contents
 
-## 1. [Introduction](content/1._Introduction.md)
+## 1. [Introduction](content/1.0_Introduction.md)
 
-- 1.1 [Objectives](content/1.2Objectives.md)
+- 1.1 [Principles of AI Testing](content/1.1_Priciples_of_AI_Testing.md)
 
-## 2. [Threat Modeling for AI Systems](content/Chapter_2:_Threat_Modeling_for_AI_Systems.md)
+- 1.1 [Objectives of OWASP AI Testing Guide](content/1.2_Objectives_of_AI_Testing_Guide.md)
 
-- 2.1 [Identify AI System Security threats](content/2.1IdentifyAIThreats.md)
+## 2. [Threat Modeling for AI Systems](content/2.0_Threat_Modeling_for_AI_Systems.md)
 
-- 2.2 [Identify AI System Trustworthy threats](content/2.2_Identify_AI_System_RAI_and_Trustworthy_threats.md)
+- 2.1 [Identify AI System threats](content/2.1_Identify_AI_Threats.md)
+
+- 2.1.1 [Identify AI System Trustworthy threats](content/2.2_Identify_AI_System_RAI_and_Trustworthy_threats.md)
+
+- 2.1.2 [Identify AI System RAI threats](content/2.1.2_Identify_RAI_threats.md)
 
 ## 3. [OWASP AI Testing Guide Framework](content/Chapter_3:_AI_Testing_Guide_Framework.md)
 
@@ -72,6 +76,8 @@
 | AITG-DAT-05   | [Testing for Data Minimization & Consent](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-DAT-05_Testing_for_Data_Minimization_and_Consent.md) |
 
 ## 4. [Chapter 4: Domain Specific Testing](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/Chapter_4:_Domain_Specific_Testing.md)
+
+ [References](content/References.md)
 
 
 
