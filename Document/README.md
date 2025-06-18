@@ -6,7 +6,7 @@
 
 - 1.1 [Principles of AI Testing](content/1.1_Principles_of_AI_Testing.md)
 
-- 1.1 [Objectives of OWASP AI Testing Guide](content/1.2_Objectives_of_AI_Testing_Guide.md)
+- 1.2 [Objectives of OWASP AI Testing Guide](content/1.2_Objectives_of_AI_Testing_Guide.md)
 
 ## 2. [Threat Modeling for AI Systems](content/2.0_Threat_Modeling_for_AI_Systems.md)
 
