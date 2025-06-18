@@ -13,7 +13,7 @@ The OWASP projects are an open source effort, and we enthusiastically welcome al
 
 - 📥 Send your suggestion, propose your concepts to the [project leader](mailto:matteo.meucci@owasp.org).
 - 👋 Join OWASP in our [Slack]() workspace.
-- Start contributing [Here](https://github.com/OWASP/www-project-ai-testing-guide/blob/master/DRAFT/README.md)
+- Start contributing here: [OWASP AI Testing Guide Table of Contents](https://github.com/OWASP/www-project-ai-testing-guide/blob/main/Document/README.md)
 
 ### Project Lead
 
