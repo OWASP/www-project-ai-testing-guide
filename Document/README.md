@@ -12,7 +12,7 @@
 
 - 2.1 [Identify AI System threats](content/2.1_Identify_AI_Threats.md)
 
-- 2.1.1 [Identify AI System Trustworthy threats](content/2.2_Identify_AI_System_RAI_and_Trustworthy_threats.md)
+- 2.1.1 [Identify OWASP Threats](content/2.1.1_Architectural_Mapping_of_OWASP_Threats.md)
 
 - 2.1.2 [Identify AI System RAI threats](content/2.1.2_Identify_RAI_threats.md)
 
