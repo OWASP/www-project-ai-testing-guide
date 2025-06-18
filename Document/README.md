@@ -75,7 +75,7 @@
 | AITG-DAT-04   | [Testing for Harmful Content in Data](content/tests/AITG-DAT-04_Testing_for_Harmful_Content_in_Data.md) |
 | AITG-DAT-05   | [Testing for Data Minimization & Consent](content/tests/AITG-DAT-05_Testing_for_Data_Minimization_and_Consent.md) |
 
-## 4. [Chapter 4: Domain Specific Testing](content/Chapter_4:_Domain_Specific_Testing.md)
+## 4. [Chapter 4: Domain Specific Testing](content/4.0_Domain_Specific_Testing.md)
 
  [References](content/References.md)
 
