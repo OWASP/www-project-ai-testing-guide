@@ -10,7 +10,7 @@ Given the direct exposure of AI applications to users and external environments,
 This category evaluates whether the AI application:
 
 - Is resistant to **prompt manipulation and injection attacks**  
-  → [AITG-APP-01: Testing for Prompt Injection](Document/content/tests/AITG-APP-01_Testing_for_Prompt_Injection.md)  
+  → [AITG-APP-01: Testing for Prompt Injection](/Document/content/tests/AITG-APP-01_Testing_for_Prompt_Injection.md)  
   → [AITG-APP-02: Testing for Indirect Prompt Injection](Document/content/tests/AITG-APP-02_Testing_for_Indirect_Prompt_Injection.md)
 
 - Maintains **information boundaries** to avoid sensitive data leaks  
