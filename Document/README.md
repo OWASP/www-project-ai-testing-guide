@@ -18,7 +18,7 @@
 
 ## 3. [OWASP AI Testing Guide Framework](content/3.0_OWASP_AI_Testing_Guide_Framework.md)
 
-3.1 🟦 [AI Application Testing](3.1_AI_Application_Testing.md)
+3.1 🟦 [AI Application Testing](content/3.1_AI_Application_Testing.md)
 
 | Test ID       | Test Name & Link |
 |---------------|------------------|
@@ -38,7 +38,7 @@
 | AITG-APP-14   | [Testing for Explainability and Interpretability](content/tests/AITG-APP-14_Testing_for_Explainability_and_Interpretability.md) |
 
 
-3.2 🟪 [AI Model Testing](3.2_AI_Model_Testing.md)
+3.2 🟪 [AI Model Testing](content/3.2_AI_Model_Testing.md)
 
 | Test ID       | Test Name & Link |
 |---------------|------------------|
@@ -52,7 +52,7 @@
 
 ---
 
-3.3 🟩 [AI Infrastructure Testing](3.3_AI_Infrastructure_Testing.md)
+3.3 🟩 [AI Infrastructure Testing](content/3.3_AI_Infrastructure_Testing.md)
 
 | Test ID       | Test Name & Link |
 |---------------|------------------|
@@ -65,7 +65,7 @@
 
 ---
 
-3.4 🟨 [AI Data Testing](content/tests/3.4_AI_Data_Testing.md)
+3.4 🟨 [AI Data Testing](content/3.4_AI_Data_Testing.md)
 
 | Test ID       | Test Name & Link |
 |---------------|------------------|
