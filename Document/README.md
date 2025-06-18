@@ -15,6 +15,14 @@
 - 2.1.1 [Identify OWASP Threats](content/2.1.1_Architectural_Mapping_of_OWASP_Threats.md)
 
 - 2.1.2 [Identify AI System RAI threats](content/2.1.2_Identify_RAI_threats.md)
+  
+- [Appendix A](content/2.2_Appendix_A.md)
+
+- [Appendix B](content/2.2_Appendix_B.md)
+ 
+- [Appendix C](content/2.2_Appendix_C.md)
+   
+- [Appendix D](content/2.2_Appendix_D.md)
 
 ## 3. [OWASP AI Testing Guide Framework](content/3.0_OWASP_AI_Testing_Guide_Framework.md)
 
