@@ -16,6 +16,8 @@ As organizations increasingly adopt artificial intelligence (AI) solutions, the 
 
 The OWASP AI Testing Guide aims to become the reference for identifying security, privacy, ethical, and compliance vulnerabilities inherent in AI applications. Inspired by established OWASP methodologies, the AI Testing Guide will deliver structured and practical guidance for security professionals, testers, and AI developers. This guide will be technology and industry agnostic, emphasizing applicability across various AI implementation scenarios.
 
+### [OWASP AI Testing Guide Table of Contents](https://github.com/OWASP/www-project-ai-testing-guide/blob/main/Document/README.md)
+
 ## Importance of AI Testing
 AI testing is vital because AI now underpins critical decision-making and daily operations across industries, from healthcare and finance to automotive and cybersecurity. To ensure an AI system is truly reliable, secure, accurate, and ethical, testing must go well beyond basic functionality. It needs to validate bias and fairness controls to prevent discrimination, conduct adversarial robustness checks against crafted inputs designed to fool or hijack models, and perform security and privacy assessments, such as model-extraction, data-leakage, and poisoning attack simulations. Incorporating techniques like differential privacy ensures compliance with data-protection laws while safeguarding individual records. 
 This guide’s comprehensive approach to AI testing aims to uncover hidden risks and maintain trust in AI-driven solutions.
