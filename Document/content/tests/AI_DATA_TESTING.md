@@ -11,23 +11,23 @@ This category evaluates whether the AI data:
 
 - Prevents **unintended exposure or leakage of sensitive training data**
 
-   → [AITG-DAT-01: Testing for Training Data Exposure](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-DAT-01_Testing_for_Training_Data_Exposure.md)
+   → [AITG-DAT-01: Testing for Training Data Exposure](/Document/content/tests/AITG-DAT-01_Testing_for_Training_Data_Exposure.md)
 
 - Is secure against **runtime exfiltration of sensitive or private information**
 
-  → [AITG-DAT-02: Testing for Runtime Exfiltration](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-DAT-02_Testing_for_Runtime_Exfiltration.md)
+  → [AITG-DAT-02: Testing for Runtime Exfiltration](/Document/content/tests/AITG-DAT-02_Testing_for_Runtime_Exfiltration.md)
 
 - Provides sufficient **diversity, representation, and comprehensive coverage** to avoid bias or performance gaps
 
-  → [AITG-DAT-03: Testing for Dataset Diversity & Coverage](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-DAT-03_Testing_for_Dataset_Diversity_and_Coverage.md)
+  → [AITG-DAT-03: Testing for Dataset Diversity & Coverage](/Document/content/tests/AITG-DAT-03_Testing_for_Dataset_Diversity_and_Coverage.md)
 
 - Is free from **harmful, toxic, or biased content**
 
-  → [AITG-DAT-04: Testing for Harmful Content in Data](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-DAT-04_Testing_for_Harmful_Content_in_Data.md)
+  → [AITG-DAT-04: Testing for Harmful Content in Data](/Document/content/tests/AITG-DAT-04_Testing_for_Harmful_Content_in_Data.md)
 
 - Aligns with **data minimization principles and consent requirements** as mandated by regulations and privacy best practices
 
-  → [AITG-DAT-05: Testing for Data Minimization & Consent](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-DAT-05_Testing_for_Data_Minimization_and_Consent.md)
+  → [AITG-DAT-05: Testing for Data Minimization & Consent](/Document/content/tests/AITG-DAT-05_Testing_for_Data_Minimization_and_Consent.md)
 
 Each test within the AI Data Testing category ensures that datasets powering AI models meet essential quality, ethical, security, and compliance standards, ultimately contributing to safer and more responsible AI systems.
 
