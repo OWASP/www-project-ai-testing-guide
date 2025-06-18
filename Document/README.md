@@ -16,13 +16,13 @@
 
 - 2.1.2 [Identify AI System RAI threats](content/2.1.2_Identify_RAI_threats.md)
 
-## 3. [OWASP AI Testing Guide Framework](content/3.0_AI_Testing_Guide_Framework.md)
+## 3. [OWASP AI Testing Guide Framework](content/3.0_OWASP_AI_Testing_Guide_Framework.md)
 
 3.1 🟦 [AI Application Testing](content/tests/AI_APPLICATION_TESTING.md)
 
 | Test ID       | Test Name & Link |
 |---------------|------------------|
-| AITG-APP-01   | [Testing for Prompt Injection](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-APP-01_Testing_for_Prompt_Injection.md) |
+| AITG-APP-01   | [Testing for Prompt Injection](content/tests/AITG-APP-01_Testing_for_Prompt_Injection.md) |
 | AITG-APP-02   | [Testing for Indirect Prompt Injection](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-APP-02_Testing_for_Indirect_Prompt_Injection.md) |
 | AITG-APP-03   | [Testing for Sensitive Data Leak](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-APP-03_Testing_for_Sensitive_Data_Leak.md) |
 | AITG-APP-04   | [Testing for Input Leakage](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-APP-04_Testing_for_Input_Leakage.md) |
