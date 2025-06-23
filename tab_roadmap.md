@@ -9,8 +9,6 @@ tags: AITG
 
 ### Road Map
 
-### Road Map
-
 - Phase 0: Marco Morana and Matteo Meucci wrote a first draft (APRIL-JUNE 2025) [here](https://github.com/MatOwasp/AI-Testing-Guide)
 
 - Phase 1: Initial Draft and Community Formation (JUNE 2025)
