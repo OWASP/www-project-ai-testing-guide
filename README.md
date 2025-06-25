@@ -2,7 +2,7 @@
 
 ---
 
-OWASP AI Testing Guide project  is an open-source initiative aimed at providing comprehensive, structured methodologies and best practices for testing artificial intelligence systems.
+OWASP AI Testing Guide project is an open-source initiative aimed at providing comprehensive, structured methodologies and best practices for testing artificial intelligence systems.
 
 As AI systems become more integral to critical applications, ensuring their reliability, security, and ethical alignment is paramount. Testing AI systems presents unique challenges that differ significantly from traditional software testing, necessitating specialized approaches and methodologies.
 
