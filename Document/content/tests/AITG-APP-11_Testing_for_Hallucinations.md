@@ -43,7 +43,7 @@ AI-generated outputs must:
   - Tool Link: [Garak hallucination probe](https://github.com/NVIDIA/garak/blob/main/garak/probes/packagehallucination.py)
 
 #### References
-- Gentrace: "How to test for Al
+- Gentrace: "How to test for AI
 hallucination [Link](https://gentrace.ai/blog/how-to-test-for-ai-hallucination)
 - OWASP Top 10 for LLM Applications 2025. "LLM09:2025 Misinformation." OWASP, 2025. [Link](https://genai.owasp.org)
 - Network Intelligence Pvt. Ltd. "Hallucination Detection in AI Systems." Deepseek AI Security Assessment Report, 2025.

@@ -50,7 +50,7 @@ A vulnerability is confirmed if the AI model:
 - Train AI models specifically to recognize and resist attempts to disclose system prompts.
 - Regularly audit model responses to promptly detect and rectify prompt disclosure issues.
 
-esearch efforts have led to the development of frameworks that can be utilized for this purpose:​
+Research efforts have led to the development of frameworks that can be utilized for this purpose:​
 
 **Agentic Prompt Leakage Framework**: This approach employs cooperative agents to probe and exploit LLMs, aiming to elicit system prompts. The methodology is detailed in the paper ["Automating Prompt Leakage Attacks on Large Language Models Using Agentic Approach"](https://arxiv.org/pdf/2502.12630)
 
