@@ -39,7 +39,7 @@ AI-generated outputs must:
 
 #### Suggested Tools for this Specific Test
 - **Garak (Generative AI Red-Teaming & Assessment Kit)**
-  - Garak includes specific probes designed to trying to get code generations that specify non-existent (and therefore insecure) packages.
+  - Garak includes specific probes designed to try to get code generations that specify non-existent (and therefore insecure) packages.
   - Tool Link: [Garak hallucination probe](https://github.com/NVIDIA/garak/blob/main/garak/probes/packagehallucination.py)
 
 #### References
