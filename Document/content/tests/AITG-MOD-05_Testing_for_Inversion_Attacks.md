@@ -36,7 +36,7 @@ AI-generated outputs must:
   - Tool Link: [ART on GitHub](https://github.com/Trusted-AI/adversarial-robustness-toolbox)
 
 - **ML Privacy Meter**  
-  - Specialized for evaluating inversion attack susceptibility and privacy leakages in machine learning models.  
+  - Specialized in evaluating inversion attack susceptibility and privacy leakages in machine learning models.  
   - Tool Link: [ML Privacy Meter on GitHub](https://github.com/privacytrustlab/ml_privacy_meter)
 
 - **TensorFlow Privacy**  
