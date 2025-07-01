@@ -14,7 +14,10 @@ As AI systems become more integral to critical applications, ensuring their reli
 
 Recognizing the need for structured approaches to AI testing, several organizations have developed comprehensive guides and frameworks:
 
-- **OWASP GenAI Red Teaming Guide**: This guide offers a structured, risk-based methodology for assessing AI systems, covering aspects from model evaluation to system integration pitfalls. It emphasizes a holistic approach to red teaming, addressing model-level vulnerabilities and runtime behavior analysis. [OWASP GenAI Red Teaming Guide](https://genai.owasp.org/resource/genai-red-teaming-guide/)
+- **OWASP GenAI Red Teaming Guide**: This guide offers a structured, risk-based methodology for assessing AI systems, covering aspects from model evaluation to system integration pitfalls. It emphasizes a holistic approach to red teaming, addressing model-level vulnerabilities and runtime behavior analysis.[OWASP GenAI Red Teaming Guide](https://genai.owasp.org/resource/genai-red-teaming-guide/)
+
+-**CSA Agentic AI Red Teaming Guide**: Offers guidance on red teaming agentic AI systems, addressing attack surfaces unique to autonomous and goal-driven AI behaviors. CSA Guide
+[Cloud Security Alliance Agentic AI Red Teaming Guide](https://lnkd.in/ere2Jm9D (https://cloudsecurityalliance.org/artifacts/agentic-ai-red-teaming-guide#) [Cloud Security Alliance Agentic AI Red Teaming Guide](https://cloudsecurityalliance.org/artifacts/agentic-ai-red-teaming-guide#)
 
 - **OWASP AI Exchange**: Serving as a collaborative platform, the AI Exchange provides over 200 pages of practical advice on protecting AI and data-centric systems from threats. It contributes actively to international standards and represents a consensus on AI security and privacy. [OWASP AI Exchange](https://owaspai.org/)
 
@@ -22,6 +25,8 @@ Recognizing the need for structured approaches to AI testing, several organizati
 
 - **OWASP Top 10 for LLM**: Top 10 risks, vulnerabilities and mitigations for developing and securing generative AI and large language model applications across the development, deployment and management lifecycle. [OWASP Top 10 for Large Language Models (LLM)](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
 
+- **OWASP AI VSS (AI Vulnerability Scoring System)**: A tailored scoring framework designed to assess and quantify AI-specific vulnerabilities. It adapts principles from traditional CVSS to the AI domain, offering consistent and actionable risk ratings for model flaws, data weaknesses, and deployment exposures. [OWASP AI VSS](https://aivss.owasp.org/)
+  
 - NIST AI 100-2e2025 - Adversarial Machine Learning A Taxonomy and Terminology of Attacks and Mitigations: [NIST AI 100](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-2e2025.pdf)
 
 ## Objective of This Guide
