@@ -3,14 +3,14 @@
 ### Summary
 Unsafe outputs in large language models (LLMs) refer to two major categories:
 
-1. **Content-level risks** - where the model generates harmful, offensive, biased, misleading, or dangerous responses.
+1. **Content-level risks** - where the model generates hazardous responses with the potential to harm the direct user of the application.
 
 2. **Application-level risks** - where the model outputs content that, if improperly handled by consuming systems, may lead to security vulnerabilities (e.g., Cross-Site Scripting (XSS), Server-Side Request Forgery (SSRF), injections).
 
 These outputs can negatively impact users, introduce ethical or legal issues, and expose applications to critical security risks. This test aligns with OWASP Top 10 LLM05:2025 - Improper Output Handling and emerging AI safety standards.
 
 ### Test Objectives
-Technically verify if an LLM or AI application generates unsafe or inappropriate outputs during normal usage. This test uniquely addresses scenarios where model responses may contain harmful, or offensive content, aligning with OWASP Top 10 LLM05:2025.
+Technically verify if an LLM or AI application generates unsafe or inappropriate outputs during normal usage. This test uniquely addresses scenarios where model responses may contain harmful content, aligning with OWASP Top 10 LLM05:2025. The definition of what is unsafe is strongly dependant on the application and the type of users that could interact with it and that is exposed to the generated content. A prior study of the type of content that the system should generate is necessary. For general-purpose applications, several content-level safety taxonomies are already available and their extension/modification possible. For a comphrensive example of a general-purpose content-level safety taxonomy, refer to the [AILuminate Assessment Standard v1.1 - May 2025](https://drive.google.com/file/d/1xAsX9q3QjiatcJ_2467JM9Ris0wcYKa-/view).
 
 For comprehensive coverage of application vulnerabilities resulting from unsafe model output, testers are encouraged to reference the original [OWASP Top Ten](https://owasp.org/www-project-top-ten/), the [OWASP Top Ten API](https://owasp.org/API-Security/), the [OWASP Web Security Testing Guide (WSTG)](https://owasp.org/www-project-web-security-testing-guide/), and similar documentation. It can help assess whether unsafe outputs from an LLM could lead to issues like XSS, SSRF, HTML injection, and other misuse in downstream applications.
 
@@ -71,13 +71,16 @@ A vulnerability is confirmed if the AI model:
 
 ### Remediation
 - Implement robust filtering and moderation mechanisms to automatically detect and suppress unsafe or inappropriate content.
-- Regularly train and fine-tune models with datasets reviewed for biases, harmful language, or unethical content.
+- Regularly train and fine-tune models with datasets reviewed for harmful language, or unethical content.
 - Use clear, strong, and context-aware safety prompts instructing the model against generating unsafe outputs.
 - Employ ongoing monitoring and manual review processes to detect and rectify unsafe outputs quickly.
 
 ### Suggested Tools for this Specific Test
 - **Garak – Unsafe Output Detection Module**: Specialized Garak module explicitly designed to identify unsafe model outputs.
   - **URL**: [AV Spam Scanning](https://github.com/NVIDIA/garak/blob/main/garak/probes/)
+- **State of the art content-level moderation models**, below some examples:
+  - **LlamaGuard4**: Open source moderation model to detect unsafe text and unsafe combination of text and images.
+  - **LlavaGuard**, **ShieldGemma2**: Open source moderation model to detection unsafe images.
 
 ### References
 - **Title**: OWASP Top 10 LLM05:2025 Improper Output Handling
@@ -86,4 +89,7 @@ A vulnerability is confirmed if the AI model:
 - **Title**: NIST AI 100-2e2025 - Adversarial Machine Learning: Integrity Violations and Mitigations
   - **Author**: NIST
   - **Link**: [https://doi.org/10.6028/NIST.AI.100-2e2025](https://doi.org/10.6028/NIST.AI.100-2e2025)
+- **Title**: AILuminate Benchmark
+  - **Author**: MLCommons
+  - **Link**: [https://mlcommons.org/benchmarks/ailuminate/](https://mlcommons.org/benchmarks/ailuminate/)
 
