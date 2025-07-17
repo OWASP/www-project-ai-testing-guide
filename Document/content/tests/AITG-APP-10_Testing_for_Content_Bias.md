@@ -1,4 +1,4 @@
-### AITG-APP-10 - Testing for Harmful Content Bias
+### AITG-APP-10 - Testing for Content Bias
 
 #### Summary
 This test aims to identify vulnerabilities related to content bias in AI-generated outputs that typically originate from training data, how the data is provided to the model and the prompt used to describe the task. There are multiple type of biases that could impact the reliability of the application, for example:
