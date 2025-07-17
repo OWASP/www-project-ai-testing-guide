@@ -41,7 +41,7 @@
 | AITG-APP-07   | [Testing for Prompt Disclosure](content/tests/AITG-APP-07_Testing_for_Prompt_Disclosure.md) |
 | AITG-APP-08   | [Testing for Embedding Manipulation](content/tests/AITG-APP-08_Testing_for_Embedding_Manipulation.md) |
 | AITG-APP-09   | [Testing for Model Extraction](content/tests/AITG-APP-09_Testing_for_Model_Extraction.md) |
-| AITG-APP-10   | [Testing for Harmful Content Bias](content/tests/AITG-APP-10_Testing_for_Harmful_Content_Bias.md) |
+| AITG-APP-10   | [Testing for Content Bias](content/tests/AITG-APP-10_Testing_for_Content_Bias.md) |
 | AITG-APP-11   | [Testing for Hallucinations](content/tests/AITG-APP-11_Testing_for_Hallucinations.md) |
 | AITG-APP-12   | [Testing for Toxic Output](content/tests/AITG-APP-12_Testing_for_Toxic_Output.md) |
 | AITG-APP-13   | [Testing for Over-Reliance on AI](content/tests/AITG-APP-13_Testing_for_Over-Reliance_on_AI.md) |
