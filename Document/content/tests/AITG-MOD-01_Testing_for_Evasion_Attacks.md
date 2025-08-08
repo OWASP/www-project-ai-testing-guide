@@ -34,11 +34,15 @@ AI-generated outputs must:
 AI Security Testing tool can be divided into *general-purpose*, which can be used to test a variety of adversarial attacks on the image domain or at the feature-level of every model, and *domain-specific*, that enables security testing directly on the input source.
 
 ## General-purpose tools
+- **Adversarial Library**
+  - A powerful library of various adversarial attacks resources in PyTorch. It contains the most efficient implementations of several state-of-the-art attacks, at the expense of less OOP-structured tools.
+  - Tool Link: [Adversarial Library on GitHub](https://github.com/jeromerony/adversarial-library)
 - **Foolbox**  
   - Tool for creating adversarial examples and evaluating model robustness, compatible with PyTorch, TensorFlow, and JAX.  
   - Tool Link: [Foolbox on GitHub](https://github.com/bethgelab/foolbox)
-- TODO SECML
-- TODO ADVLIB
+- **SecML-Torch**
+  - Tool for evaluating adversarial robustness of deep learning models. Based on PyTorch, it includes debugging functionalities and interfaces to customize attacks and conduct trustworthy security evaluations.
+  - Tool Link: [SecML-Torch on GitHub](https://github.com/pralab/secml-torch)
 
 ## Domain-specific tools
 - **Maltorch**
@@ -62,8 +66,8 @@ We also list here some of the libraries that have been used years ago, but now a
 - Library for computing adversarial evasion attacks against model deployed in Pytorch, Tensorflow / Keras, and JAX.
 - Tool link: [CleverHans on GitHub](https://github.com/cleverhans-lab/cleverhans) 
 
-- **DeepSec**  
-  - Security evaluation toolkit focused on deep learning models for adversarial example detection and defense.  
+- **DeepSec** (BUGGED)   
+  - Security evaluation toolkit focused on deep learning models for adversarial example detection and defense. It has been strongly criticized as bugged, as visible from the (still) open [issues](https://github.com/ryderling/DEEPSEC/issues).
   - Tool Link: [DeepSec on GitHub](https://github.com/ryderling/DEEPSEC)
 
 #### References  
