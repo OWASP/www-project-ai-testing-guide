@@ -30,18 +30,37 @@ AI-generated outputs must:
 - Regularly evaluate models using adversarial robustness tools to proactively detect and mitigate vulnerabilities.
 - Continuously update and refine input validation and sanitization strategies to counter evolving adversarial techniques.
 
-#### Suggested Tools for this Specific Test  
-- **Adversarial Robustness Toolbox (ART)**  
-  - Framework for adversarial attack generation, detection, and mitigation for AI models.  
-  - Tool Link: [Adversarial Robustness Toolbox](https://github.com/Trusted-AI/adversarial-robustness-toolbox)
+#### Suggested Tools for this Specific Test
+AI Security Testing tool can be divided into *general-purpose*, which can be used to test a variety of adversarial attacks on the image domain or at the feature-level of every model, and *domain-specific*, that enables security testing directly on the input source.
 
+## General-purpose tools
+- **Foolbox**  
+  - Tool for creating adversarial examples and evaluating model robustness, compatible with PyTorch, TensorFlow, and JAX.  
+  - Tool Link: [Foolbox on GitHub](https://github.com/bethgelab/foolbox)
+- TODO SECML
+- TODO ADVLIB
+
+## Domain-specific tools
+- **Maltorch**
+  - Python library for computing security evaluations against Windows malware detectors implemented in Pytorch. The library contains most of the proposed attacks in the literature, and pre-trained models that can be used to test attacks.
+  - Tool Link: [Maltorch on Github](https://github.com/zangobot/maltorch)
+- **Waf-a-MoLE**
+  - Python library for computing adversarial SQL injections against Web Application Firewalls
+  - Tool Link: [Waf-a-MoLE on GitHub](https://github.com/AvalZ/WAF-A-MoLE)
 - **TextAttack**  
   - Python framework specifically designed to evaluate and enhance the adversarial robustness of NLP models.  
   - Tool Link: [TextAttack on GitHub](https://github.com/QData/TextAttack)
 
-- **Foolbox**  
-  - Tool for creating adversarial examples and evaluating model robustness, compatible with PyTorch, TensorFlow, and JAX.  
-  - Tool Link: [Foolbox on GitHub](https://github.com/bethgelab/foolbox)
+## Jack-of-all-trades
+- **Adversarial Robustness Toolbox (ART)**  
+  - Framework for adversarial attack generation, detection, and mitigation for AI models.
+  - Tool Link: [Adversarial Robustness Toolbox](https://github.com/Trusted-AI/adversarial-robustness-toolbox)
+
+## Outdated libraries
+We also list here some of the libraries that have been used years ago, but now are inactive, not maintained and probably bugged.
+- **CleverHans**
+- Library for computing adversarial evasion attacks against model deployed in Pytorch, Tensorflow / Keras, and JAX.
+- Tool link: [CleverHans on GitHub](https://github.com/cleverhans-lab/cleverhans) 
 
 - **DeepSec**  
   - Security evaluation toolkit focused on deep learning models for adversarial example detection and defense.  
