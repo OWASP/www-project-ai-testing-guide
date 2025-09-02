@@ -63,8 +63,8 @@ AI Security Testing tool can be divided into *general-purpose*, which can be use
 ## Outdated libraries
 We also list here some of the libraries that have been used years ago, but now are inactive, not maintained and probably bugged.
 - **CleverHans**
-- Library for computing adversarial evasion attacks against model deployed in Pytorch, Tensorflow / Keras, and JAX.
-- Tool link: [CleverHans on GitHub](https://github.com/cleverhans-lab/cleverhans) 
+  - Library for computing adversarial evasion attacks against model deployed in Pytorch, Tensorflow / Keras, and JAX.
+  - Tool link: [CleverHans on GitHub](https://github.com/cleverhans-lab/cleverhans) 
 
 - **DeepSec** (BUGGED)   
   - Security evaluation toolkit focused on deep learning models for adversarial example detection and defense. It has been strongly criticized as bugged, as visible from the (still) open [issues](https://github.com/ryderling/DEEPSEC/issues).
