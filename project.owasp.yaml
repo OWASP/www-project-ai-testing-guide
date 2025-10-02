@@ -1,0 +1,23 @@
+audience:
+  - breaker
+  - builder
+leaders:
+  - name: Matteo Meucci
+    email: Matteo.meucci@owasp.org
+    github: MatOwasp
+  - name: Marco Morana
+    email: marco.m.morana@gmail.com
+    github: mmorana1
+level: 4
+name: OWASP AI Testing Guide
+pitch: Methodology to perform an AI System Assessment
+repositories:
+  - name: www-project-ai-testing-guide
+    url: https://github.com/OWASP/www-project-ai-testing-guide
+    description: OWASP Foundation web repository
+tags:
+  - AITG
+  - custom-tag-1
+  - custom-tag-2
+type: documentation
+website: https://owasp.org/www-project-ai-testing-guide
