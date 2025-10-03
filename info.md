@@ -4,9 +4,7 @@
 * [Breaker](#)
 
 ### Social Links
-* [Slack Channel](https://join.slack.com/t/owasp/shared_invite/zt-2xh7welj5-ueQHlFJfmFPL_TKb4LCd6Q)
+* [LinkedIn](https://www.linkedin.com/company/owasp-ai-testing-guide-project/)
 
 ### Code Repository
-* [GitHub](https://github.com/OWASP/www-project-ai-testing-guide/tree/main/Document)
-
-
+* [GitHub](https://github.com/OWASP/www-project-ai-testing-guide)
