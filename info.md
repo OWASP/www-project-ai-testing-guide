@@ -7,6 +7,7 @@
 
 ### Downloads or Social Links
 * [Download](#)
+* [LinkedIn](https://www.linkedin.com/company/owasp-ai-testing-guide-project/)
 * [Meetup](#)
 
 ### Code Repository
