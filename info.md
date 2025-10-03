@@ -10,7 +10,7 @@
 * [Meetup](#)
 
 ### Code Repository
-* [repo](#)
+* [GitHub](https://github.com/OWASP/www-project-ai-testing-guide)
 
 ### Change Log
 * [changes](#)
