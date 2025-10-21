@@ -48,6 +48,7 @@ Authors:
 - Julio Araujo
 - Grao Melo
 - Dhanith Krishna
+- Yoni Birman
 - Maura Pintor
 - Luca Demetrio
 - Didier Durand
@@ -55,6 +56,8 @@ Authors:
 - Jeremy Redmond
 - DotDotSlash
 - Nicolas Humblot
+- Martí Jordà Roca
+- Sita Ram Sai
 
 Contributors:
 - Cecil Su 
@@ -64,6 +67,7 @@ Contributors:
 - Giovanni Cerrato 
 - Kunal Sinha 
 - Jacob Beers
+- Joey Melo
 
 Acknowledgements
 We also want to thank everyone in the wider OWASP AITG community — especially those in the Slack channel — who shared feedback, ideas, or encouragement along the way. Your input helped shape this project.
