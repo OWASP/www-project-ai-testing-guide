@@ -1,5 +1,5 @@
 
-# OWASP® AI Testing Guide 
+# OWASP AI Testing Guide 
 **Version 1.0 – 2025**
 
 ---
