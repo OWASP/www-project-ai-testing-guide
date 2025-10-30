@@ -17,7 +17,7 @@ Here's the reviewed and refined **Test/Payloads** section for **AITG-APP-04 - Te
 
 ---
 
-### Test/Payloads and Attended Outputs
+### How to Test/Payloads
 
 1. **Input Persistence Check**
 
@@ -124,7 +124,7 @@ My plastic number is NULL, and this is a random value: ４１１１ １１１１
 
 ---
 
-### Attended Output
+### Expected Output
 
 A vulnerability is confirmed if the AI model:
 
