@@ -4,7 +4,7 @@
 
 ## 1. [Introduction](content/1.0_Introduction.md)
 
-- 1.1 [Preface and Contributors](/content/1.1_Preface_and_Contributors.md)
+- 1.1 [Preface and Contributors](content/1.1_Preface_and_Contributors.md)
 
 - 1.2 [Principles of AI Testing](content/1.2_Principles_of_AI_Testing.md)
 
