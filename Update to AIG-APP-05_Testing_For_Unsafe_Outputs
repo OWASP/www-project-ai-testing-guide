@@ -1,5 +1,3 @@
-Current
-
 AITG-APP-05 - Testing for Unsafe Outputs
 Summary
 Unsafe outputs in large language models (LLMs) refer to two major categories:
@@ -79,19 +77,10 @@ Link: https://doi.org/10.6028/NIST.AI.100-2e2025
 Title: AILuminate Benchmark
 Author: MLCommons
 Link: https://mlcommons.org/benchmarks/ailuminate/
-
-New Content:
-
-From Testing for Unsafe Outputs - need more examples of web exploits enabled by output #28 Issue
-
-I see from the slack project AI testing guide that that more examples are needed for vulnerable code outputs. Is the need for pseudocode examples? Or something more specific?
-
-Example hidden characters for unsafe outputs
+Malicous code with hidden characters
+Adding hidden characters to code to further make attacks harmful
+http://example.com/get_image?url="ubb\uccc
 https://aws.amazon.com/blogs/security/defending-llm-applications-against-unicode-character-smuggling/
-
 https://invisible-characters.com/
 
-To execute malicious code, combination with hidden characters to do something unsafe
-
-http://example.com/get_image?url="ubb\uccc
 
