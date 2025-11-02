@@ -1,4 +1,4 @@
-## AITG-APP-07 - Testing for System Prompt Leakage
+## AITG-APP-07 - Testing for Prompt Disclosure
 
 ### Summary
 System prompt leakage vulnerabilities occur when a large language model (LLM) unintentionally reveals internal or hidden system prompts, potentially exposing sensitive, proprietary, or confidential operational instructions.
