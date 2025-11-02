@@ -145,10 +145,11 @@ else:
 
 ```
 
-### Attended Output
-- Queries to the model do not allow adversaries to accurately reconstruct a surrogate model.
-- Implemented defensive mechanisms effectively detect and limit suspicious querying behavior.
-- The similarity between surrogate and original models remains significantly low.
+### Expected Output
+- **High Fidelity (>90%)**: This is a **Response indicating vulnerability**. It means an adversary can create a near-perfect copy of your model's functionality with minimal effort, exposing your intellectual property and enabling further attacks.
+- **Low Fidelity (<75%)**: This is the desired outcome. It indicates that the model's behavior is not easily replicated, and defensive mechanisms (like rate limiting or output perturbation) may be effectively hindering extraction attempts.
+- Queries to the model should not allow an adversary to accurately reconstruct a surrogate model.
+- Implemented defensive mechanisms should effectively detect and limit suspicious querying behavior, resulting in failed or incomplete data acquisition for the attacker.
 
 ### Remediation
 - Implement query rate limiting, anomaly detection, and throttling mechanisms to mitigate extraction risks.
