@@ -44,48 +44,44 @@
 - 3.1.10 | AITG-APP-10   | [Testing for ../Document/content Bias](../Document/content/tests/AITG-APP-10_Testing_for_../Document/content_Bias.md) |
 - 3.1.11 | AITG-APP-11   | [Testing for Hallucinations](../Document/content/tests/AITG-APP-11_Testing_for_Hallucinations.md) |
 - 3.1.12 | AITG-APP-12   | [Testing for Toxic Output](../Document/content/tests/AITG-APP-12_Testing_for_Toxic_Output.md) |
-- - 3.1.13 | AITG-APP-13   | [Testing for Over-Reliance on AI](../Document/content/tests/AITG-APP-13_Testing_for_Over-Reliance_on_AI.md) |
+- 3.1.13 | AITG-APP-13   | [Testing for Over-Reliance on AI](../Document/content/tests/AITG-APP-13_Testing_for_Over-Reliance_on_AI.md) |
 - 3.1.14 | AITG-APP-14   | [Testing for Explainability and Interpretability](../Document/content/tests/AITG-APP-14_Testing_for_Explainability_and_Interpretability.md) |
 
 
 - 3.2 🟪 [AI Model Testing](../Document/content/3.2_AI_Model_Testing.md)
 
-| AITG-MOD-01   | [Testing for Evasion Attacks](../Document/content/tests/AITG-MOD-01_Testing_for_Evasion_Attacks.md) |
-| AITG-MOD-02   | [Testing for Runtime Model Poisoning](../Document/content/tests/AITG-MOD-02_Testing_for_Runtime_Model_Poisoning.md) |
-| AITG-MOD-03   | [Testing for Poisoned Training Sets](../Document/content/tests/AITG-MOD-03_Testing_for_Poisoned_Training_Sets.md) |
-| AITG-MOD-04   | [Testing for Membership Inference](../Document/content/tests/AITG-MOD-04_Testing_for_Membership_Inference.md) |
-| AITG-MOD-05   | [Testing for Inversion Attacks](../Document/content/tests/AITG-MOD-05_Testing_for_Inversion_Attacks.md) |
-| AITG-MOD-06   | [Testing for Robustness to New Data](../Document/content/tests/AITG-MOD-06_Testing_for_Robustness_to_New_Data.md) |
-| AITG-MOD-07   | [Testing for Goal Alignment](../Document/content/tests/AITG-MOD-07_Testing_for_Goal_Alignment.md) |
+- 3.2.1 | AITG-MOD-01   | [Testing for Evasion Attacks](../Document/content/tests/AITG-MOD-01_Testing_for_Evasion_Attacks.md) |
+- 3.2.2 | AITG-MOD-02   | [Testing for Runtime Model Poisoning](../Document/content/tests/AITG-MOD-02_Testing_for_Runtime_Model_Poisoning.md) |
+- 3.2.3 | AITG-MOD-03   | [Testing for Poisoned Training Sets](../Document/content/tests/AITG-MOD-03_Testing_for_Poisoned_Training_Sets.md) |
+- 3.2.4 | AITG-MOD-04   | [Testing for Membership Inference](../Document/content/tests/AITG-MOD-04_Testing_for_Membership_Inference.md) |
+- 3.2.5 | AITG-MOD-05   | [Testing for Inversion Attacks](../Document/content/tests/AITG-MOD-05_Testing_for_Inversion_Attacks.md) |
+- 3.2.6 | AITG-MOD-06   | [Testing for Robustness to New Data](../Document/content/tests/AITG-MOD-06_Testing_for_Robustness_to_New_Data.md) |
+- 3.2.7 | AITG-MOD-07   | [Testing for Goal Alignment](../Document/content/tests/AITG-MOD-07_Testing_for_Goal_Alignment.md) |
 
 ---
 
 - 3.3 🟩 [AI Infrastructure Testing](../Document/content/3.3_AI_Infrastructure_Testing.md)
 
-| Test ID       | Test Name & Link |
-|---------------|------------------|
-| AITG-INF-01   | [Testing for Supply Chain Tampering](../Document/content/tests/AITG-INF-01_Testing_for_Supply_Chain_Tampering.md) |
-| AITG-INF-02   | [Testing for Resource Exhaustion](../Document/content/tests/AITG-INF-02_Testing_for_Resource_Exhaustion.md) |
-| AITG-INF-03   | [Testing for Plugin Boundary Violations](../Document/content/tests/AITG-INF-03_Testing_for_Plugin_Boundary_Violations.md) |
-| AITG-INF-04   | [Testing for Capability Misuse](../Document/content/tests/AITG-INF-04_Testing_for_Capability_Misuse.md) |
-| AITG-INF-05   | [Testing for Fine-tuning Poisoning](../Document/content/tests/AITG-INF-05_Testing_for_Fine-tuning_Poisoning.md) |
-| AITG-INF-06   | [Testing for Dev-Time Model Theft](../Document/content/tests/AITG-INF-06_Testing_for_Dev-Time_Model_Theft.md) |
+- 3.3.1 | AITG-INF-01   | [Testing for Supply Chain Tampering](../Document/content/tests/AITG-INF-01_Testing_for_Supply_Chain_Tampering.md) |
+- 3.3.2 | AITG-INF-02   | [Testing for Resource Exhaustion](../Document/content/tests/AITG-INF-02_Testing_for_Resource_Exhaustion.md) |
+- 3.3.3 | AITG-INF-03   | [Testing for Plugin Boundary Violations](../Document/content/tests/AITG-INF-03_Testing_for_Plugin_Boundary_Violations.md) |
+- 3.3.4 | AITG-INF-04   | [Testing for Capability Misuse](../Document/content/tests/AITG-INF-04_Testing_for_Capability_Misuse.md) |
+- 3.3.5 | AITG-INF-05   | [Testing for Fine-tuning Poisoning](../Document/content/tests/AITG-INF-05_Testing_for_Fine-tuning_Poisoning.md) |
+- 3.3.6 | AITG-INF-06   | [Testing for Dev-Time Model Theft](../Document/content/tests/AITG-INF-06_Testing_for_Dev-Time_Model_Theft.md) |
 
 ---
 
 - 3.4 🟨 [AI Data Testing](../Document/content/3.4_AI_Data_Testing.md)
 
-| Test ID       | Test Name & Link |
-|---------------|------------------|
-| AITG-DAT-01   | [Testing for Training Data Exposure](../Document/content/tests/AITG-DAT-01_Testing_for_Training_Data_Exposure.md) |
-| AITG-DAT-02   | [Testing for Runtime Exfiltration](../Document/content/tests/AITG-DAT-02_Testing_for_Runtime_Exfiltration.md) |
-| AITG-DAT-03   | [Testing for Dataset Diversity & Coverage](../Document/content/tests/AITG-DAT-03_Testing_for_Dataset_Diversity_and_Coverage.md) |
-| AITG-DAT-04   | [Testing for Harmful ../Document/content in Data](../Document/content/tests/AITG-DAT-04_Testing_for_Harmful_../Document/content_in_Data.md) |
-| AITG-DAT-05   | [Testing for Data Minimization & Consent](../Document/content/tests/AITG-DAT-05_Testing_for_Data_Minimization_and_Consent.md) |
+- 3.4.1 | AITG-DAT-01   | [Testing for Training Data Exposure](../Document/content/tests/AITG-DAT-01_Testing_for_Training_Data_Exposure.md) |
+- 3.4.2 | AITG-DAT-02   | [Testing for Runtime Exfiltration](../Document/content/tests/AITG-DAT-02_Testing_for_Runtime_Exfiltration.md) |
+- 3.4.3 | AITG-DAT-03   | [Testing for Dataset Diversity & Coverage](../Document/content/tests/AITG-DAT-03_Testing_for_Dataset_Diversity_and_Coverage.md) |
+- 3.4.4 | AITG-DAT-04   | [Testing for Harmful ../Document/content in Data](../Document/content/tests/AITG-DAT-04_Testing_for_Harmful_../Document/content_in_Data.md) |
+- 3.4.5 | AITG-DAT-05   | [Testing for Data Minimization & Consent](../Document/content/tests/AITG-DAT-05_Testing_for_Data_Minimization_and_Consent.md) |
 
 ## 4. [Chapter 4: Domain Specific Testing](../Document/content/4.0_Domain_Specific_Testing.md)
 
- [References](../Document/content/References.md)
+- 4.1 [References](../Document/content/References.md)
 
 
 
