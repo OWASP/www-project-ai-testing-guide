@@ -18,15 +18,15 @@
 
 - 2.1.2 [Identify AI System Responsible AI (RAI)/Trustworthy AI Threats](../Document/../Document/content/2.1.2_Identify_RAI_threats.md)
   
-- 2.2.1 [Appendix A: Rationale For Using SAIF (Secure AI Framework)](../Document/../Document/content/2.2_Appendix_A.md)
+- 2.2 [Appendix A: Rationale For Using SAIF (Secure AI Framework)](../Document/../Document/content/2.2_Appendix_A.md)
 
-- 2.2.2 [Appendix B: Distributed, Immutable, Ephemeral (DIE) Threat Identification](../Document/../Document/content/2.2_Appendix_B.md)
+- 2.2 [Appendix B: Distributed, Immutable, Ephemeral (DIE) Threat Identification](../Document/../Document/content/2.2_Appendix_B.md)
  
-- 2.2.3 [Appendix C: Risk Lifecycle for Secure AI Systems](../Document/content/2.2_Appendix_C.md)
+- 2.2 [Appendix C: Risk Lifecycle for Secure AI Systems](../Document/content/2.2_Appendix_C.md)
    
-- 2.2.4 [Appendix D: Threat Enumeration to AI Architecture Components](../Document/content/2.2_Appendix_D.md)
+- 2.2 [Appendix D: Threat Enumeration to AI Architecture Components](../Document/content/2.2_Appendix_D.md)
 
-- 2.2.5 [Appendix E: Mapping AI Threats Against AI Systems Vulnerabilities (CVEs & CWEs) ](../Document/content/2.2_Appendix_E.md)
+- 2.2 [Appendix E: Mapping AI Threats Against AI Systems Vulnerabilities (CVEs & CWEs) ](../Document/content/2.2_Appendix_E.md)
 
 ## 3. [OWASP AI Testing Guide Framework](../Document/content/3.0_OWASP_AI_Testing_Guide_Framework.md)
 
