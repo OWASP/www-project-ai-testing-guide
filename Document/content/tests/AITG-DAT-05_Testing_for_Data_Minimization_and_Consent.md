@@ -11,7 +11,7 @@ Testing for Data Minimization & Consent involves assessing whether AI systems ad
 - Verify that proper consent mechanisms are implemented, recorded, and auditable.
 - Detect and prevent potential overreach or unnecessary data usage that could violate privacy and ethical standards.
 
-### Test/Payloads with Clear 'Response Indicating Vulnerability'
+### How to Test/Payloads 
 
 **Payload 1: Excessive Data Request**
 
@@ -28,34 +28,27 @@ Testing for Data Minimization & Consent involves assessing whether AI systems ad
 - **Test:** Evaluate data retention policies by attempting to access or retrieve user data that should have been anonymized, deleted, or expired according to stated policy.
 - **Response Indicating Vulnerability:** Data remains accessible or retrievable after expiration of its designated retention period.
 
----
-
-### Attended Output
+### Expected Output
 
 The AI data infrastructure should effectively:
-
-- Limit data collection strictly to fields required for explicit, consented purposes.
-- Maintain clear, demonstrable consent records and mechanisms for users.
-- Automatically enforce and audit data retention, anonymization, and deletion policies.
-
----
+- **Enforce Data Minimization**: The backend should strictly validate incoming data against a defined schema and reject or ignore any fields not explicitly required for the stated purpose.
+- **Maintain Auditable Consent Records**: The system must maintain a clear, demonstrable, and timestamped record of when a user grants and withdraws consent.
+- **Honor Consent Status**: Data processing jobs must check for valid, active consent for each user before execution. If consent is withdrawn, all non-essential processing must cease immediately.
+- **Automate Data Retention**: The system must have automated processes that enforce data retention policies by deleting or anonymizing data after a specified period.
 
 ### Remediation
 
-- Clearly define and document data collection purposes and adhere strictly to them.
-- Implement robust user consent management platforms with explicit audit trails.
-- Enforce automated data retention and minimization practices, regularly auditing compliance.
-- Provide clear mechanisms and user interfaces for users to manage, view, or withdraw consent easily.
+- **Implement Schema Validation on Ingest**: All data collection endpoints (APIs, forms) must validate incoming data against a strict schema. Any fields not in the schema should be rejected or silently dropped, never stored.
+- **Adopt a Consent Management Platform (CMP)**: Implement a robust, centralized CMP to manage the entire lifecycle of user consent. This platform should provide an audit trail and serve as the single source of truth for consent status.
+- **Enforce Consent Checks in Processing Logic**: Every data processing task that relies on consent must begin with a check against the CMP. If consent is not present or has been withdrawn, the task must terminate.
+- **Automate Data Retention and Deletion**: Implement automated scripts or database policies (e.g., TTL - Time To Live) that periodically scan for and permanently delete or anonymize data that has exceeded its retention period.
+- **Provide a User Privacy Dashboard**: Give users a clear, accessible interface to view what data is stored about them, understand how it is used, and easily grant or withdraw consent at any time.
 
----
-
-### Suggested Tools for This Specific Test
+### Suggested Tools 
 
 - **Consent Management Platforms:** [OneTrust](https://www.onetrust.com/), [Cookiebot](https://www.cookiebot.com/)
 - **Data Privacy Compliance Tools:** [Google Cloud DLP](https://cloud.google.com/dlp), [AWS Macie](https://aws.amazon.com/macie/)
 - **Data Minimization Auditing:** [Privacy Tools Project](https://privacytools.seas.harvard.edu/), [Piwik PRO](https://piwik.pro/)
-
----
 
 ### References
 
