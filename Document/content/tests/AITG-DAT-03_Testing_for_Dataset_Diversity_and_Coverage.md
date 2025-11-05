@@ -30,18 +30,17 @@ Dataset Diversity & Coverage testing ensures that AI training and evaluation dat
 
 ### Expected Output
 
-The AI data infrastructure should effectively:
-
-- Provide comprehensive representation across diverse demographics and scenarios.
-- Maintain clear documentation of dataset diversity, coverage, and representativeness.
-- Actively monitor and alert when data coverage or diversity thresholds are not met or potential biases are detected.
+The AI dataset should effectively:
+- **Provide Comprehensive Representation**: The distribution of demographic attributes in the dataset should closely mirror the target population. No significant group should constitute less than 5% of the data.
+- **Ensure Fairness in Outcomes**: The outcomes present in the dataset (e.g., loan approvals) should not show significant bias. The Demographic Parity Difference should be below 15% for all sensitive attributes.
+- **Maintain Clear Documentation**: The dataset should be accompanied by a datasheet or documentation that transparently reports its sources, composition, and known limitations.
 
 ### Remediation
 
-- Curate and enhance datasets through strategic augmentation, sourcing, and inclusion of underrepresented demographics or scenarios.
-- Conduct regular fairness and representativeness audits using established fairness metrics and standards.
-- Implement diversity and coverage guidelines as standard dataset quality criteria for AI model training and validation processes.
-- Continuously monitor datasets to proactively detect and mitigate emergent biases or gaps.
+- **Strategic Data Sourcing and Augmentation**: Actively source data from underrepresented groups and regions. Use data augmentation techniques (e.g., SMOTE for tabular data, back-translation for text) to synthetically increase the representation of minority classes, but do so with caution to avoid introducing unrealistic artifacts.
+- **Conduct Regular Fairness Audits**: Implement a continuous integration (CI) process that automatically runs fairness and distribution audits on new training data. Use tools like Fairlearn or AI Fairness 360 to track metrics over time.
+- **Implement Bias Mitigation During Pre-processing**: Apply pre-processing techniques to the dataset before training. This can include re-sampling (oversampling the minority class or undersampling the majority class) or re-weighting data points to balance their influence on the model.
+- **Create and Maintain Datasheets**: For every dataset, create a "Datasheet for Datasets" that documents its motivation, composition, collection process, and recommended uses. This increases transparency and helps downstream users understand potential biases.
 
 ### Suggested Tools
 
