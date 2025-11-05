@@ -30,8 +30,6 @@
 
 ## 3. [OWASP AI Testing Guide Framework](content/3.0_OWASP_AI_Testing_Guide_Framework.md)
 
-- [Testing Limitations and Requirements](content/3.0_Testing_Limitations_and_Requirements.md)
-
 - 3.1 🟦 [AI Application Testing](content/3.1_AI_Application_Testing.md)
 
 | Test ID       | Test Name & Link |
