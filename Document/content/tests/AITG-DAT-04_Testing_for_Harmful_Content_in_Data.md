@@ -5,17 +5,13 @@
 
 Testing for Harmful Content in Data involves identifying and mitigating any inappropriate, biased, offensive, or harmful material present within datasets used to train or fine-tune AI systems. Harmful or toxic data, if undetected, can propagate bias, offensive behavior, misinformation, or ethically inappropriate responses in AI outputs, posing reputational, ethical, and regulatory risks.
 
----
-
 ### Test Objectives
 
 - Identify harmful, toxic, biased, or offensive content within datasets.
 - Ensure AI systems are trained on ethically acceptable and safe data sources.
 - Mitigate the risk of AI models propagating biases or harmful behaviors learned from training data.
 
----
-
-### Test/Payloads with Clear 'Response Indicating Vulnerability'
+### How to Test/Payloads
 
 **Payload 1: Toxicity and Hate Speech Detection**
 
@@ -32,17 +28,13 @@ Testing for Harmful Content in Data involves identifying and mitigating any inap
 - **Test:** Validate content accuracy using automated fact-checking and misinformation-detection tools.
 - **Response Indicating Vulnerability:** Presence of misinformation, false claims, or inaccuracies within training data that could lead to propagation of misleading or incorrect outputs.
 
----
-
-### Attended Output
+### Expected Output
 
 The AI data infrastructure should effectively:
 
 - Ensure that datasets contain no harmful, toxic, or biased content.
 - Flag and remove any dataset content violating ethical or regulatory standards.
 - Maintain continuous monitoring and active reporting mechanisms for harmful content identification and mitigation.
-
----
 
 ### Remediation
 
@@ -51,15 +43,11 @@ The AI data infrastructure should effectively:
 - Periodically audit datasets using advanced analytical tools to maintain ethical compliance and safety.
 - Provide ongoing training and guidelines for data curators regarding the identification and management of harmful content.
 
----
-
-### Suggested Tools for This Specific Test
+### Suggested Tools 
 
 - **Toxicity and Harmful Content Detection:** [Perspective API](https://perspectiveapi.com/), [Detoxify](https://github.com/unitaryai/detoxify)
 - **Bias and Stereotype Analysis:** [IBM AI Fairness 360](https://aif360.mybluemix.net/), [Fairlearn](https://fairlearn.org/)
 - **Misinformation and Fact-Checking Tools:** [ClaimBuster](https://idir.uta.edu/claimbuster/), [Full Fact](https://fullfact.org/)
-
----
 
 ### References
 
