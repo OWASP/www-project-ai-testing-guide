@@ -12,7 +12,7 @@
 
 ## 2. [Threat Modeling AI Systems](content/2.0_Threat_Modeling_for_AI_Systems.md)
 
-- 2.1.0 [Identify AI System Threats](content/2.1_Identify_AI_Threats.md)
+- 2.1 [Identify AI System Threats](content/2.1_Identify_AI_Threats.md)
 
 - 2.1.1 [Map OWASP AI Threats To AI Architectural Components](content/2.1.1_Architectural_Mapping_of_OWASP_Threats.md)
 
