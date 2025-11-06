@@ -78,6 +78,8 @@
 - 3.4.3 | AITG-DAT-03   | [Testing for Dataset Diversity & Coverage](../Document/content/tests/AITG-DAT-03_Testing_for_Dataset_Diversity_and_Coverage.md) |
 - 3.4.4 | AITG-DAT-04   | [Testing for Harmful ../Document/content in Data](../Document/content/tests/AITG-DAT-04_Testing_for_Harmful_../Document/content_in_Data.md) |
 - 3.4.5 | AITG-DAT-05   | [Testing for Data Minimization & Consent](../Document/content/tests/AITG-DAT-05_Testing_for_Data_Minimization_and_Consent.md) |
+- 3.4.6 | AITG-DAT-06   | [Testing for Robustness to New Data](content/tests/AITG-MOD-06_Testing_for_Robustness_to_New_Data.md) |
+- 3.4.7 | AITG-DAT-07   | [Testing for Goal Alignment ](content/tests/AITG-MOD-07_Testing_for_Goal_Alignment.md) |
 
 ## 4. [Chapter 4: Domain Specific Testing](../Document/content/4.0_Domain_Specific_Testing.md)
 
