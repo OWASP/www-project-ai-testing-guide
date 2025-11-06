@@ -28,7 +28,7 @@ This test identifies vulnerabilities associated with the lack of robustness to n
 - **Periodically Retrain the Model**: Schedule regular retraining of the model on fresh data that includes recent production data. This ensures the model stays up-to-date with the latest data distributions.
 - **Domain Adaptation Techniques**: If you anticipate specific types of drift, use domain adaptation techniques during training to explicitly teach the model to be invariant to those changes.
 
-### Suggested Tools for this Specific Test
+### Suggested Tools
 - **DeepChecks**: An open-source Python library for validating and testing ML models and data, with a strong focus on detecting data drift, corruption, and other issues.
   - Tool Link: [DeepChecks on GitHub](https://github.com/deepchecks/deepchecks)
 - **Evidently AI**: An open-source Python library for evaluating, testing, and monitoring ML models in production. It provides interactive reports on data drift and model performance.
