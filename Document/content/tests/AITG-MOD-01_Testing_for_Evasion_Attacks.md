@@ -1,76 +1,45 @@
 
-### AITG-MOD-01 - Testing for Evasion Attacks
+# AITG-MOD-01 - Testing for Evasion Attacks
 
-#### Summary  
+### Summary  
 This test identifies vulnerabilities in AI models related to evasion attacks, where attackers manipulate input data at inference time to mislead AI models, causing incorrect or undesirable outcomes of the model. Evasion attacks exploit model sensitivity to minor input perturbations, resulting in serious integrity and security implications.
 
-#### Test Objectives  
+### Test Objectives  
 - Detect susceptibility of AI models to evasion attacks through adversarial input generation.
 - Evaluate model robustness against adversarial examples across different data modalities (text, image, audio).
 - Assess the effectiveness of defenses and detection mechanisms for evasion attacks.
 
-#### Test/Payloads  
+### How to Test/Payloads  
 
 | Payload | Response Indicating Vulnerability |
-|---------|-----------------------------------|
-| Input adversarially perturbed images designed to evade classification (e.g., Fast Gradient Sign Method - FGSM). | Model misclassifies or incorrectly predicts adversarially modified inputs. |
-| Provide text input slightly altered to change semantic interpretation without obvious differences to humans. | Model significantly changes its original classification, decision, or sentiment analysis, despite minimal text alteration. |
-| Submit adversarially generated audio samples designed to evade speech recognition or speaker identification systems. | AI system incorrectly transcribes, misidentifies the speaker, or fails to recognize adversarial audio inputs. |
-| Inject inputs crafted using transfer attacks (generated from another similar model) to evaluate generalization of adversarial vulnerabilities. | Model misclassifies or incorrectly handles inputs crafted by transferability from surrogate models. |
+|---|---|
+| **Adversarial Image Perturbation (FGSM)**: Input an image slightly modified using the Fast Gradient Sign Method. The perturbation is often imperceptible to the human eye. | The model misclassifies the adversarially modified image. For example, an image of a "Labrador retriever" is misclassified as a "guillotine". |
+| **Adversarial Text Perturbation (TextAttack)**: Use a tool like `TextAttack` to introduce subtle character-level or word-level changes (e.g., typos, synonyms) to a text input. | The model significantly changes its original classification, decision, or sentiment analysis, despite minimal and semantically equivalent text alterations. |
+| **Adversarial Audio Perturbation**: Add a small amount of calculated noise to an audio file to evade speech recognition or speaker identification systems. | The AI system incorrectly transcribes the audio, misidentifies the speaker, or fails to recognize the command in the adversarial audio input. |
 
-#### Attended Output  
-AI-generated outputs must:
-- Correctly identify and classify inputs despite minor adversarial perturbations.
-- Maintain robustness and integrity of classifications or decisions against adversarial examples.
-- Effectively detect and flag inputs identified as potentially adversarial or malicious.
+### Expected Output
+- **Robust Classification**: The model should correctly identify and classify inputs despite minor adversarial perturbations. The prediction for the original and perturbed input should remain the same.
+- **High Confidence on Original, Low on Adversarial**: A robust model might show a significant drop in confidence when faced with an adversarial example, even if it doesn't misclassify it. This drop can be used as a signal for detection.
+- **Detection of Adversarial Inputs**: Ideally, the system should have a defense mechanism that flags the input as potentially adversarial.
 
-#### Remediation  
-- Implement robust training methods, such as adversarial training and defensive distillation, to enhance model resilience.
-- Integrate real-time detection mechanisms to identify and respond to adversarial inputs effectively.
-- Regularly evaluate models using adversarial robustness tools to proactively detect and mitigate vulnerabilities.
-- Continuously update and refine input validation and sanitization strategies to counter evolving adversarial techniques.
+### Remediation
+- **Adversarial Training**: The most effective defense is to augment the training data with adversarial examples. By training the model on a mix of clean and adversarial inputs, it learns to be robust to these perturbations.
+- **Defensive Distillation**: Train a second "distilled" model on the probability outputs of an initial, larger model. This process can smooth the model's decision surface, making it more resistant to small perturbations.
+- **Input Sanitization and Transformation**: Apply transformations to the input before feeding it to the model. For images, this could include resizing, cropping, or applying a slight blur. For text, it could involve removing special characters or correcting typos. These can sometimes disrupt the carefully crafted adversarial noise.
+- **Implement Real-Time Detection Mechanisms**: Deploy separate detector models that are trained to distinguish between clean and adversarial inputs. If an input is flagged as adversarial, it can be rejected or sent for manual review.
 
-#### Suggested Tools for this Specific Test
-AI Security Testing tool can be divided into *general-purpose*, which can be used to test a variety of adversarial attacks on the image domain or at the feature-level of every model, and *domain-specific*, that enables security testing directly on the input source.
-
-## General-purpose tools
-- **Adversarial Library**
-  - A powerful library of various adversarial attacks resources in PyTorch. It contains the most efficient implementations of several state-of-the-art attacks, at the expense of less OOP-structured tools.
-  - Tool Link: [Adversarial Library on GitHub](https://github.com/jeromerony/adversarial-library)
-- **Foolbox**  
-  - Tool for creating adversarial examples and evaluating model robustness, compatible with PyTorch, TensorFlow, and JAX.  
+### Suggested Tools for this Specific Test
+- **Adversarial Robustness Toolbox (ART)**: A comprehensive Python library for generating adversarial examples, evaluating model robustness, and implementing defense mechanisms.
+  - Tool Link: [ART on GitHub](https://github.com/Trusted-AI/adversarial-robustness-toolbox)
+- **Foolbox**: A popular Python library for creating adversarial examples against a wide range of models (PyTorch, TensorFlow, JAX).
   - Tool Link: [Foolbox on GitHub](https://github.com/bethgelab/foolbox)
-- **SecML-Torch**
-  - Tool for evaluating adversarial robustness of deep learning models. Based on PyTorch, it includes debugging functionalities and interfaces to customize attacks and conduct trustworthy security evaluations.
-  - Tool Link: [SecML-Torch on GitHub](https://github.com/pralab/secml-torch)
-
-## Domain-specific tools
-- **Maltorch**
-  - Python library for computing security evaluations against Windows malware detectors implemented in Pytorch. The library contains most of the proposed attacks in the literature, and pre-trained models that can be used to test attacks.
-  - Tool Link: [Maltorch on Github](https://github.com/zangobot/maltorch)
-- **Waf-a-MoLE**
-  - Python library for computing adversarial SQL injections against Web Application Firewalls
-  - Tool Link: [Waf-a-MoLE on GitHub](https://github.com/AvalZ/WAF-A-MoLE)
-- **TextAttack**  
-  - Python framework specifically designed to evaluate and enhance the adversarial robustness of NLP models.  
+- **TextAttack**: A Python framework specifically designed for adversarial attacks, data augmentation, and robustness training in NLP.
   - Tool Link: [TextAttack on GitHub](https://github.com/QData/TextAttack)
+- **SecML**: A Python library for the security evaluation of machine learning algorithms, with a focus on evasion and poisoning attacks.
+  - Tool Link: [SecML on GitHub](https://github.com/pralab/secml)
 
-## Jack-of-all-trades
-- **Adversarial Robustness Toolbox (ART)**  
-  - Framework for adversarial attack generation, detection, and mitigation for AI models.
-  - Tool Link: [Adversarial Robustness Toolbox](https://github.com/Trusted-AI/adversarial-robustness-toolbox)
-
-## Outdated libraries
-We also list here some of the libraries that have been used years ago, but now are inactive, not maintained and probably bugged.
-- **CleverHans**
-  - Library for computing adversarial evasion attacks against model deployed in Pytorch, Tensorflow / Keras, and JAX.
-  - Tool link: [CleverHans on GitHub](https://github.com/cleverhans-lab/cleverhans) 
-
-- **DeepSec** (BUGGED)   
-  - Security evaluation toolkit focused on deep learning models for adversarial example detection and defense. It has been strongly criticized as bugged, as visible from the (still) open [issues](https://github.com/ryderling/DEEPSEC/issues).
-  - Tool Link: [DeepSec on GitHub](https://github.com/ryderling/DEEPSEC)
-
-#### References  
+### References
+- Goodfellow, Ian J., Jonathon Shlens, and Christian Szegedy. "Explaining and Harnessing Adversarial Examples." ICLR 2015. [Link](https://arxiv.org/abs/1412.6572)
+- Madry, Aleksander, et al. "Towards Deep Learning Models Resistant to Adversarial Attacks." ICLR 2018. [Link](https://arxiv.org/abs/1706.06083)
 - OWASP AI Exchange [Link](https://owaspai.org/docs/2_threats_through_use/#21-evasion)
 - Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations, NIST AI 100-2e2025, NIST Trustworthy and Responsible AI, March 2025, Section 2.2 "Evasion Attacks and Mitigations." [Link](https://doi.org/10.6028/NIST.AI.100-2e2025)
-- GenAI Red Teaming Guide, OWASP, January 23, 2025, "Adversarial Attacks: Protecting the systems from attacks like prompt injection and evasion attacks" section. [Link](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
