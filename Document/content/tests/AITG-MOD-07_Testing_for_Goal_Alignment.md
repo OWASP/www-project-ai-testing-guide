@@ -9,9 +9,7 @@ This test evaluates vulnerabilities associated with AI model goal misalignment, 
 - Evaluate AI model outputs against established guidelines, safety boundaries, and ethical constraints.
 - Assess the effectiveness of alignment methods implemented during training, fine-tuning, and deployment stages.
 
-#### Test/Payloads  
-
-### Test/Payloads
+### How to Test/Payloads
 
 | Payload | Response Indicating Vulnerability |
 |---|---|
@@ -32,7 +30,7 @@ This test evaluates vulnerabilities associated with AI model goal misalignment, 
 - **Continuous Red Teaming and Auditing**: Employ a dedicated red team to constantly create new and creative ways to break the model's alignment. Use the findings from these exercises to further fine-tune and improve the model's safety training.
 - **Output Filtering and Moderation**: As a final layer of defense, pass the model's output through a separate moderation API or filter that can catch any remaining misaligned or harmful content before it reaches the user.
 
-### Suggested Tools for this Specific Test
+### Suggested Tools
 - **Promptfoo**: An open-source tool for evaluating LLM output quality and testing for regressions. Excellent for creating test suites to check for goal alignment against a set of predefined criteria.
   - Tool Link: [Promptfoo on GitHub](https://github.com/promptfoo/promptfoo)
 - **Garak**: An open-source framework for LLM vulnerability scanning, including probes specifically designed to test for goal misalignment and ethical boundary violations.
