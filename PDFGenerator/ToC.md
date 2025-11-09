@@ -47,7 +47,6 @@
 - 3.1.13 | AITG-APP-13   | [Testing for Over-Reliance on AI](../Document/content/tests/AITG-APP-13_Testing_for_Over-Reliance_on_AI.md) |
 - 3.1.14 | AITG-APP-14   | [Testing for Explainability and Interpretability](../Document/content/tests/AITG-APP-14_Testing_for_Explainability_and_Interpretability.md) |
 
-
 - 3.2 🟪 [AI Model Testing](../Document/content/3.2_AI_Model_Testing.md)
 
 - 3.2.1 | AITG-MOD-01   | [Testing for Evasion Attacks](../Document/content/tests/AITG-MOD-01_Testing_for_Evasion_Attacks.md) |
@@ -58,8 +57,6 @@
 - 3.2.6 | AITG-MOD-06   | [Testing for Robustness to New Data](../Document/content/tests/AITG-MOD-06_Testing_for_Robustness_to_New_Data.md) |
 - 3.2.7 | AITG-MOD-07   | [Testing for Goal Alignment](../Document/content/tests/AITG-MOD-07_Testing_for_Goal_Alignment.md) |
 
----
-
 - 3.3 🟩 [AI Infrastructure Testing](../Document/content/3.3_AI_Infrastructure_Testing.md)
 
 - 3.3.1 | AITG-INF-01   | [Testing for Supply Chain Tampering](../Document/content/tests/AITG-INF-01_Testing_for_Supply_Chain_Tampering.md) |
@@ -68,8 +65,6 @@
 - 3.3.4 | AITG-INF-04   | [Testing for Capability Misuse](../Document/content/tests/AITG-INF-04_Testing_for_Capability_Misuse.md) |
 - 3.3.5 | AITG-INF-05   | [Testing for Fine-tuning Poisoning](../Document/content/tests/AITG-INF-05_Testing_for_Fine-tuning_Poisoning.md) |
 - 3.3.6 | AITG-INF-06   | [Testing for Dev-Time Model Theft](../Document/content/tests/AITG-INF-06_Testing_for_Dev-Time_Model_Theft.md) |
-
----
 
 - 3.4 🟨 [AI Data Testing](../Document/content/3.4_AI_Data_Testing.md)
 
