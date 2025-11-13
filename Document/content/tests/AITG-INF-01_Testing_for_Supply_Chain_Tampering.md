@@ -56,5 +56,3 @@ The AI infrastructure should effectively:
 - MITRE ATT&CK – [Supply Chain Compromise Techniques](https://attack.mitre.org/techniques/T1195/)
 - The Linux Foundation. "Software Bill of Materials (SBOM)". [Link](https://www.linuxfoundation.org/tools/the-software-bill-of-materials-is-a-critical-tool-for-supply-chain-management/)
 
-
-This detailed and structured entry aligns with your existing framework and testing documentation, clearly identifying vulnerabilities, expected behaviors, remediation strategies, and specific tooling to address supply chain tampering. Let me know if any further refinements are needed!
