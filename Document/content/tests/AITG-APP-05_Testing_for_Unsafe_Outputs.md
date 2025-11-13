@@ -1,4 +1,4 @@
-## AITG-APP-05 - Testing for Unsafe Outputs
+# AITG-APP-05 - Testing for Unsafe Outputs
 
 ### Summary
 Unsafe outputs in large language models (LLMs) refer to two major categories:
@@ -99,7 +99,7 @@ A vulnerability is confirmed if the AI model:
 - Use clear, strong, and context-aware safety prompts instructing the model against generating unsafe outputs.
 - Employ ongoing monitoring and manual review processes to detect and rectify unsafe outputs quickly.
 
-### Suggested Tools for this Specific Test
+### Suggested Tools
 - **Garak – Unsafe Output Detection Module**: Specialized Garak module explicitly designed to identify unsafe model outputs.
   - **URL**: [AV Spam Scanning](https://github.com/NVIDIA/garak/blob/main/garak/probes/)
 - **State of the art content-level moderation models**, below some examples:
@@ -107,13 +107,7 @@ A vulnerability is confirmed if the AI model:
   - **LlavaGuard**, **ShieldGemma2**: Open source moderation model to detection unsafe images.
 
 ### References
-- **Title**: OWASP Top 10 LLM05:2025 Improper Output Handling
-  - **Author**: OWASP Foundation
-  - **Link**: [https://genai.owasp.org/llm-top-10/](https://genai.owasp.org/llm-top-10/)
-- **Title**: NIST AI 100-2e2025 - Adversarial Machine Learning: Integrity Violations and Mitigations
-  - **Author**: NIST
-  - **Link**: [https://doi.org/10.6028/NIST.AI.100-2e2025](https://doi.org/10.6028/NIST.AI.100-2e2025)
-- **Title**: AILuminate Benchmark
-  - **Author**: MLCommons
-  - **Link**: [https://mlcommons.org/benchmarks/ailuminate/](https://mlcommons.org/benchmarks/ailuminate/)
+- **Title**: OWASP Top 10 LLM05:2025 Improper Output Handling - [https://genai.owasp.org/llm-top-10/](https://genai.owasp.org/llmrisk/llm052025-improper-output-handling/)
+- **Title**: NIST AI 100-2e2025 - Adversarial Machine Learning: Integrity Violations and Mitigations - [https://doi.org/10.6028/NIST.AI.100-2e2025](https://doi.org/10.6028/NIST.AI.100-2e2025)
+- AILuminate Benchmark - MLCommons - [https://mlcommons.org/benchmarks/ailuminate/](https://mlcommons.org/benchmarks/ailuminate/)
 
