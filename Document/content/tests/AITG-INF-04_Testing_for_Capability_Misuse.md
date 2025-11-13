@@ -44,7 +44,7 @@ The AI infrastructure should effectively:
 - **Principle of Least Privilege**: Always assign users and AI agents the minimum set of capabilities required for their legitimate tasks. Avoid granting broad permissions.
 - **Continuous Monitoring and Alerting**: Monitor the logs of capability invocations for suspicious activity, such as a single user attempting many different unauthorized actions, and trigger alerts for immediate review.
 
-### Suggested Tools for This Specific Test
+### Suggested Tools
 
 - **Authorization and Policy Enforcement:** [Open Policy Agent (OPA)](https://www.openpolicyagent.org/), [Kyverno](https://kyverno.io/), [Casbin](https://casbin.org/)
 - **Security and Ethical Controls (Guardrails):** [NVIDIA NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails), [LangChain Guardrails](https://python.langchain.com/docs/guides/guardrails)
