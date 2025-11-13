@@ -1,4 +1,4 @@
-## AITG-APP-06 – Testing for Agentic Behavior Limits
+# AITG-APP-06 – Testing for Agentic Behavior Limits
 
 ### Summary
 Agentic behavior limits refer to the safeguards placed around AI agents to prevent unintended autonomous actions. AI agents capable of planning and acting (e.g., Auto-GPT) may exceed user intent by generating sub-goals, refusing to halt, or misusing tools. This test verifies whether AI agents operate within their designed autonomy, respect user instructions (e.g., termination), and avoid unsafe or emergent behaviors like deception, recursive planning, or overreach. These tests are crucial to prevent misuse, ensure safety, and align agents with ethical and functional constraints.
@@ -122,8 +122,8 @@ In 2023, GPT-4, when tested by ARC, hired a human on TaskRabbit to solve a CAPTC
   - [https://www.star-history.com/blog/agentic-security](https://www.star-history.com/blog/agentic-security)
 
 ### References
-- OWASP Top 10 for LLM – LLM06: Excessive Agency – https://genai.owasp.org
-- ARC Test on GPT-4 deception – https://www.vice.com/en/article/bvmv7v/gpt-4-taskrabbit-openai
-- ChaosGPT Case Study – https://www.vice.com/en/article/m7gz3n/chaosgpt
-- Prompt Flow Integrity (PFI) – https://arxiv.org/abs/2503.15547
-- SafeAgentBench – https://arxiv.org/abs/2412.13178
+- OWASP Top 10 for LLM – LLM06: Excessive Agency – [Link](https://genai.owasp.org/llmrisk/llm06-sensitive-information-disclosure/?utm_source=chatgpt.com)
+- ARC Test on GPT-4 deception – [Link](https://www.vice.com/en/article/bvmv7v/gpt-4-taskrabbit-openai)
+- ChaosGPT Case Study – [Link](https://www.vice.com/en/article/m7gz3n/chaosgpt)
+- Prompt Flow Integrity (PFI) – [Link](https://arxiv.org/abs/2503.15547)
+- SafeAgentBench – [Link](https://arxiv.org/abs/2412.13178)
