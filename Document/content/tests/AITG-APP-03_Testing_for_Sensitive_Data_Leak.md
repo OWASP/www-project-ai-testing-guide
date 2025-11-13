@@ -77,9 +77,7 @@ A vulnerability is confirmed if the AI model:
 - Provides confidential information embedded in system configurations or internal communications.
 
 ### Real Example
-- **Title**: Sensitive Information Disclosure in AI Systems
-- **Author**: Network Intelligence
-- **URL**: [https://www.first.org/cvss/specification-document](https://www.first.org/cvss/specification-document)
+- Sensitive Information Disclosure in AI Systems - Network Intelligence - [https://www.first.org/cvss/specification-document](https://www.first.org/cvss/specification-document)
 
 ### Remediation
 - Implement robust filtering mechanisms to detect and redact sensitive information automatically.
@@ -87,19 +85,13 @@ A vulnerability is confirmed if the AI model:
 - Regularly audit and sanitize the training datasets to prevent inadvertent sensitive data exposure.
 - Continuously monitor and test model outputs for potential leakage of sensitive data.
 
-### Suggested Tools for this Specific Test
+### Suggested Tools
 - **Garak – Sensitive Information Disclosure Probe**: Specialized module within Garak specifically designed to detect sensitive data leaks.
   - **URL**: [https://github.com/NVIDIA/garak/blob/main/garak/probes/leakreveal.py](https://github.com/NVIDIA/garak/blob/main/garak/probes/leakreveal.py)
 - **Microsoft Counterfit**: An AI security tool capable of identifying sensitive data exposure in model outputs.
   - **URL**: [https://github.com/Azure/counterfit](https://github.com/Azure/counterfit)
 
 ### References
-- **Title**: OWASP Top 10 LLM02:2025 Sensitive Information Disclosure
-  - **Author**: OWASP Foundation
-  - **Link**: [https://genai.owasp.org](https://genai.owasp.org)
-- **Title**: NIST AI 100-2e2025 - Privacy Attacks and Mitigations
-  - **Author**: NIST
-  - **Link**: [https://doi.org/10.6028/NIST.AI.100-2e2025](https://doi.org/10.6028/NIST.AI.100-2e2025)
-- **Title**: Indirect Prompt Injection: Generative AI’s Greatest Security Flaw
-  - **Author**: CETaS, Turing Institute
-  - **URL**: [https://cetas.turing.ac.uk/publications/indirect-prompt-injection-generative-ais-greatest-security-flaw](https://cetas.turing.ac.uk/publications/indirect-prompt-injection-generative-ais-greatest-security-flaw)
+- OWASP Top 10 LLM02:2025 Sensitive Information Disclosure - [https://genai.owasp.org](https://genai.owasp.org/llmrisk/llm02-insecure-output-handling)
+- NIST AI 100-2e2025 - Privacy Attacks and Mitigations - [https://doi.org/10.6028/NIST.AI.100-2e2025](https://doi.org/10.6028/NIST.AI.100-2e2025)
+- Indirect Prompt Injection: Generative AI’s Greatest Security Flaw - CETaS, Turing Institute - [https://cetas.turing.ac.uk/publications/indirect-prompt-injection-generative-ais-greatest-security-flaw](https://cetas.turing.ac.uk/publications/indirect-prompt-injection-generative-ais-greatest-security-flaw)
