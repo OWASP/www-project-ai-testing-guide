@@ -67,7 +67,7 @@
 - 3.4.6 | AITG-DAT-06   | [Testing for Robustness to New Data](https://github.com/OWASP/www-project-ai-testing-guide/blob/main/Document/content/tests/AITG-MOD-06_Testing_for_Robustness_to_New_Data.md) |
 - 3.4.7 | AITG-DAT-07   | [Testing for Goal Alignment ](https://github.com/OWASP/www-project-ai-testing-guide/blob/main/Document/content/tests/AITG-MOD-07_Testing_for_Goal_Alignment.md) |
 
-## 4. [Chapter 4: Domain Specific Testing](https://github.com/OWASP/www-project-ai-testing-guide/blob/main/Document/content/4.0_.md)
+## 4. [Chapter 4: Appendixes and References](https://github.com/OWASP/www-project-ai-testing-guide/blob/main/Document/content/4.0_Appendix_and_References.md)
 
 - 4.1 [Appendix A: Rationale For Using SAIF (Secure AI Framework)](https://github.com/OWASP/www-project-ai-testing-guide/blob/main/Document/content/4.1_Appendix_A.md)
 
