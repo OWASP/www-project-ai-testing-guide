@@ -1,5 +1,5 @@
 
-## AITG-DAT-01 – Testing for Training Data Exposure
+# AITG-DAT-01 – Testing for Training Data Exposure
 
 ### Summary
 
