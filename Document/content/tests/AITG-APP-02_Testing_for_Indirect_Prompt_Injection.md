@@ -128,20 +128,10 @@ A vulnerability is confirmed if the AI model:
   - **URL**: [https://promptfoo.dev](https://promptfoo.dev)
 
 ### References
-- **Title**: OWASP Top 10 LLM01:2025 Prompt Injection
-  - **Author**: OWASP Foundation
-  - **Link**: [https://genai.owasp.org](https://genai.owasp.org)
-- **Title**: NIST AI 100-2e2025 - Indirect Prompt Injection Attacks and Mitigations
-  - **Author**: NIST
-  - **Link**: [https://doi.org/10.6028/NIST.AI.100-2e2025](https://doi.org/10.6028/NIST.AI.100-2e2025)
-- **Title**: Prompt Injection Attack against LLM-integrated Applications
-  - **Author**: Johann Rehberger
-  - **URL**: [https://arxiv.org/abs/2306.05499](https://arxiv.org/abs/2306.05499)
-- **Title**: MCP Security Notification: Tool Poisoning Attacks
-  - **Authors**: Luca Beurer-Kellner, Marc Fischer
-  - **URL**: [https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks](https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks)
-- **Title**: Beyond the Protocol: Unveiling Attack Vectors in the Model Context Protocol (MCP) Ecosystem
-  - **Authors**: Hao Song, Yiming Shen, Wenxuan Luo, Leixin Guo, Ting Chen, Jiashui Wang, Beibei Li, Xiaosong Zhang, Jiachi Chen
-  - **URL**: [https://arxiv.org/pdf/2506.02040](https://arxiv.org/pdf/2506.02040)
+- OWASP Top 10 LLM01:2025 Prompt Injection - [https://genai.owasp.org](https://genai.owasp.org)
+- NIST AI 100-2e2025 - Indirect Prompt Injection Attacks and Mitigations -[https://doi.org/10.6028/NIST.AI.100-2e2025](https://doi.org/10.6028/NIST.AI.100-2e2025)
+- Prompt Injection Attack against LLM-integrated Applications, Johann Rehberger - [https://arxiv.org/abs/2306.05499](https://arxiv.org/abs/2306.05499)
+- MCP Security Notification: Tool Poisoning Attacks - Luca Beurer-Kellner, Marc Fischer [https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks](https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks)
+- Beyond the Protocol: Unveiling Attack Vectors in the Model Context Protocol (MCP) Ecosystem - [https://arxiv.org/pdf/2506.02040](https://arxiv.org/pdf/2506.02040)
   
 
