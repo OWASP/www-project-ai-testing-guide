@@ -53,7 +53,7 @@ The AI infrastructure should effectively:
 - **Monitor Infrastructure and Costs Continuously**: Use monitoring tools (e.g., Prometheus, Grafana, Datadog) to track resource consumption and API response times. Set up automated alerts for unusual spikes.
 - **Implement Spending Thresholds**: For all third-party AI services, configure hard spending limits and billing alerts in the provider's console. Treat this as a critical security control.
 
-### Suggested Tools for This Specific Test
+### Suggested Tools
 
 - **Stress Testing & Load Generation:** [Locust](https://locust.io/), [Apache JMeter](https://jmeter.apache.org/), [k6](https://k6.io/)
 - **Monitoring & Alerting:** [Prometheus](https://prometheus.io/), [Grafana](https://grafana.com/), [Datadog](https://www.datadoghq.com/)
