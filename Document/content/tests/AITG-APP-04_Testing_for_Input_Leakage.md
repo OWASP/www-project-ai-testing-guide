@@ -131,9 +131,7 @@ A vulnerability is confirmed if the AI model:
 * Outputs obfuscated data without recognizing it as sensitive.
 
 ### Real Example
-- **Title**: Sensitive Information Disclosure through Input Leakage in AI Systems
-- **Author**: Network Intelligence
-- **URL**: [https://www.first.org/cvss/specification-document](https://www.first.org/cvss/specification-document)
+- Sensitive Information Disclosure through Input Leakage in AI Systems - Network Intelligence - [https://www.first.org/cvss/specification-document](https://www.first.org/cvss/specification-document)
 
 ### Remediation
 - Apply strict input handling protocols and memory management to avoid retention of sensitive inputs.
