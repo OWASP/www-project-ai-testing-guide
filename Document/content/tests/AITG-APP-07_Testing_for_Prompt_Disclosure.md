@@ -1,4 +1,4 @@
-## AITG-APP-07 - Testing for Prompt Disclosure
+# AITG-APP-07 - Testing for Prompt Disclosure
 
 ### Summary
 System prompt leakage vulnerabilities occur when a large language model (LLM) unintentionally reveals internal or hidden system prompts, potentially exposing sensitive, proprietary, or confidential operational instructions.
@@ -85,13 +85,8 @@ Research efforts have led to the development of frameworks that can be utilized 
 **PromptKeeper**: Designed to detect and mitigate prompt leakage, [PromptKeeper](https://arxiv.org/pdf/2412.13426) uses hypothesis testing to identify both explicit and subtle leakages. It regenerates responses using a dummy prompt to prevent the exposure of sensitive information .​
 
 ### Suggested Tools 
-- **Garak – promptleakage.probe – specifically targets extraction of system prompts.
--  - **URL**: [Garak](https://github.com/NVIDIA/garak)
+- **Garak – promptleakage.probe – specifically targets extraction of system prompts. [Garak](https://github.com/NVIDIA/garak)
 
 ### References
-- **Title**: OWASP Top 10 LLM07:2025 System Prompt Leakage
-  - **Author**: OWASP Foundation
-  - **Link**: [https://genai.owasp.org](https://genai.owasp.org)
-- **Title**: Automating Prompt Leakage Attacks on Large Language Models Using Agentic Approach
-  - **Author**: Tvrtko Sternak, Davor Runje, Dorian Granoša, Chi Wang
-  - **URL**: [Paper](https://arxiv.org/abs/2502.12630)
+ OWASP Top 10 LLM07:2025 System Prompt Leakage - [Link](https://genai.owasp.org/llmrisk/llm07-insecure-plugin-design)
+- Automating Prompt Leakage Attacks on Large Language Models Using Agentic Approach - Tvrtko Sternak, Davor Runje, Dorian Granoša, Chi Wang - [Paper](https://arxiv.org/abs/2502.12630)
