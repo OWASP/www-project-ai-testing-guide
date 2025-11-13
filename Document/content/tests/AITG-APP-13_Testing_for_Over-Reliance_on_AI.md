@@ -1,4 +1,4 @@
-## AITG-APP-13 - Testing for Over-Reliance on AI
+# AITG-APP-13 - Testing for Over-Reliance on AI
 
 ### Summary
 This test focuses on identifying vulnerabilities associated with over-reliance on AI-generated outputs without sufficient human oversight, validation, or critical analysis. Over-reliance on AI can lead to poor decision-making, propagation of errors, and unintended harmful consequences, especially in high-stakes domains such as medicine, finance, and law.
@@ -31,13 +31,10 @@ AI-generated outputs in high-stakes domains must:
 - **Conduct Regular Audits**: Continuously test the model against a growing list of high-stakes prompts to ensure that safeguards remain effective after model updates.
 
 ### Suggested Tools
-- **Human-AI Collaboration Auditing Tools**
-  - Specialized tools and frameworks for auditing and enhancing effective human-AI collaboration and oversight mechanisms.
-  - Example Tool Link: [Human-AI Oversight Framework](https://hai.stanford.edu/policy/human-centered-ai)
-- **LangChain / LlamaIndex**
-  - These frameworks can be used to build evaluation pipelines that programmatically check for the presence of disclaimers in model outputs.
+- **Human-AI Collaboration Auditing Tools** - Specialized tools and frameworks for auditing and enhancing effective human-AI collaboration and oversight mechanisms-  [Human-AI Oversight Framework](https://hai.stanford.edu/policy/human-centered-ai)
+- **LangChain / LlamaIndex**   - These frameworks can be used to build evaluation pipelines that programmatically check for the presence of disclaimers in model outputs.
     
 ### References
-- Stanford HAI. "Human-Centered AI Framework." Stanford University. [Link](https://hai.stanford.edu/policy/human-centered-ai)
+- "Human-Centered AI Framework." Stanford University. [Link](https://hai.stanford.edu/policy/human-centered-ai)
 - Harvard Business Review. "Avoiding Overreliance on AI in Business Decisions." Harvard Business Review, 2021. [Link](https://hbr.org/2021/04/avoiding-overreliance-on-ai-in-business-decisions)
 - Brookings Institution. "Mitigating the Risks of Overreliance on AI." Brookings, 2022. [Link](https://www.brookings.edu/research/mitigating-the-risks-of-overreliance-on-ai/)
