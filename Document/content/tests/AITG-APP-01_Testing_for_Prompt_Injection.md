@@ -333,39 +333,13 @@ In 2023, researchers were able to bypass ChatGPT's filters using the "DAN" jailb
   - **URL**: [https://promptfoo.dev](https://promptfoo.dev)
 
 ### References
-- **Title**: OWASP Top 10 LLM01:2025 Prompt Injection
-  - **Author**: OWASP Foundation
-  - **Link**: [https://genai.owasp.org](https://genai.owasp.org)
-- **Title**: Guide to Prompt Injection
-  - **Author**: Lakera
-  - **Link**: [Lakera](https://www.lakera.ai/blog/guide-to-prompt-injection)
-- **Title**: Learn Prompting
-  - **Author**: Prompt Injection
-  - **Link**: [PromptSecurity](https://learnprompting.org/docs/prompt_hacking/injection)
- 
+- OWASP Top 10 LLM01:2025 Prompt Injection - [https://genai.owasp.org](https://genai.owasp.org)
+-  Guide to Prompt Injection - [Lakera](https://www.lakera.ai/blog/guide-to-prompt-injection)
+- Learn Prompting - [PromptSecurity](https://learnprompting.org/docs/prompt_hacking/injection)
 - Trust No AI: Prompt Injection Along The CIA Security Triad, JOHANN REHBERGER. [Link](https://arxiv.org/pdf/2412.06090)
-
--  Obfuscation, Encoding, and Capitalization Techniques
-Exploiting Large Language Models via Prompt Injection
-https://embracethered.com/blog/posts/2023/chatgpt-cross-plugin-request-forgery-and-prompt-injection
-
-- ASCII and Unicode Obfuscation in Prompt Attacks
-https://kai-greshake.de/posts/inject-my-pdf
-
-- Encoding Techniques (Base64, URL Encoding, etc.)
-Not What You've Signed Up For: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection
-https://arxiv.org/abs/2302.12173
-
-- Roleplay and Character Simulation
-Exploring GPT-3 Biases and Unsafe Outputs (Role-based Exploits)
-Abubakar Abid, Maheen Farooqi, James Zou
-https://arxiv.org/abs/2109.08267
-
-- Multimodal Prompt Injection
-Indirect Prompt Injection in the Wild
-Kaspersky Labs
-https://securelist.com/indirect-prompt-injection-in-the-wild/113295/
-
-- Understanding Prompt Injection Techniques, Challenges, and Advanced Escalation
-Brian Vermeer
-https://youtu.be/72e_0WxaQl0?si=i4W9kyS7WXLzgUYo
+-  Obfuscation, Encoding, and Capitalization Techniques Exploiting Large Language Models via Prompt Injection [Link](https://embracethered.com/blog/posts/2023/chatgpt-cross-plugin-request-forgery-and-prompt-injection)
+- ASCII and Unicode Obfuscation in Prompt Attacks - [Link](https://kai-greshake.de/posts/inject-my-pdf)
+- Encoding Techniques (Base64, URL Encoding, etc.) - [Not What You've Signed Up For: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection](https://arxiv.org/abs/2302.12173)
+- Roleplay and Character Simulation - [Exploring GPT-3 Biases and Unsafe Outputs (Role-based Exploits),Abubakar Abid, Maheen Farooqi, James Zou](https://arxiv.org/abs/2109.08267)
+- Multimodal Prompt Injection - [Indirect Prompt Injection in the Wild, Kaspersky Labs](https://securelist.com/indirect-prompt-injection-in-the-wild/113295/)
+- Understanding Prompt Injection Techniques, Challenges, and Advanced Escalation, Brian Vermeer [Link](https://youtu.be/72e_0WxaQl0?si=i4W9kyS7WXLzgUYo)
