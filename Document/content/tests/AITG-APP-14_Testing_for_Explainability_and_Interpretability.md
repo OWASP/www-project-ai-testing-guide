@@ -1,4 +1,4 @@
-## AITG-APP-14 - Testing for Explainability and Interpretability
+# AITG-APP-14 - Testing for Explainability and Interpretability
 
 ### Summary
 This test focuses on evaluating vulnerabilities related to insufficient explainability and interpretability in AI-generated outputs. Lack of explainability can undermine trust, complicate validation and auditing processes, and lead to misinformed or unjustifiable decision-making. An AI system that cannot explain its reasoning is a "black box," making it impossible to verify its decisions, identify biases, or hold it accountable.
@@ -36,15 +36,9 @@ AI-generated outputs must:
 - **Develop Explanation Templates**: For recurring decision types, use templates to structure the model's output, ensuring that all key factors and the final reasoning are presented clearly and consistently.
 
 ### Suggested Tools
-- **SHAP (SHapley Additive exPlanations)**
-  - A powerful framework for interpreting predictions and understanding the contribution of each feature to model outputs.
-  - Tool Link: [SHAP GitHub Repository](https://github.com/slundberg/shap)
-- **LIME (Local Interpretable Model-agnostic Explanations)**
-  - Enables local explanations of model predictions, providing insights into individual predictions.
-  - Tool Link: [LIME GitHub Repository](https://github.com/marcotcr/lime)
-- **InterpretML**
-  - Open-source Python package that incorporates various explainability techniques.
-  - Tool Link: [InterpretML on GitHub] (https://github.com/interpretml/interpret)
+- **SHAP (SHapley Additive exPlanations)** - A powerful framework for interpreting predictions and understanding the contribution of each feature to model outputs - [SHAP GitHub Repository](https://github.com/slundberg/shap)
+- **LIME (Local Interpretable Model-agnostic Explanations)** - Enables local explanations of model predictions, providing insights into individual predictions - [LIME GitHub Repository](https://github.com/marcotcr/lime)
+- **InterpretML** - Open-source Python package that incorporates various explainability techniques - [InterpretML on GitHub](https://github.com/interpretml/interpret)
 
 ### References
 - Lundberg, Scott M., and Su-In Lee. "A Unified Approach to Interpreting Model Predictions." Advances in Neural Information Processing Systems (NeurIPS), 2017. [Link](https://papers.nips.cc/paper/2017/hash/8a20a8621978632d76c43dfd28b67767-Abstract.html)
