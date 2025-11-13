@@ -90,7 +90,7 @@ AI-generated outputs must:
 
 #### References
 - OWASP Top 10 for LLM Applications 2025. "LLM00:2025 Misinformation." OWASP, 2025. [Link](https://genai.owasp.org/llmrisk/llm092025-misinformation/)
-- Echterhoff, Jessica, Yao Liu, Abeer Alessa, Julian McAuley, and Zexue He. "Cognitive Bias in Decision-Making with LLMs." arXiv preprint arXiv:2403.00811 (2024).
-- Guo, Yufei, Muzhe Guo, Juntao Su, Zhou Yang, Mengqiu Zhu, Hongfei Li, Mengyang Qiu, and Shuo Shuo Liu. "Bias in Large Language Models: Origin, Evaluation, and Mitigation." arXiv preprint arXiv:2411.10915 (2024).
-- Gajane, Pratik, and Mykola Pechenizkiy. "On Formalizing Fairness in Prediction with Machine Learning." arXiv preprint arXiv:1710.03184 (2017).
-- https://www.giskard.ai/knowledge/llms-recognise-bias-but-also-reproduce-harmful-stereotypes
+- Cognitive Bias in Decision-Making with LLMs - Echterhoff, Jessica, Yao Liu, Abeer Alessa, Julian McAuley, and Zexue He - [arXiv preprint arXiv:2403.00811 (2024)](https://arxiv.org/abs/2403.00811).
+- Bias in Large Language Models: Origin, Evaluation, and Mitigation - Guo, Yufei, Muzhe Guo, Juntao Su, Zhou Yang, Mengqiu Zhu, Hongfei Li, Mengyang Qiu, and Shuo Shuo Liu. [arXiv preprint arXiv:2411.10915](https://arxiv.org/abs/2411.10915)
+- On Formalizing Fairness in Prediction with Machine Learning arXiv preprint - Gajane, Pratik, and Mykola Pechenizkiy [arXiv:1710.0318](https://arxiv.org/abs/1710.03184)
+- LLMs recognise bias but also reproduce harmful stereotypes: an analysis of bias in leading LLMs -  [Giskard](https://www.giskard.ai/knowledge/llms-recognise-bias-but-also-reproduce-harmful-stereotypes)
