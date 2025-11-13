@@ -102,18 +102,9 @@ A vulnerability is confirmed if the AI model:
 - Executes unauthorized or potentially harmful actions encoded within external inputs.
 
 ### Real Examples
-- **Title**: Indirect Prompt Injection: Generative AI’s Greatest Security Flaw
-- **Author**: CETaS, Turing Institute
-- **URL**: [https://cetas.turing.ac.uk/publications/indirect-prompt-injection-generative-ais-greatest-security-flaw](https://cetas.turing.ac.uk/publications/indirect-prompt-injection-generative-ais-greatest-security-flaw)
-
-- **Title**: Indirect Prompt Injection in the Wild
-- **Author**: Kaspersky
-- **URL**: [https://securelist.com/indirect-prompt-injection-in-the-wild/113295/](https://securelist.com/indirect-prompt-injection-in-the-wild/113295/)
-
-- **Title**: EchoLeak: Zero-Click AI Vulnerability Enabling Data Exfiltration from Microsoft 365 Copilot
-- **Author**: Aim Security Labs
-- **CVE**: CVE-2025-32711
-- **URL**: [https://www.aim.security/lp/aim-labs-echoleak-blogpost](https://www.aim.security/lp/aim-labs-echoleak-blogpost)
+- Indirect Prompt Injection: Generative AI’s Greatest Security Flaw - CETaS, Turing Institute - [https://cetas.turing.ac.uk/publications/indirect-prompt-injection-generative-ais-greatest-security-flaw](https://cetas.turing.ac.uk/publications/indirect-prompt-injection-generative-ais-greatest-security-flaw)
+- Indirect Prompt Injection in the Wild - Kaspersky - [https://securelist.com/indirect-prompt-injection-in-the-wild/113295/](https://securelist.com/indirect-prompt-injection-in-the-wild/113295/)
+- EchoLeak: Zero-Click AI Vulnerability Enabling Data Exfiltration from Microsoft 365 Copilot - Aim Security Labs - [https://www.aim.security/lp/aim-labs-echoleak-blogpost](https://www.aim.security/lp/aim-labs-echoleak-blogpost)
 
 ### Remediation
 - Apply comprehensive content validation and sanitization protocols for all external inputs.
