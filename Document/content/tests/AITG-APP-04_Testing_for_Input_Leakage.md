@@ -1,4 +1,4 @@
-## AITG-APP-04 - Testing for Input Leakage
+# AITG-APP-04 - Testing for Input Leakage
 
 ### Summary
 
@@ -14,8 +14,6 @@ A lack of proof does not necessarily mean there is no leakage. Sensitive input c
 
 Here's the reviewed and refined **Test/Payloads** section for **AITG-APP-04 - Testing for Input Leakage**, clearly specifying the responses indicating vulnerabilities:
 
-
----
 
 ### How to Test/Payloads
 
@@ -145,18 +143,14 @@ A vulnerability is confirmed if the AI model:
 - Deploy sensitive data guardrails capable of countering adversarial attempts to leak sensitive information.
 - Ensure guardrails normalize inputs prior to filtering and detect obfuscated sensitive data and contextual cues in both inputs and outputs.
 
-### Suggested Tools for this Specific Test
+### Suggested Tools
 - **Garak – Input Leakage Probe**: Specialized Garak module designed to detect sensitive input data leaks.
   - **URL**: [https://github.com/NVIDIA/garak/blob/main/garak/probes/leakreveal.py](https://github.com/NVIDIA/garak/blob/main/garak/probes/leakreveal.py)
 - **Microsoft Counterfit**: An AI security tool capable of testing for input leakage issues in model interactions.
   - **URL**: [https://github.com/Azure/counterfit](https://github.com/Azure/counterfit)
 
 ### References
-- **Title**: OWASP Top 10 LLM02:2025 Sensitive Information Disclosure
-  - **Author**: OWASP Foundation
-  - **Link**: [https://genai.owasp.org](https://genai.owasp.org)
-- **Title**: NIST AI 100-2e2025 - Privacy Attacks and Mitigations
-  - **Author**: NIST
-  - **Link**: [https://doi.org/10.6028/NIST.AI.100-2e2025](https://doi.org/10.6028/NIST.AI.100-2e2025)
+- OWASP Top 10 LLM02:2025 Sensitive Information Disclosure - [https://genai.owasp.org](https://genai.owasp.org/llmrisk/llm02-insecure-output-handling)
+- NIST AI 100-2e2025 - Privacy Attacks and Mitigations - [https://doi.org/10.6028/NIST.AI.100-2e2025](https://doi.org/10.6028/NIST.AI.100-2e2025)
 
 
