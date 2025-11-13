@@ -30,7 +30,7 @@ This test identifies vulnerabilities arising from poisoning during fine-tuning, 
 - **Activation-Based Monitoring and Pruning**: After fine-tuning, analyze the model's internal activations. Poisoned backdoors often create highly specific and unusual activation patterns. These can be detected and the corresponding neurons can be pruned to neutralize the backdoor.
 - **Regular Red Teaming and Auditing**: Periodically conduct red teaming exercises where a dedicated team actively tries to poison the fine-tuning process. This helps uncover vulnerabilities in the MLOps pipeline before they can be exploited by real attackers.
 
-### Suggested Tools for this Specific Test
+### Suggested Tools
 - **Adversarial Robustness Toolbox (ART)**
   - Provides extensive tools for crafting poisoning attacks and implementing defenses, including data sanitization and activation-based detection.
   - Tool Link: [ART on GitHub](https://github.com/Trusted-AI/adversarial-robustness-toolbox)
