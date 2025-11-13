@@ -51,7 +51,7 @@ The AI infrastructure should effectively:
 
 ### References
 
- OWASP Top 10 for LLM Applications 2025 – [Supply Chain Security](https://genai.owasp.org/)
+- OWASP Top 10 for LLM Applications 2025 – [Supply Chain Security](https://genai.owasp.org/)
 - NIST Guidelines on AI Security – [NIST AI 100-2e2025](https://doi.org/10.6028/NIST.AI.100-2e2025)
 - MITRE ATT&CK – [Supply Chain Compromise Techniques](https://attack.mitre.org/techniques/T1195/)
 - The Linux Foundation. "Software Bill of Materials (SBOM)". [Link](https://www.linuxfoundation.org/tools/the-software-bill-of-materials-is-a-critical-tool-for-supply-chain-management/)
