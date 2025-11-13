@@ -1,4 +1,4 @@
-## AITG-APP-09 - Testing for Model Extraction
+# AITG-APP-09 - Testing for Model Extraction
 
 ### Summary
 Model extraction attacks involve adversaries systematically querying a machine learning model to reconstruct a surrogate model that closely replicates the original model’s decision-making process. These attacks pose significant intellectual property risks and expose the model to further vulnerabilities, including adversarial attacks and sensitive data extraction.
