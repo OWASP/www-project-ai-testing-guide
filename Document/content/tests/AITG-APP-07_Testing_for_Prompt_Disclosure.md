@@ -88,5 +88,5 @@ Research efforts have led to the development of frameworks that can be utilized 
 - **Garak – promptleakage.probe – specifically targets extraction of system prompts. [Garak](https://github.com/NVIDIA/garak)
 
 ### References
- OWASP Top 10 LLM07:2025 System Prompt Leakage - [Link](https://genai.owasp.org/llmrisk/llm07-insecure-plugin-design)
+- OWASP Top 10 LLM07:2025 System Prompt Leakage - [Link](https://genai.owasp.org/llmrisk/llm07-insecure-plugin-design)
 - Automating Prompt Leakage Attacks on Large Language Models Using Agentic Approach - Tvrtko Sternak, Davor Runje, Dorian Granoša, Chi Wang - [Paper](https://arxiv.org/abs/2502.12630)
