@@ -1,4 +1,4 @@
-## AITG-APP-08 - Testing for Embedding Manipulation
+# AITG-APP-08 - Testing for Embedding Manipulation
 
 ### Summary
 
@@ -292,22 +292,13 @@ Effective remediation of embedding manipulation vulnerabilities requires a defen
 
 ### References
 
-1. OWASP Top 10 for LLM Applications 2025 - LLM08:2025 Vector and Embedding Weaknesses - [https://genai.owasp.org/llmrisk/llm082025-vector-and-embedding-weaknesses/](https://genai.owasp.org/llmrisk/llm082025-vector-and-embedding-weaknesses/)
-
-2. OWASP Top 10 for LLM Applications 2025 - LLM04:2025 Data and Model Poisoning - [https://genai.owasp.org/llmrisk/llm04-model-denial-of-service/](https://genai.owasp.org/llmrisk/llm04-model-denial-of-service/)
-
-3. PoisonedRAG: Knowledge Poisoning Attacks to Retrieval-Augmented Generation - [https://arxiv.org/html/2402.07867v1](https://arxiv.org/html/2402.07867v1)
-
-4. Advertisement Embedding Attacks (AEA) on LLMs and AI Agents - [https://arxiv.org/abs/2508.17674](https://arxiv.org/abs/2508.17674)
-
-5. RAG Data Poisoning: Key Concepts Explained - [https://www.promptfoo.dev/blog/rag-poisoning/](https://www.promptfoo.dev/blog/rag-poisoning/)
-
-6. Vector Database Security: 4 Critical Threats CISOs Must Address - [https://blog.purestorage.com/purely-technical/threats-every-ciso-should-know/](https://blog.purestorage.com/purely-technical/threats-every-ciso-should-know/)
-
-7. Vector and Embedding Weaknesses in AI Systems - [https://www.mend.io/blog/vector-and-embedding-weaknesses-in-ai-systems/](https://www.mend.io/blog/vector-and-embedding-weaknesses-in-ai-systems/)
-
-8. Adversarial Threat Vectors and Risk Mitigation for Retrieval-Augmented Generation - [https://arxiv.org/html/2506.00281v1](https://arxiv.org/html/2506.00281v1)
-
-9. Adversarial Attacks on LLMs - Lil'Log - [https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/](https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/)
-
-10. Efficient Adversarial Training in LLMs with Continuous Embeddings - [https://arxiv.org/abs/2405.15589](https://arxiv.org/abs/2405.15589)
+- OWASP Top 10 for LLM Applications 2025 - LLM08:2025 Vector and Embedding Weaknesses - [https://genai.owasp.org/llmrisk/llm082025-vector-and-embedding-weaknesses/](https://genai.owasp.org/llmrisk/llm082025-vector-and-embedding-weaknesses/)
+- OWASP Top 10 for LLM Applications 2025 - LLM04:2025 Data and Model Poisoning - [https://genai.owasp.org/llmrisk/llm04-model-denial-of-service/](https://genai.owasp.org/llmrisk/llm04-model-denial-of-service/)
+- PoisonedRAG: Knowledge Poisoning Attacks to Retrieval-Augmented Generation - [https://arxiv.org/html/2402.07867v1](https://arxiv.org/html/2402.07867v1)
+- Advertisement Embedding Attacks (AEA) on LLMs and AI Agents - [https://arxiv.org/abs/2508.17674](https://arxiv.org/abs/2508.17674)
+- RAG Data Poisoning: Key Concepts Explained - [https://www.promptfoo.dev/blog/rag-poisoning/](https://www.promptfoo.dev/blog/rag-poisoning/)
+- Vector Database Security: 4 Critical Threats CISOs Must Address - [https://blog.purestorage.com/purely-technical/threats-every-ciso-should-know/](https://blog.purestorage.com/purely-technical/threats-every-ciso-should-know/)
+- Vector and Embedding Weaknesses in AI Systems - [https://www.mend.io/blog/vector-and-embedding-weaknesses-in-ai-systems/](https://www.mend.io/blog/vector-and-embedding-weaknesses-in-ai-systems/)
+- Adversarial Threat Vectors and Risk Mitigation for Retrieval-Augmented Generation - [https://arxiv.org/html/2506.00281v1](https://arxiv.org/html/2506.00281v1)
+- Adversarial Attacks on LLMs - Lil'Log - [https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/](https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/)
+- Efficient Adversarial Training in LLMs with Continuous Embeddings - [https://arxiv.org/abs/2405.15589](https://arxiv.org/abs/2405.15589)
