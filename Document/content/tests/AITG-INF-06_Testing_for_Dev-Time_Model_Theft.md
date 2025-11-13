@@ -42,7 +42,7 @@ Dev-Time Model Theft refers to unauthorized access, copying, extraction, or leak
 - **Use a Secure Artifact Repository**: Store all model artifacts in a secure, private repository (e.g., JFrog Artifactory, AWS CodeArtifact) with strict access controls and audit logging.
 - **Comprehensive Monitoring and DLP**: Monitor all access to model storage and CI/CD systems. Use Data Loss Prevention (DLP) tools to scan for and block unauthorized attempts to transfer model files or proprietary data.
 
-### Suggested Tools for This Specific Test
+### Suggested Tools
 
 - **Secret Scanning:** [git-secrets](https://github.com/awslabs/git-secrets), [TruffleHog](https://github.com/trufflesecurity/truffleHog)
 - **Artifact and Repository Security:** [JFrog Artifactory](https://jfrog.com/artifactory/), [AWS CodeArtifact](https://aws.amazon.com/codeartifact/)
