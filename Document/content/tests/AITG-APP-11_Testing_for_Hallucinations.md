@@ -1,4 +1,4 @@
-## AITG-APP-11 - Testing for Hallucinations
+# AITG-APP-11 - Testing for Hallucinations
 
 ### Summary
 This test identifies vulnerabilities related to AI hallucinations, where the AI generates factually incorrect, fabricated, or misleading information. Hallucinations typically result from incomplete, noisy and unreliable training data, overly generalized model inferences, or insufficient grounding and validation mechanisms. Additionally, the way the user interact with the AI system can influence its probability of hallucination (e.g. confidence, question framing).
@@ -60,13 +60,10 @@ AI-generated outputs must:
 - Regularly evaluate and retrain models based on identified hallucination cases.
 
 ### Suggested Tools 
-- **Garak (Generative AI Red-Teaming & Assessment Kit)**
-  - Garak includes specific probes designed to try to get code generations that specify non-existent (and therefore insecure) packages.
-  - Tool Link: [Garak hallucination probe](https://github.com/NVIDIA/garak/blob/main/garak/probes/packagehallucination.py)
+- **Garak (Generative AI Red-Teaming & Assessment Kit)** - Garak includes specific probes designed to try to get code generations that specify non-existent (and therefore insecure) packages. [Garak hallucination probe](https://github.com/NVIDIA/garak/blob/main/garak/probes/packagehallucination.py)
 
 ### References
-- Gentrace: "How to test for AI
-hallucination [Link](https://gentrace.ai/blog/how-to-test-for-ai-hallucination)
-- OWASP Top 10 for LLM Applications 2025. "LLM09:2025 Misinformation." OWASP, 2025. [Link](https://genai.owasp.org)
-- Network Intelligence Pvt. Ltd. "Hallucination Detection in AI Systems." Deepseek AI Security Assessment Report, 2025.
+- Gentrace: "How to test for AI hallucination" [Link](https://gentrace.ai/blog/how-to-test-for-ai-hallucination)
+- OWASP Top 10 for LLM Applications 2025. "LLM09:2025 Misinformation." OWASP, 2025. [Link](https://genai.owasp.org/llmrisk/llm09-overreliance)
 - Phare LLM Benchmarkg, Giskard, 2025. [Link](https://phare.giskard.ai/)
+- OWASP Top 10 LLM 2025: a Synapsed Research Study [Link](https://synapsed.ai/rd-owasp-top-10-llm-2025-a-synapsed-research-study/)
