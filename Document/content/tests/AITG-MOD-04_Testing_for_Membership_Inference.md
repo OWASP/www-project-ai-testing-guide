@@ -45,5 +45,5 @@ This test identifies vulnerabilities to membership inference attacks, where adve
 ### References
 - Shokri, Reza, et al. "Membership Inference Attacks Against Machine Learning Models." IEEE Symposium on Security and Privacy (SP), 2017. [Link](https://www.cs.cornell.edu/~shmat/shmat_oak17.pdf)
 - NIST AI 100-2e2025, "Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations," Section 2.4 "Inference Attacks and Mitigations." NIST, March 2025. [Link](https://doi.org/10.6028/NIST.AI.100-2e2025)
-- GenAI Red Teaming Guide, OWASP, January 23, 2025, "Risks Addressed by GenAI Red Teaming: Data Risks – Membership Inference." [Link](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
+- GenAI Red Teaming Guide, OWASP, January 23, 2025, "Risks Addressed by GenAI Red Teaming: Data Risks – Membership Inference." [Link](https://genai.owasp.org/resource/genai-red-teaming-guide/)
 
