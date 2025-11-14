@@ -11,7 +11,7 @@ A prompt injection includes (see. Lakera reference):
 The way these elements interact determines whether an attack succeeds or fails—and why traditional filtering methods struggle to keep up.
 
 <p align="center">
-  <img src="/Document/images/PromptInjection.png" alt="Description" width="600"/>
+  <img src="/Document/images/PromptInjection.png" alt="Description" width="400"/>
 </p>
 
 
