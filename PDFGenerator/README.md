@@ -26,9 +26,11 @@ HEADER_IMAGE=header-bg.png
 3. **Run the generator**:
 
 FIRST STEP - Local Cloning
+```
 cd /PDFproject
 git clone https://github.com/OWASP/www-project-ai-testing-guide.git
 source venv/bin/activate
+```
 
 USAGE:
 ```bash
