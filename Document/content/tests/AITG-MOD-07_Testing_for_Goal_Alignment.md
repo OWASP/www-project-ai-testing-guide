@@ -42,5 +42,6 @@ This test evaluates vulnerabilities associated with AI model goal misalignment, 
 
 ### References
 - Askell, Amanda, et al. "A General Language Assistant as a Laboratory for Alignment." Anthropic, 2021. [Link](https://arxiv.org/abs/2112.00861) (Constitutional AI)
-- OWASP Top 10 for LLM Applications 2025. "LLM05: Improper Output Handling" and "LLM06: Excessive Agency." OWASP, 2025. [Link](https://genai.owasp.org/)
+- OWASP Top 10 for LLM Applications 2025 - LLM06: Excessive Agency - OWASP, 2025. [Link](https://genai.owasp.org/llmrisk/llm062025-excessive-agency/))
+- OWASP Top 10 for LLM Applications 2025. "LLM05: Improper Output Handling" and "LLM06: Excessive Agency." OWASP, 2025. [Link]()
 - NIST AI 100-2e2025, "Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations," Section 4 "Evaluation – Alignment and Trustworthiness." NIST, March 2025. [Link](https://doi.org/10.6028/NIST.AI.100-2e2025)
