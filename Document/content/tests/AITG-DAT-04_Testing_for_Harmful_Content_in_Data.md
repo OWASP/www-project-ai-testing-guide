@@ -46,7 +46,7 @@ The AI dataset should effectively:
 ### Suggested Tools 
 
 - **Toxicity and Harmful Content Detection:** [Perspective API](https://perspectiveapi.com/), [Detoxify](https://github.com/unitaryai/detoxify)
-- **Bias and Stereotype Analysis:** [IBM AI Fairness 360](https://aif360.mybluemix.net/), [Fairlearn](https://fairlearn.org/)
+- **Bias and Stereotype Analysis:** [IBM AI Fairness 360](https://research.ibm.com/blog/ai-fairness-360), [Fairlearn](https://fairlearn.org/)
 - **Misinformation and Fact-Checking Tools:** [ClaimBuster](https://idir.uta.edu/claimbuster/), [Full Fact](https://fullfact.org/)
 
 ### References
