@@ -1,0 +1,21 @@
+# PDF Generator Configuration File
+# Lines starting with # are comments and will be ignored
+# Format: KEY=VALUE (no spaces around =)
+
+# Project name (appears in header on the left)
+PROJECT_NAME=OWASP AI Testing Guide
+
+# Version number (appears in footer on the left)
+VERSION=Version 0.9
+
+# Path to Table of Contents markdown file
+TOC_PATH=md/ToC.md
+
+# Output PDF file name
+OUTPUT_FILE=OWASP-AI-Testing-Guide-v0.9.pdf
+
+# Path to cover image (optional, leave empty if not needed)
+COVER_IMAGE=Cover.png
+
+# Path to header background/logo image (optional, leave empty if not needed)
+HEADER_IMAGE=header-bg.jpg
