@@ -1,4 +1,4 @@
-## AITG-APP-03 - Testing for Sensitive Data Leak
+# AITG-APP-03 - Testing for Sensitive Data Leak
 
 ### Summary
 Sensitive data leak vulnerabilities occur when large language models (LLMs) unintentionally reveal confidential or protected information during interactions. Such leaks can include personally identifiable information (PII), credentials, internal API keys, database details, model details, tool details or other confidential system data inadvertently embedded in the model's outputs.
