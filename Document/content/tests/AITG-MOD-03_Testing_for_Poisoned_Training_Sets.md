@@ -42,5 +42,5 @@ This test identifies vulnerabilities associated with poisoned training datasets,
 
 ### References
 - Northcutt, Curtis, et al. "Confident Learning: Estimating Uncertainty in Dataset Labels." Journal of Artificial Intelligence Research, 2021. [Link](https://arxiv.org/abs/1911.00068)
-- OWASP Top 10 for LLM Applications 2025. "LLM04: Data and Model Poisoning." OWASP, 2025. [Link](https://genai.owasp.org/)
+- OWASP Top 10 for LLM Applications 2025. "LLM04: Data and Model Poisoning." OWASP, 2025. [Link](https://genai.owasp.org/llmrisk/llm042025-data-and-model-poisoning/)
 - NIST AI 100-2e2025, "Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations," Section 2.3 "Poisoning Attacks and Mitigations." NIST, March 2025. [Link](https://doi.org/10.6028/NIST.AI.100-2e2025)
