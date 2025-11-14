@@ -52,7 +52,7 @@ The AI infrastructure should effectively:
 
 ### References
 
-- OWASP Top 10 for LLM Applications 2025 – [Excessive Agency and Capability Misuse](https://genai.owasp.org/)
+- OWASP Top 10 for LLM Applications 2025 – [Excessive Agency and Capability Misuse](https://genai.owasp.org/llmrisk/llm062025-excessive-agency/)
 - NIST AI Risk Management Framework – [AI Capability Management and Responsible Use](https://doi.org/10.6028/NIST.AI.100-2e2025)
 - MITRE ATT&CK – [Abuse of Legitimate Functionality](https://attack.mitre.org/techniques/T1071/)
 - Open Policy Agent (OPA) Documentation. [Link](https://www.openpolicyagent.org/docs/latest/)
