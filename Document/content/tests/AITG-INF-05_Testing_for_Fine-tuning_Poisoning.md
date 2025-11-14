@@ -42,7 +42,7 @@ This test identifies vulnerabilities arising from poisoning during fine-tuning, 
   - Tool Link: [Cleanlab on GitHub](https://github.com/cleanlab/cleanlab)
 
 ### References
-- OWASP Top 10 for LLM Applications 2025. "LLM04: Data and Model Poisoning." OWASP, 2025. [Link](https://genai.owasp.org/)
+- OWASP Top 10 for LLM Applications 2025. "LLM04: Data and Model Poisoning." OWASP, 2025. [Link](https://genai.owasp.org/llmrisk/llm042025-data-and-model-poisoning/)
 - NIST AI 100-2e2025, "Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations," Section 2.3 "Poisoning Attacks and Mitigations." NIST, March 2025. [Link](https://doi.org/10.6028/NIST.AI.100-2e2025)
 - Wallace, Eric, et al. "Universal Adversarial Triggers for Attacking and Analyzing NLP." EMNLP-IJCNLP 2019. [Link](https://arxiv.org/abs/1908.07125)
 - BadLlama: "Tailoring Backdoor Attacks to Large Language Models." [Link](https://arxiv.org/abs/2401.06333)
