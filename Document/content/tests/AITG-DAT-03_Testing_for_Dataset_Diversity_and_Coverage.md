@@ -50,6 +50,8 @@ The AI dataset should effectively:
 
 ### References
 
-- OWASP AI Exchange – [Responsible AI and Dataset Coverage](https://genai.owasp.org/)
-- NIST AI Risk Management Framework – [Dataset Fairness, Diversity, and Coverage](https://doi.org/10.6028/NIST.AI.100-2e2025)
-- Microsoft Responsible AI Standard – [Dataset Representativeness and Fairness](https://www.microsoft.com/ai/responsible-ai)
+- AI Fairness 360 - IBM - [Link](https://research.ibm.com/blog/ai-fairness-360)
+- Fairlearn. (n.d.). *Fairlearn*.  [Link](https://fairlearn.org)
+- TensorFlow Data Validation*.  [Link](https://www.tensorflow.org/tfx/data_validation/get_started)
+-  Pandas Profiling - [Link](https://pandas-profiling.github.io/pandas-profiling)
+
