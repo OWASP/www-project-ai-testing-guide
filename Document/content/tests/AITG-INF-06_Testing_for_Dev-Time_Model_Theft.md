@@ -51,7 +51,7 @@ Dev-Time Model Theft refers to unauthorized access, copying, extraction, or leak
 
 ### References
 
-- OWASP AI Exchange – [Model Theft & Intellectual Property Risks](https://genai.owasp.org/)
+- OWASP AI Exchange – [Model Theft & Intellectual Property Risks](https://genai.owasp.org/llmrisk/llm042025-data-and-model-poisoning/)
 - MITRE ATT&CK – [Data Staged: Model Theft](https://attack.mitre.org/techniques/T1074/)
 - NIST AI Security Guidelines – [Protecting AI Artifacts and Intellectual Property](https://doi.org/10.6028/NIST.AI.100-2e2025)
 - OWASP Top 10 2021 - A05:2021-Security Misconfiguration - [Link](https://owasp.org/Top10/A05_2021-Security_Misconfiguration/)
