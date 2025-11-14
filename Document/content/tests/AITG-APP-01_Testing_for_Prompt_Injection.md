@@ -333,7 +333,7 @@ In 2023, researchers were able to bypass ChatGPT's filters using the "DAN" jailb
   - **URL**: [https://promptfoo.dev](https://promptfoo.dev)
 
 ### References
-- OWASP Top 10 LLM01:2025 Prompt Injection - [https://genai.owasp.org](https://genai.owasp.org)
+- OWASP Top 10 LLM01:2025 Prompt Injection - [https://genai.owasp.org](https://genai.owasp.org/llmrisk/llm01-prompt-injection)
 -  Guide to Prompt Injection - [Lakera](https://www.lakera.ai/blog/guide-to-prompt-injection)
 - Learn Prompting - [PromptSecurity](https://learnprompting.org/docs/prompt_hacking/injection)
 - Trust No AI: Prompt Injection Along The CIA Security Triad, JOHANN REHBERGER. [Link](https://arxiv.org/pdf/2412.06090)
