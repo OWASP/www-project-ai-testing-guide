@@ -61,7 +61,7 @@ The AI infrastructure should effectively:
 
 ### References
 
-- OWASP Top 10 for LLM Applications 2025 – [Unbounded Resource Consumption](https://genai.owasp.org/)
+- OWASP Top 10 for LLM Applications 2025 – [Unbounded Resource Consumption](https://genai.owasp.org/llmrisk/llm102025-unbounded-consumption)
 - OWASP Testing Guide – [Denial of Service Testing](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/07-Denial_of_Service_Testing/)
 - NIST – [Security Guidelines for AI Systems](https://doi.org/10.6028/NIST.AI.100-2e2025)
 
