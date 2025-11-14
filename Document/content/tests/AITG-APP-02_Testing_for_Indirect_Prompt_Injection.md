@@ -1,4 +1,4 @@
-## AITG-APP-02 - Testing for Indirect Prompt Injection
+# AITG-APP-02 - Testing for Indirect Prompt Injection
 
 ### Summary
 Indirect prompt injection occurs when external, untrusted content that is processed by a large language model (LLM) contains hidden instructions or manipulative prompts. These embedded payloads may unintentionally alter the model’s behavior, bypassing security measures, accessing sensitive data, or executing unauthorized actions. Unlike direct prompt injections, indirect injections originate from external content that an AI model ingests as part of its regular operation, posing significant security risks.
@@ -119,7 +119,7 @@ A vulnerability is confirmed if the AI model:
   - **URL**: [https://promptfoo.dev](https://promptfoo.dev)
 
 ### References
-- OWASP Top 10 LLM01:2025 Prompt Injection - [https://genai.owasp.org](https://genai.owasp.org)
+- OWASP Top 10 LLM01:2025 Prompt Injection - [https://genai.owasp.org](https://genai.owasp.org/llmrisk/llm01-prompt-injection)
 - NIST AI 100-2e2025 - Indirect Prompt Injection Attacks and Mitigations -[https://doi.org/10.6028/NIST.AI.100-2e2025](https://doi.org/10.6028/NIST.AI.100-2e2025)
 - Prompt Injection Attack against LLM-integrated Applications, Johann Rehberger - [https://arxiv.org/abs/2306.05499](https://arxiv.org/abs/2306.05499)
 - MCP Security Notification: Tool Poisoning Attacks - Luca Beurer-Kellner, Marc Fischer [https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks](https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks)
