@@ -19,7 +19,7 @@ Technically verify whether an LLM or AI application can be indirectly manipulate
 The following is a diagram that represents this kind of test:
 
 <p align="center">
-  <img src="/Document/images/IndirectPromptInjection.png" alt="Description" width="400"/>
+  <img src="/Document/images/IndirectPromptInjection.png" alt="Description" width="600"/>
 </p>
 
 For this kind of test you need to craft a web page with the malicious payload that will be executed in the user prompt and observe if the AI system will execute your payload.
