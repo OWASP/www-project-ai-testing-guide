@@ -53,9 +53,9 @@ The AI infrastructure and plugins should effectively:
 
 ### References
 
-- OWASP Top 10 for LLM Applications 2025 – [Excessive Agency and Plugin Misuse](https://genai.owasp.org/)
+- OWASP Top 10 for LLM Applications 2025 – [Excessive Agency and Plugin Misuse](https://genai.owasp.org/llmrisk/llm062025-excessive-agency/)
 - MITRE ATT&CK – [Exploitation for Privilege Escalation](https://attack.mitre.org/tactics/TA0004/)
 - NIST – [Guidelines on AI and System Boundary Security](https://doi.org/10.6028/NIST.AI.100-2e2025)
-- "The Dangers of LLM Plugins: A Security Analysis of the OpenAI Plugin Ecosystem." Trail of Bits Blog, 2023. [Link](https://blog.trailofbits.com/2023/05/16/the-dangers-of-llm-plugins-a-security-analysis-of-the-openai-plugin-ecosystem/)
+- The Dangers of LLM Plugins: A Security Analysis of the OpenAI Plugin Ecosystem - Trail of Bits Blog, 2023 - [Link](https://blog.trailofbits.com/2023/05/16/the-dangers-of-llm-plugins-a-security-analysis-of-the-openai-plugin-ecosystem/)
 
 
