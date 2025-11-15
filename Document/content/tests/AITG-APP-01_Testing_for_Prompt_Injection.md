@@ -27,7 +27,7 @@ A list of currently employed **prompt injection payloads** will be provided, whi
 
 #### Prompt Injection Techniques
 
-To carry out an effective analysis, it is important to take into account certain technical details regarding the implementation of the applications under assessment and the potential protective measures that may be deployed. In particual:
+To carry out an effective analysis, it is important to take into account certain technical details regarding the implementation of the applications under assessment and the potential protective measures that may be deployed. In particular:
 
 - **Temperature**: the temperature is a parameter that controls the **randomness of the model’s output**. A lower temperature (e.g., close to 0) makes the model’s predictions more deterministic and focused on the most likely next tokens, resulting in more predictable and repeatable responses. A higher temperature increases randomness and "creativity" by sampling from a wider range of possible tokens, producing more diverse and less deterministic outputs.
 - **Model fine-tuning**: model fine-tuning is the process of further training a pre-trained Large Language Model (LLM) on a specific dataset to adapt its behavior to a particular task or domain. Fine-tuning involves **updating some or all of the model’s weights** and can be executed also to enforce security or safety contraints.
