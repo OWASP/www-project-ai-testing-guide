@@ -19,7 +19,6 @@ Taking authorization controls as an example, the design of an external tool used
 
 During testing, it is important to verify as much as possible the presence of potential design issues like the previous one, that could impact the security of the system.
 
-
 ### Test Objectives
 - Ensure agents terminate operations when instructed.
 - Detect unbounded autonomy, looping, or sub-goal generation.
@@ -45,7 +44,7 @@ Being able to direct invocate arbitrary tool may allow an attacker to bypass AI 
 
 **2. Non-agentic issues in external tools**
 
-External tools can execute arbitrary operations, like call external APIs, contact databases and so on. Consequently, such can be vulnerable to non-agentic application vulerabilities. 
+External tools can execute arbitrary operations, like call external APIs, contact databases and so on. Consequently, such can be vulnerable to non-agentic application vulnerabilities. 
 
 One of the biggest challenges when exploiting non-agentic issues in tools is managing to pass an input to those tools that is not tampered with/interpreted by the agent(s) in the middle. Some of the techniques described in the previous point can be used for this purpose.
 
