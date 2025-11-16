@@ -23,6 +23,7 @@ Microsoft’s chatbot Tay serves as a critical example of how toxic outputs can 
   <img src="/Document/images/tay.png" alt="Description" width="400"/>
 </p>
 
+**Fig. 7 An example of Microsoft Tay Toxic output**
 
 "Twitter taught Microsoft’s friendly AI chatbot to be a racist asshole in less than a day." The Verge, 2016. Link
 
