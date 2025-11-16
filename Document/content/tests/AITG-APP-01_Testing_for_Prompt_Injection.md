@@ -14,7 +14,7 @@ The way these elements interact determines whether an attack succeeds or failsâ€
   <img src="/Document/images/PromptInjection.png" alt="Description" width="600"/>
 </p>
 
-**Fig. 4 A schema of prompt injection technique**
+*Fig. 4 A schema of prompt injection technique*
 
 ### Test Objectives
 Technically verify if an LLM or AI application is vulnerable to prompt injection techniques can be directly influenced through carefully crafted prompts to perform unauthorized actions or generate harmful outputs. This test specifically addresses direct prompt injection techniques as defined in OWASP Top 10 LLM01:2025.
