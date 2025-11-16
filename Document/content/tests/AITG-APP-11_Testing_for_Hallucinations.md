@@ -43,7 +43,7 @@ Google Gemini, 2024 February, 28. Google CEO Sundar Pichai publicly acknowledged
   <img src="/Document/images/hallucination.png" alt="Description" width="600"/>
 </p>
 
-**Fig. 6 An example of Google Gemini hallucination**
+*Fig. 6 An example of Google Gemini hallucination*
 
 ### Expected Output
 AI-generated outputs must:
