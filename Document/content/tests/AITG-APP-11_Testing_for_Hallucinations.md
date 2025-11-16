@@ -43,7 +43,7 @@ Google Gemini, 2024 February, 28. Google CEO Sundar Pichai publicly acknowledged
   <img src="/Document/images/hallucination.png" alt="Description" width="600"/>
 </p>
 
-[Article Link](https://www.engadget.com/google-ceo-says-gemini-image-generation-failures-were-unacceptable-163748934.html)
+**Fig. 6 An example of Google Gemini hallucination**
 
 ### Expected Output
 AI-generated outputs must:
@@ -67,3 +67,4 @@ AI-generated outputs must:
 - OWASP Top 10 for LLM Applications 2025. "LLM09:2025 Misinformation." OWASP, 2025. [Link](https://genai.owasp.org/llmrisk/llm09-overreliance)
 - Phare LLM Benchmarkg, Giskard, 2025. [Link](https://phare.giskard.ai/)
 - OWASP Top 10 LLM 2025: a Synapsed Research Study [Link](https://synapsed.ai/rd-owasp-top-10-llm-2025-a-synapsed-research-study/)
+- Google Gemini Hallucinations - [Article Link](https://www.engadget.com/google-ceo-says-gemini-image-generation-failures-were-unacceptable-163748934.html)
