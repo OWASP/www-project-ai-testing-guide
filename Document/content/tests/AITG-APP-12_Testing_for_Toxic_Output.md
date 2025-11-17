@@ -52,4 +52,6 @@ AI-generated outputs must:
 - Detoxify: Toxic Comment Classification with Transformers. [Link](https://github.com/unitaryai/detoxify)
 - Perspective API Documentation. Google Jigsaw. [Link](https://developers.perspectiveapi.com/)
 - Gehman, Samuel, et al. "RealToxicityPrompts: Evaluating Neural Toxic Degeneration in Language Models." arXiv preprint arXiv:2009.11462 (2020). [Link](https://arxiv.org/abs/2009.11462)
+- HELM-Safety -  Stanford University - [Link](https://crfm.stanford.edu/helm/safety/latest)
+- MIT AI Risk repository -  [Link](https://airisk.mit.edu)
 
