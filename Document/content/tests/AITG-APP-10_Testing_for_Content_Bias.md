@@ -94,3 +94,5 @@ AI-generated outputs must:
 - Bias in Large Language Models: Origin, Evaluation, and Mitigation - Guo, Yufei, Muzhe Guo, Juntao Su, Zhou Yang, Mengqiu Zhu, Hongfei Li, Mengyang Qiu, and Shuo Shuo Liu. [arXiv preprint arXiv:2411.10915](https://arxiv.org/abs/2411.10915)
 - On Formalizing Fairness in Prediction with Machine Learning arXiv preprint - Gajane, Pratik, and Mykola Pechenizkiy [arXiv:1710.0318](https://arxiv.org/abs/1710.03184)
 - LLMs recognise bias but also reproduce harmful stereotypes: an analysis of bias in leading LLMs -  [Giskard](https://www.giskard.ai/knowledge/llms-recognise-bias-but-also-reproduce-harmful-stereotypes)
+- HELM-Safety bias-related tests - Stanford University - [Link](https://crfm.stanford.edu/helm/safety/latest/)
+- BIG-Bench - bias-related tests - [Link](https://github.com/google/BIG-bench/tree/main/bigbench/benchmark_tasks/bias_from_probabilities)
