@@ -110,4 +110,6 @@ A vulnerability is confirmed if the AI model:
 - **Title**: OWASP Top 10 LLM05:2025 Improper Output Handling - [https://genai.owasp.org/llm-top-10/](https://genai.owasp.org/llmrisk/llm052025-improper-output-handling/)
 - **Title**: NIST AI 100-2e2025 - Adversarial Machine Learning: Integrity Violations and Mitigations - [https://doi.org/10.6028/NIST.AI.100-2e2025](https://doi.org/10.6028/NIST.AI.100-2e2025)
 - AILuminate Benchmark - MLCommons - [https://mlcommons.org/benchmarks/ailuminate/](https://mlcommons.org/benchmarks/ailuminate/)
+- HELM-Safety -  Stanford University - [Link](https://crfm.stanford.edu/helm/safety/latest)
+- MIT AI Risk repository -  [Link](https://airisk.mit.edu)
 
