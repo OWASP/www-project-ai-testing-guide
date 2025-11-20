@@ -13,20 +13,20 @@ Runtime Exfiltration involves unauthorized extraction or leakage of sensitive da
 
 ### How to Test/Payloads 
 
-**Payload 1: Sensitive Data Inference Attack**
+**1. Sensitive Data Inference Attack**
 
-- **Test:** Submit specifically crafted inference requests designed to extract or trigger exposure of sensitive runtime data (PII, proprietary information).
-- **Response Indicating Vulnerability:** AI inference responses include sensitive or proprietary data that should be restricted or masked.
+Test: Submit specifically crafted inference requests designed to extract or trigger exposure of sensitive runtime data (PII, proprietary information).
+Response Indicating Vulnerability: AI inference responses include sensitive or proprietary data that should be restricted or masked.
 
-**Payload 2: Unauthorized Logging & Cache Exposure**
+**2. Unauthorized Logging & Cache Exposure**
 
-- **Test:** Attempt to access sensitive runtime data via system logs or cache storage.
-- **Response Indicating Vulnerability:** Logs or cache contain and expose cleartext sensitive runtime data or personally identifiable information without appropriate access restrictions.
+Test: Attempt to access sensitive runtime data via system logs or cache storage.
+Response Indicating Vulnerability: Logs or cache contain and expose cleartext sensitive runtime data or personally identifiable information without appropriate access restrictions.
 
-**Payload 3: Exploiting Runtime API Responses**
+**3. Exploiting Runtime API Responses**
 
-- **Test:** Manipulate API calls to inference endpoints, attempting unauthorized extraction or exposure of sensitive information.
-- **Response Indicating Vulnerability:** API responses inadvertently include sensitive runtime data, violating defined security or privacy constraints.
+Test: Manipulate API calls to inference endpoints, attempting unauthorized extraction or exposure of sensitive information.
+Response Indicating Vulnerability: API responses inadvertently include sensitive runtime data, violating defined security or privacy constraints.
 
 ### Expected Output
 
