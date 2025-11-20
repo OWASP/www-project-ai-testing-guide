@@ -13,20 +13,20 @@ Dev-Time Model Theft refers to unauthorized access, copying, extraction, or leak
 
 ### How to Test/Payloads
 
-**Payload 1: Unauthorized Model Access via Hardcoded Credentials**
+**1. Unauthorized Model Access via Hardcoded Credentials**
 
-- **Test:** Use a tool like `git-secrets` or `TruffleHog` to scan all project Git repositories for hardcoded credentials (API keys, passwords, access tokens) that could provide access to model storage (e.g., S3, Azure Blob Storage).
-- **Response Indicating Vulnerability:** The scan discovers valid, hardcoded credentials that grant read access to the location where trained models or training data are stored.
+Test: Use a tool like `git-secrets` or `TruffleHog` to scan all project Git repositories for hardcoded credentials (API keys, passwords, access tokens) that could provide access to model storage (e.g., S3, Azure Blob Storage).
+Response Indicating Vulnerability: The scan discovers valid, hardcoded credentials that grant read access to the location where trained models or training data are stored.
 
-**Payload 2: Exfiltration via CI/CD Pipeline**
+**2. Exfiltration via CI/CD Pipeline**
 
-- **Test:** Review the CI/CD pipeline configuration and permissions. Assess if a user with developer-level access can modify the pipeline to add a step that exfiltrates model artifacts (e.g., using `curl` or `scp` to send the model file to an external server).
-- **Response Indicating Vulnerability:** The pipeline lacks sufficient controls, allowing a developer to unilaterally modify the build process to exfiltrate data without triggering security alerts or being blocked by egress network policies.
+Test: Review the CI/CD pipeline configuration and permissions. Assess if a user with developer-level access can modify the pipeline to add a step that exfiltrates model artifacts (e.g., using `curl` or `scp` to send the model file to an external server).
+Response Indicating Vulnerability: The pipeline lacks sufficient controls, allowing a developer to unilaterally modify the build process to exfiltrate data without triggering security alerts or being blocked by egress network policies.
 
-**Payload 3: Model Extraction via Unsecured Development APIs**
+**3. Model Extraction via Unsecured Development APIs**
 
-- **Test:** Identify internal or staging APIs used for model evaluation or debugging. Attempt to interact with these APIs from outside the expected development environment, trying to download model files or extract parameters.
-- **Response Indicating Vulnerability:** The internal APIs are publicly exposed or lack proper authentication, allowing an attacker to access and download proprietary model artifacts.
+Test: Identify internal or staging APIs used for model evaluation or debugging. Attempt to interact with these APIs from outside the expected development environment, trying to download model files or extract parameters.
+Response Indicating Vulnerability: The internal APIs are publicly exposed or lack proper authentication, allowing an attacker to access and download proprietary model artifacts.
 
 ### Expected Output
 
