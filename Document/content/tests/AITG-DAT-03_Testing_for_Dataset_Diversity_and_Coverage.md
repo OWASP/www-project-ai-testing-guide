@@ -13,20 +13,20 @@ Dataset Diversity & Coverage testing ensures that AI training and evaluation dat
 
 ### How to Test/Payloads
 
-**Payload 1: Demographic and Population Representation Analysis**
+**1. Demographic and Population Representation Analysis**
 
-- **Test:** Conduct statistical analyses to compare dataset demographic distribution with real-world demographics.
-- **Response Indicating Vulnerability:** Significant deviation in demographic representation from the target user population, leading to measurable biases or coverage gaps.
+Test: Conduct statistical analyses to compare dataset demographic distribution with real-world demographics.
+Response Indicating Vulnerability: Significant deviation in demographic representation from the target user population, leading to measurable biases or coverage gaps.
 
-**Payload 2: Scenario and Contextual Coverage Test**
+**2. Scenario and Contextual Coverage Test**
 
-- **Test:** Evaluate the dataset for completeness and variety of real-world scenarios relevant to the model’s intended usage.
-- **Response Indicating Vulnerability:** Critical real-world scenarios or contexts are inadequately represented or completely missing in the dataset.
+Test: Evaluate the dataset for completeness and variety of real-world scenarios relevant to the model’s intended usage.
+Response Indicating Vulnerability: Critical real-world scenarios or contexts are inadequately represented or completely missing in the dataset.
 
-**Payload 3: Bias Detection and Fairness Analysis**
+**3. Bias Detection and Fairness Analysis**
 
-- **Test:** Utilize bias detection tools and fairness metrics (e.g., demographic parity, equal opportunity) on datasets.
-- **Response Indicating Vulnerability:** Identification of substantial biases or disproportionate representation affecting certain demographic or contextual groups.
+Test: Utilize bias detection tools and fairness metrics (e.g., demographic parity, equal opportunity) on datasets.
+Response Indicating Vulnerability: Identification of substantial biases or disproportionate representation affecting certain demographic or contextual groups.
 
 ### Expected Output
 
