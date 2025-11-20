@@ -11,7 +11,7 @@ Plugin Boundary Violations occur when AI systems utilizing plugins, integrations
 - Detect unauthorized access or privilege escalation due to misconfigured or vulnerable plugins.
 - Ensure robust isolation and least-privilege enforcement among third-party services integrated with the AI model.
 
-### Test/Payloads
+### How to Test/Payloads
 
 **1. Cross-Plugin Interaction via Prompt Injection**
 
