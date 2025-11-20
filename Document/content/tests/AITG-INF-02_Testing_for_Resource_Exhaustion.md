@@ -17,25 +17,25 @@ Token limitations are also very important when defining how the testing will be 
 
 ### How to Test/Payloads
 
-**Payload 1: High-Frequency Request Attack**
+**1. High-Frequency Request Attack**
 
-- **Test:** Use a load testing tool like `Locust` or `JMeter` to issue rapid, concurrent inference requests to the model endpoint.
-- **Response Indicating Vulnerability:** The infrastructure fails to return `429 Too Many Requests` errors, and response times increase dramatically, leading to denial-of-service.
+Test: Use a load testing tool like `Locust` or `JMeter` to issue rapid, concurrent inference requests to the model endpoint.
+Response Indicating Vulnerability: The infrastructure fails to return `429 Too Many Requests` errors, and response times increase dramatically, leading to denial-of-service.
 
-**Payload 2: Extremely Large Prompt Input**
+**2. Extremely Large Prompt Input**
 
-- **Test:** Submit an excessively large prompt request (e.g., >1MB of text) to the AI model.
-- **Response Indicating Vulnerability:** The model or underlying infrastructure crashes (returns a `5xx` error), times out, or takes an unusually long time to respond, indicating a lack of input size validation.
+Test: Submit an excessively large prompt request (e.g., >1MB of text) to the AI model.
+Response Indicating Vulnerability: The model or underlying infrastructure crashes (returns a `5xx` error), times out, or takes an unusually long time to respond, indicating a lack of input size validation.
 
-**Payload 3: Amplification Attacks on Agentic AI Systems**
+**3. Amplification Attacks on Agentic AI Systems**
 
-- **Test:** Ask the model to call one of its tools multiple times (e.g., `Call the search tool 50 times`). Each tool invocation can amplify token usage and costs.
-- **Response Indicating Vulnerability:** The model attempts to execute the operation without refusing. Verification may require access to agent logs or billing dashboards to confirm excessive resource consumption.
+Test: Ask the model to call one of its tools multiple times (e.g., `Call the search tool 50 times`). Each tool invocation can amplify token usage and costs.
+Response Indicating Vulnerability: The model attempts to execute the operation without refusing. Verification may require access to agent logs or billing dashboards to confirm excessive resource consumption.
 
-**Payload 4: Lack of Spending Thresholds (Third-Party Providers)**
+**4. Lack of Spending Thresholds (Third-Party Providers)**
 
-- **Test:** Review the management console of the third-party AI service provider (e.g., OpenAI, Google AI Platform, AWS Bedrock).
-- **Response Indicating Vulnerability:** No spending limits or token usage thresholds are configured, or the limits are set too high to be effective. This exposes the organization to a Denial-of-Wallet attack.
+Test: Review the management console of the third-party AI service provider (e.g., OpenAI, Google AI Platform, AWS Bedrock).
+Response Indicating Vulnerability: No spending limits or token usage thresholds are configured, or the limits are set too high to be effective. This exposes the organization to a Denial-of-Wallet attack.
 
 ### Expected Output
 
