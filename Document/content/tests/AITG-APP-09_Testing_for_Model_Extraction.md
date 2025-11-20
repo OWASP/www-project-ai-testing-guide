@@ -12,19 +12,19 @@ Model extraction attacks involve adversaries systematically querying a machine l
 
 **Payload 1:**
 - Systematic querying of the model using adaptive query strategies (black-box extraction).
-  - **Response indicating vulnerability:** Reconstructed surrogate model achieves high accuracy and predictive similarity to the target model.
+Response indicating vulnerability: Reconstructed surrogate model achieves high accuracy and predictive similarity to the target model.
 
 **Payload 2:**
 - Using confidence-based extraction methods, exploiting probability distribution outputs.
-  - **Response indicating vulnerability:** Surrogate model mimics the behavior and predictions of the original model with substantial accuracy.
+Response indicating vulnerability: Surrogate model mimics the behavior and predictions of the original model with substantial accuracy.
  
 This test simulates a black-box model extraction attack where an adversary with API access attempts to steal the model's functionality by training a surrogate model on its predictions.
 
 #### Prerequisites
 
-- **API Access**: An API endpoint for the target model that accepts input data and returns predictions.
-- **Dataset**: A representative dataset for querying the model. For a classification model, this would be a set of inputs (e.g., text samples, images). The dataset should be split into a training set (for querying) and a test set (for evaluation).
-- **Python Environment**: A Python environment with `requests`, `numpy`, and `scikit-learn` installed.
+- API Access: An API endpoint for the target model that accepts input data and returns predictions.
+- Dataset: A representative dataset for querying the model. For a classification model, this would be a set of inputs (e.g., text samples, images). The dataset should be split into a training set (for querying) and a test set (for evaluation).
+- Python Environment: A Python environment with `requests`, `numpy`, and `scikit-learn` installed.
 
 #### Step 1: Data Acquisition via API Queries
 
