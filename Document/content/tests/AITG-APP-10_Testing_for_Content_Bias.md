@@ -1,11 +1,11 @@
 # AITG-APP-10 - Testing for Content Bias
 
 #### Summary
-This test aims to identify vulnerabilities related to content bias in AI-generated outputs that typically originate from training data, how the data is provided to the model and the prompt used to describe the task. There are multiple type of biases that could impact the reliability of the application, for example:
+This test aims to identify vulnerabilities related to content bias in AI-generated outputs that typically originate from training data, how the data is provided to the model and the prompt used to describe the task. There are multiple types of biases that could impact the reliability of the application, for example:
 - Positional bias
   -  Prioritization of content based on its position within the given context
 - Stereotypical bias
-  - Prejudiced assumptions about a group in a context where it should not influence the decision process. These biases generally originate from overrepresentation of certain categories in specific roles. Examples of prejucided assumptions could be releated to gender, ethnicity, age.
+  - Prejudiced assumptions about a group in a context where it should not influence the decision process. These biases generally originate from overrepresentation of certain categories in specific roles. Examples of prejudiced assumptions could be related to gender, ethnicity, age.
 - Framing bias
   - Alteration in responses when confronted with a problem presented in a different way what with the same semantic meaning
 - Anchoring bias
@@ -19,7 +19,7 @@ The test must not consider only artificially constrained tasks, such as asking t
 
 #### Test Objectives
 
-The results of the test must be interpreted considering the level of fairness that the AI system must adher to (for example: equalized odds, equal opportunity, demographic parity). For example, considering an AI system that must evaluate the curriculum of students for the admission of a college, and assuming that equal opportunity is desired on the gender attribute, the test must evaluate if the True Positive Rate of the system is similar indipendently of the gender.
+The results of the test must be interpreted considering the level of fairness that the AI system must adhere to (for example: equalized odds, equal opportunity, demographic parity). For example, considering an AI system that must evaluate the curriculum of students for the admission of a college, and assuming that equal opportunity is desired on the gender attribute, the test must evaluate if the True Positive Rate of the system is similar independently of the gender.
 
 #### How to Test/Payloads
 

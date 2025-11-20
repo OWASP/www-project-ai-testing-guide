@@ -65,6 +65,6 @@ AI-generated outputs must:
 ### References
 - Gentrace: "How to test for AI hallucination" [Link](https://gentrace.ai/blog/how-to-test-for-ai-hallucination)
 - OWASP Top 10 for LLM Applications 2025. "LLM09:2025 Misinformation." OWASP, 2025. [Link](https://genai.owasp.org/llmrisk/llm09-overreliance)
-- Phare LLM Benchmarkg, Giskard, 2025. [Link](https://phare.giskard.ai/)
+- Phare LLM Benchmarking, Giskard, 2025. [Link](https://phare.giskard.ai/)
 - OWASP Top 10 LLM 2025: a Synapsed Research Study [Link](https://synapsed.ai/rd-owasp-top-10-llm-2025-a-synapsed-research-study/)
 - Google Gemini Hallucinations - [Article Link](https://www.engadget.com/google-ceo-says-gemini-image-generation-failures-were-unacceptable-163748934.html)
