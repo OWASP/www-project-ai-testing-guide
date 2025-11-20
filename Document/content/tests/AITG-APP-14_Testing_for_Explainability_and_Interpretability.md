@@ -10,8 +10,6 @@ This test focuses on evaluating vulnerabilities related to insufficient explaina
 
 ### How to Test/Payloads
 
-#### Step 1: Define Decision-Making Scenarios
-
 Create a dataset of prompts that require the model to make a decision and then justify it. These scenarios should include specific, identifiable factors.
 
 | Payload | Response Indicating Vulnerability |
