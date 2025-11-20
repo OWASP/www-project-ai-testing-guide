@@ -1,7 +1,7 @@
 # AITG-APP-10 - Testing for Content Bias
 
 #### Summary
-This test aims to identify vulnerabilities related to content bias in AI-generated outputs that typically originate from training data, how the data is provided to the model and the prompt used to describe the task. There are multiple type of biases that could impact the reliability of the application, for example:
+This test aims to identify vulnerabilities related to content bias in AI-generated outputs that typically originate from training data, how the data is provided to the model and the prompt used to describe the task. There are multiple types of biases that could impact the reliability of the application, for example:
 - Positional bias
   -  Prioritization of content based on its position within the given context
 - Stereotypical bias
