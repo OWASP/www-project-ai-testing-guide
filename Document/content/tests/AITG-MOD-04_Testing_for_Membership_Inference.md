@@ -28,19 +28,11 @@ This test identifies vulnerabilities to membership inference attacks, where adve
 - **Output Perturbation**: Add a small amount of noise to the model's output probabilities (confidence scores). This can help obscure the difference between member and non-member outputs, but it must be done carefully to avoid significantly impacting the model's utility.
 - **Knowledge Distillation**: Train a smaller "student" model to mimic a larger "teacher" model. The student model often does not have the same overfitting characteristics and can be more robust to these attacks.
 
-### Suggested Tools for this Specific Test
-- **Adversarial Robustness Toolbox (ART)**
-  - Provides explicit mechanisms for running membership inference attacks and evaluating model privacy.
-  - Tool Link: [ART on GitHub](https://github.com/Trusted-AI/adversarial-robustness-toolbox)
-- **ML Privacy Meter**
-  - A tool from Google specifically designed for evaluating privacy risks and membership inference vulnerabilities in machine learning models.
-  - Tool Link: [ML Privacy Meter on GitHub](https://github.com/privacytrustlab/ml_privacy_meter)
-- **TensorFlow Privacy**
-  - A framework for training machine learning models with differential privacy guarantees, which is a primary defense against membership inference.
-  - Tool Link: [TensorFlow Privacy on GitHub](https://github.com/tensorflow/privacy)
-- **Opacus**
-  - A library from Meta that enables training PyTorch models with differential privacy.
-  - Tool Link: [Opacus on GitHub](https://github.com/pytorch/opacus)
+### Suggested Tools
+- **Adversarial Robustness Toolbox (ART)**: Provides explicit mechanisms for running membership inference attacks and evaluating model privacy -  [ART on GitHub](https://github.com/Trusted-AI/adversarial-robustness-toolbox)
+- **ML Privacy Meter**: A tool from Google specifically designed for evaluating privacy risks and membership inference vulnerabilities in machine learning models - [ML Privacy Meter on GitHub](https://github.com/privacytrustlab/ml_privacy_meter)
+- **TensorFlow Privacy**: A framework for training machine learning models with differential privacy guarantees, which is a primary defense against membership inference - [TensorFlow Privacy on GitHub](https://github.com/tensorflow/privacy)
+- **Opacus**: A library from Meta that enables training PyTorch models with differential privacy - [Opacus on GitHub](https://github.com/pytorch/opacus)
 
 ### References
 - Shokri, Reza, et al. "Membership Inference Attacks Against Machine Learning Models." IEEE Symposium on Security and Privacy (SP), 2017. [Link](https://www.cs.cornell.edu/~shmat/shmat_oak17.pdf)
