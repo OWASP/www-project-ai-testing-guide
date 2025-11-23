@@ -31,18 +31,12 @@ This test identifies vulnerabilities in AI models related to evasion attacks, wh
 - **Implement Real-Time Detection Mechanisms**: Deploy separate detector models that are trained to distinguish between clean and adversarial inputs. If an input is flagged as adversarial, it can be rejected or sent for manual review.
 
 ### Suggested Tools for this Specific Test
-- **Adversarial Robustness Toolbox (ART)**: A comprehensive Python library for generating adversarial examples, evaluating model robustness, and implementing defense mechanisms.
-  - Tool Link: [ART on GitHub](https://github.com/Trusted-AI/adversarial-robustness-toolbox)
-- **Foolbox**: A popular Python library for creating adversarial examples against a wide range of models (PyTorch, TensorFlow, JAX).
-  - Tool Link: [Foolbox on GitHub](https://github.com/bethgelab/foolbox)
-- **SecML-Torch**: A Python library for robustness evaluation of deep learning models.
-  - Tool Link: [SecML-Torch on GitHub](https://github.com/pralab/secml-torch)
-- **Maltorch**: A Python library for robustness evaluation of AI-based Windows malware detectors.
-  - Tool Link: [Maltorch on GitHub](https://github.com/zangobot/maltorch)
-- **WAF-A-MoLE**: A Python library for testing the robustness of AI-based Web Application Firewalls.
-  - Tool Link: [WAF-A-MoLE on GitHub](https://github.com/AvalZ/WAF-A-MoLE)
-- **TextAttack**: A Python framework specifically designed for adversarial attacks, data augmentation, and robustness training in NLP.
-  - Tool Link: [TextAttack on GitHub](https://github.com/QData/TextAttack)
+- **Adversarial Robustness Toolbox (ART)**: A comprehensive Python library for generating adversarial examples, evaluating model robustness, and implementing defense mechanisms - [ART on GitHub](https://github.com/Trusted-AI/adversarial-robustness-toolbox)
+- **Foolbox**: A popular Python library for creating adversarial examples against a wide range of models (PyTorch, TensorFlow, JAX) - [Foolbox on GitHub](https://github.com/bethgelab/foolbox)
+- **SecML-Torch**: A Python library for robustness evaluation of deep learning models - [SecML-Torch on GitHub](https://github.com/pralab/secml-torch)
+- **Maltorch**: A Python library for robustness evaluation of AI-based Windows malware detectors -[Maltorch on GitHub](https://github.com/zangobot/maltorch)
+- **WAF-A-MoLE**: A Python library for testing the robustness of AI-based Web Application Firewalls - [WAF-A-MoLE on GitHub](https://github.com/AvalZ/WAF-A-MoLE)
+- **TextAttack**: A Python framework specifically designed for adversarial attacks, data augmentation, and robustness training in NLP - [TextAttack on GitHub](https://github.com/QData/TextAttack)
 
 ### References
 - Madry, Aleksander, et al. "Towards Deep Learning Models Resistant to Adversarial Attacks." ICLR 2018. [Link](https://arxiv.org/abs/1706.06083)
