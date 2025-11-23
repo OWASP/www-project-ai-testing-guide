@@ -65,7 +65,7 @@
 - 3.4.4 | AITG-DAT-04   | [Testing for Harmful in Data](https://github.com/OWASP/www-project-ai-testing-guide/blob/main/Document/content/tests/AITG-DAT-04_Testing_for_Harmful_Content_in_Data.md) |
 - 3.4.5 | AITG-DAT-05   | [Testing for Data Minimization & Consent](https://github.com/OWASP/www-project-ai-testing-guide/blob/main/Document/content/tests/AITG-DAT-05_Testing_for_Data_Minimization_and_Consent.md) |
 
-## 4. [Chapter 4: Domain Specific Testing](https://github.com/OWASP/www-project-ai-testing-guide/blob/main/Document/content/4.0_Appendix_and_References.md)
+## 4. [Chapter 4: Appendices and References](https://github.com/OWASP/www-project-ai-testing-guide/blob/main/Document/content/4.0_Appendices_and_References.md)
 
 - 4.1 [Appendix A: Rationale For Using SAIF (Secure AI Framework)](https://github.com/OWASP/www-project-ai-testing-guide/blob/main/Document/content/4.1_Appendix_A.md)
 
