@@ -115,10 +115,8 @@ A vulnerability is confirmed if the AI model:
 - Deploy specialized semantic and syntactic filters to detect and prevent indirect prompt injections.
 
 ### Suggested Tools
-- **Garak – Indirect Prompt Injection Probe**: Specialized Garak module designed to detect indirect prompt injection.
-  - **URL**: [https://github.com/NVIDIA/garak/blob/main/garak/probes/promptinject.py](https://github.com/NVIDIA/garak/blob/main/garak/probes/promptinject.py)
-- **Promptfoo**: Dedicated tool for indirect prompt injection testing and payload detection.
-  - **URL**: [https://promptfoo.dev](https://promptfoo.dev)
+- **Garak – Indirect Prompt Injection Probe**: Specialized Garak module designed to detect indirect prompt injection - [Link](https://github.com/NVIDIA/garak/blob/main/garak/probes/promptinject.py)
+- **Promptfoo**: Dedicated tool for indirect prompt injection testing and payload detection - [Link](https://promptfoo.dev)
 
 ### References
 - OWASP Top 10 LLM01:2025 Prompt Injection - [https://genai.owasp.org](https://genai.owasp.org/llmrisk/llm01-prompt-injection)
