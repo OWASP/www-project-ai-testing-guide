@@ -31,15 +31,9 @@ This test identifies vulnerabilities arising from poisoning during fine-tuning, 
 - **Regular Red Teaming and Auditing**: Periodically conduct red teaming exercises where a dedicated team actively tries to poison the fine-tuning process. This helps uncover vulnerabilities in the MLOps pipeline before they can be exploited by real attackers.
 
 ### Suggested Tools
-- **Adversarial Robustness Toolbox (ART)**
-  - Provides extensive tools for crafting poisoning attacks and implementing defenses, including data sanitization and activation-based detection.
-  - Tool Link: [ART on GitHub](https://github.com/Trusted-AI/adversarial-robustness-toolbox)
-- **BackdoorBench**
-  - An open-source toolkit for systematic evaluation of backdoor attacks and defenses, including fine-tuning poisoning detection.
-  - Tool Link: [BackdoorBench on GitHub](https://github.com/SCLBD/BackdoorBench)
-- **Cleanlab**
-  - A data-centric AI package that can automatically find and fix label errors in datasets, which is a common technique used in poisoning attacks.
-  - Tool Link: [Cleanlab on GitHub](https://github.com/cleanlab/cleanlab)
+- **Adversarial Robustness Toolbox (ART)**: Provides extensive tools for crafting poisoning attacks and implementing defenses, including data sanitization and activation-based detection - [ART on GitHub](https://github.com/Trusted-AI/adversarial-robustness-toolbox)
+- **BackdoorBench**: An open-source toolkit for systematic evaluation of backdoor attacks and defenses, including fine-tuning poisoning detection - Tool Link: [BackdoorBench on GitHub](https://github.com/SCLBD/BackdoorBench)
+- **Cleanlab**: A data-centric AI package that can automatically find and fix label errors in datasets, which is a common technique used in poisoning attacks - [Cleanlab on GitHub](https://github.com/cleanlab/cleanlab)
 
 ### References
 - OWASP Top 10 for LLM Applications 2025. "LLM04: Data and Model Poisoning." OWASP, 2025. [Link](https://genai.owasp.org/llmrisk/llm042025-data-and-model-poisoning/)
