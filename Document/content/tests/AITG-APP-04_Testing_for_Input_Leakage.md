@@ -141,10 +141,8 @@ A vulnerability is confirmed if the AI model:
 - Ensure guardrails normalize inputs prior to filtering and detect obfuscated sensitive data and contextual cues in both inputs and outputs.
 
 ### Suggested Tools
-- **Garak – Input Leakage Probe**: Specialized Garak module designed to detect sensitive input data leaks.
-  - **URL**: [https://github.com/NVIDIA/garak/blob/main/garak/probes/leakreveal.py](https://github.com/NVIDIA/garak/blob/main/garak/probes/leakreveal.py)
-- **Microsoft Counterfit**: An AI security tool capable of testing for input leakage issues in model interactions.
-  - **URL**: [https://github.com/Azure/counterfit](https://github.com/Azure/counterfit)
+- **Garak – Input Leakage Probe**: Specialized Garak module designed to detect sensitive input data leaks - [Link](https://github.com/NVIDIA/garak/blob/main/garak/probes/leakreveal.py)
+- **Microsoft Counterfit**: An AI security tool capable of testing for input leakage issues in model interactions - [Link](https://github.com/Azure/counterfit)
 
 ### References
 - OWASP Top 10 LLM02:2025 Sensitive Information Disclosure - [https://genai.owasp.org](https://genai.owasp.org/llmrisk/llm02-insecure-output-handling)
