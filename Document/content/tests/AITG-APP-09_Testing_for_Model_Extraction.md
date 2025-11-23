@@ -156,10 +156,10 @@ else:
 - Utilize differential privacy and noise injection techniques in model outputs to reduce the utility of extracted data.
 - Deploy robust model monitoring and anomaly detection systems to flag and respond to extraction attempts.
 
-### Suggested Tools for this Specific Test
-- **ML Privacy Meter:** Tool specifically designed to quantify risks of model extraction and related privacy vulnerabilities ([ML Privacy Meter GitHub](https://github.com/privacytrustlab/ml_privacy_meter)).
-- **PrivacyRaven:** A tool for testing extraction vulnerabilities and defending machine learning models through detection and mitigation strategies ([PrivacyRaven GitHub](https://github.com/trailofbits/PrivacyRaven)).
-- **ART (Adversarial Robustness Toolbox):** Includes modules for detecting and mitigating model extraction vulnerabilities ([ART GitHub](https://github.com/Trusted-AI/adversarial-robustness-toolbox)).
+### Suggested Tools
+- **ML Privacy Meter:** Tool specifically designed to quantify risks of model extraction and related privacy vulnerabilities - [ML Privacy Meter GitHub](https://github.com/privacytrustlab/ml_privacy_meter)
+- **PrivacyRaven:** A tool for testing extraction vulnerabilities and defending machine learning models through detection and mitigation strategies - [PrivacyRaven GitHub](https://github.com/trailofbits/PrivacyRaven)
+- **ART (Adversarial Robustness Toolbox):** Includes modules for detecting and mitigating model extraction vulnerabilities - [ART GitHub](https://github.com/Trusted-AI/adversarial-robustness-toolbox)
 
 ### References
 - OWASP Top 10 for LLM Applications 2025 - LLM02:2025 Sensitive Information Disclosure ([OWASP LLM 2025](https://genai.owasp.org/))
