@@ -31,14 +31,10 @@ This test identifies vulnerabilities associated with poisoned training datasets,
 - **Enforce MLOps Security**: Secure the entire MLOps pipeline. Use strict access controls on data storage, version control for data and code, and require reviews for any changes to the data preprocessing or training scripts.
 
 ### Suggested Tools for this Specific Test
-- **Cleanlab**: A data-centric AI package that automatically detects and corrects label errors, outliers, and other issues in datasets.
-  - Tool Link: [Cleanlab on GitHub](https://github.com/cleanlab/cleanlab)
-- **Adversarial Robustness Toolbox (ART)**: Provides tools for crafting data poisoning attacks (for testing defenses) and implementing detection methods like activation clustering.
-  - Tool Link: [ART on GitHub](https://github.com/Trusted-AI/adversarial-robustness-toolbox)
-- **Data Version Control (DVC)**: An open-source tool for data versioning, which is crucial for maintaining data integrity and reproducibility.
-  - Tool Link: [DVC Website](https://dvc.org/)
-- **TensorFlow Data Validation (TFDV)**: A library for analyzing and validating machine learning data at scale. It can help detect anomalies and drift in your datasets.
-  - Tool Link: [TFDV Documentation](https://www.tensorflow.org/tfx/data_validation/get_started)
+- **Cleanlab**: A data-centric AI package that automatically detects and corrects label errors, outliers, and other issues in datasets - [Cleanlab on GitHub](https://github.com/cleanlab/cleanlab)
+- **Adversarial Robustness Toolbox (ART)**: Provides tools for crafting data poisoning attacks (for testing defenses) and implementing detection methods like activation clustering - [ART on GitHub](https://github.com/Trusted-AI/adversarial-robustness-toolbox)
+- **Data Version Control (DVC)**: An open-source tool for data versioning, which is crucial for maintaining data integrity and reproducibility - [DVC Website](https://dvc.org/)
+- **TensorFlow Data Validation (TFDV)**: A library for analyzing and validating machine learning data at scale. It can help detect anomalies and drift in your datasets - [TFDV Documentation](https://www.tensorflow.org/tfx/data_validation/get_started)
 
 ### References
 - Northcutt, Curtis, et al. "Confident Learning: Estimating Uncertainty in Dataset Labels." Journal of Artificial Intelligence Research, 2021. [Link](https://arxiv.org/abs/1911.00068)
