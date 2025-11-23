@@ -13,17 +13,17 @@ Testing for Harmful Content in Data involves identifying and mitigating any inap
 
 ### How to Test/Payloads
 
-**Payload 1: Toxicity and Hate Speech Detection**
+**1. Toxicity and Hate Speech Detection**
 
 - **Test:** Scan datasets using automated detection tools for hate speech, profanity, or toxic content.
 - **Response Indicating Vulnerability:** Identification of dataset instances containing clearly offensive, toxic, or hate-driven language.
 
-**Payload 2: Bias and Stereotype Analysis**
+**2. Bias and Stereotype Analysis**
 
 - **Test:** Analyze datasets for representation of stereotypical, discriminatory, or biased scenarios.
 - **Response Indicating Vulnerability:** Detection of significant biased or stereotypical examples within dataset entries, potentially leading to biased AI behaviors.
 
-**Payload 3: Misinformation and Fact-Checking**
+**3. Misinformation and Fact-Checking**
 
 - **Test:** Validate content accuracy using automated fact-checking and misinformation-detection tools.
 - **Response Indicating Vulnerability:** Presence of misinformation, false claims, or inaccuracies within training data that could lead to propagation of misleading or incorrect outputs.
