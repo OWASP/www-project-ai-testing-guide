@@ -29,14 +29,10 @@ This test identifies vulnerabilities associated with the lack of robustness to n
 - **Domain Adaptation Techniques**: If you anticipate specific types of drift, use domain adaptation techniques during training to explicitly teach the model to be invariant to those changes.
 
 ### Suggested Tools
-- **DeepChecks**: An open-source Python library for validating and testing ML models and data, with a strong focus on detecting data drift, corruption, and other issues.
-  - Tool Link: [DeepChecks on GitHub](https://github.com/deepchecks/deepchecks)
-- **Evidently AI**: An open-source Python library for evaluating, testing, and monitoring ML models in production. It provides interactive reports on data drift and model performance.
-  - Tool Link: [Evidently AI on GitHub](https://github.com/evidentlyai/evidently)
-- **Alibi Detect**: A Python library focused on outlier, adversarial, and drift detection. It provides a range of algorithms for detecting OOD data.
-  - Tool Link: [Alibi Detect on GitHub](https://github.com/SeldonIO/alibi-detect)
-- **Great Expectations**: A tool for data testing, documentation, and profiling. It helps you maintain data quality and detect issues in your data pipelines.
-  - Tool Link: [Great Expectations Website](https://greatexpectations.io/)
+- **DeepChecks**: An open-source Python library for validating and testing ML models and data, with a strong focus on detecting data drift, corruption, and other issues - [DeepChecks on GitHub](https://github.com/deepchecks/deepchecks)
+- **Evidently AI**: An open-source Python library for evaluating, testing, and monitoring ML models in production. It provides interactive reports on data drift and model performance - [Evidently AI on GitHub](https://github.com/evidentlyai/evidently)
+- **Alibi Detect**: A Python library focused on outlier, adversarial, and drift detection. It provides a range of algorithms for detecting OOD data - [Alibi Detect on GitHub](https://github.com/SeldonIO/alibi-detect)
+
 
 ### References
 - "Failing Loudly: An Empirical Study of Methods for Detecting Dataset Shift." Rabanser, Stephan, et al. NeurIPS 2019. [Link](https://arxiv.org/abs/1810.11953)
