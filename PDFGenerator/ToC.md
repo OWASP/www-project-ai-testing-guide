@@ -77,7 +77,7 @@
 
 - 4.5 [Appendix E: Mapping AI Threats Against AI Systems Vulnerabilities (CVEs & CWEs) ](https://github.com/OWASP/www-project-ai-testing-guide/blob/main/Document/content/4.5_Appendix_E.md)
 
-- 4.6 [References](https://github.com/OWASP/www-project-ai-testing-guide/blob/main/Document/content/References.md)
+- 4.6 [References](https://github.com/OWASP/www-project-ai-testing-guide/blob/main/Document/content/4.6_References.md)
 
 
 
