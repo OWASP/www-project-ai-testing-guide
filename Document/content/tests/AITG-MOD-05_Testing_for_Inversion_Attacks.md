@@ -30,18 +30,10 @@ This test identifies vulnerabilities associated with model inversion attacks, wh
 - **Regular Privacy Audits**: Regularly perform model inversion attacks against your own models as part of a security audit to proactively identify and mitigate vulnerabilities.
 
 ### Suggested Tools for this Specific Test
-- **Adversarial Robustness Toolbox (ART)**
-  - Includes implementations of various model inversion attacks, allowing you to test your model's susceptibility.
-  - Tool Link: [ART on GitHub](https://github.com/Trusted-AI/adversarial-robustness-toolbox)
-- **TensorFlow Privacy**
-  - A library for training models with Differential Privacy, which is a primary defense against inversion attacks.
-  - Tool Link: [TensorFlow Privacy on GitHub](https://github.com/tensorflow/privacy)
-- **Opacus (for PyTorch)**
-  - A library from Meta that enables training PyTorch models with differential privacy.
-  - Tool Link: [Opacus on GitHub](https://github.com/pytorch/opacus)
-- **PrivacyRaven**
-  - A framework from Trail of Bits specifically designed for privacy testing of deep learning models, including model inversion.
-  - Tool Link: [PrivacyRaven on GitHub](https://github.com/trailofbits/PrivacyRaven)
+- **Adversarial Robustness Toolbox (ART)**: Includes implementations of various model inversion attacks, allowing you to test your model's susceptibility - [ART on GitHub](https://github.com/Trusted-AI/adversarial-robustness-toolbox)
+- **TensorFlow Privacy**: A library for training models with Differential Privacy, which is a primary defense against inversion attacks - [TensorFlow Privacy on GitHub](https://github.com/tensorflow/privacy)
+- **Opacus (for PyTorch)**: A library from Meta that enables training PyTorch models with differential privacy - [Opacus on GitHub](https://github.com/pytorch/opacus)
+- **PrivacyRaven**: A framework from Trail of Bits specifically designed for privacy testing of deep learning models, including model inversion - [PrivacyRaven on GitHub](https://github.com/trailofbits/PrivacyRaven)
 
 ### References
 - Fredrikson, Matt, Somesh Jha, and Thomas Ristenpart. "Model Inversion Attacks that Exploit Confidence Information and Basic Countermeasures." ACM CCS 2015. [Link](https://dl.acm.org/doi/10.1145/2810103.2813677)
