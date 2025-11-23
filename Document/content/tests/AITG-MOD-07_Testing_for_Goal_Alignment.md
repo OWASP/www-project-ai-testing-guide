@@ -31,14 +31,10 @@ This test evaluates vulnerabilities associated with AI model goal misalignment, 
 - **Output Filtering and Moderation**: As a final layer of defense, pass the model's output through a separate moderation API or filter that can catch any remaining misaligned or harmful content before it reaches the user.
 
 ### Suggested Tools
-- **Promptfoo**: An open-source tool for evaluating LLM output quality and testing for regressions. Excellent for creating test suites to check for goal alignment against a set of predefined criteria.
-  - Tool Link: [Promptfoo on GitHub](https://github.com/promptfoo/promptfoo)
-- **Garak**: An open-source framework for LLM vulnerability scanning, including probes specifically designed to test for goal misalignment and ethical boundary violations.
-  - Tool Link: [Garak on GitHub](https://github.com/leondz/garak)
-- **NVIDIA NeMo Guardrails**: An open-source toolkit for adding programmable guardrails to LLM applications, helping to enforce alignment and prevent unwanted behaviors.
-  - Tool Link: [NeMo Guardrails on GitHub](https://github.com/NVIDIA/NeMo-Guardrails)
-- **Microsoft Guidance**: A tool for controlling LLMs, ensuring that outputs strictly adhere to predefined guidelines and formats.
-  - Tool Link: [Guidance on GitHub](https://github.com/microsoft/guidance)
+- **Microsoft Guidance**: A tool for controlling LLMs, ensuring that outputs strictly adhere to predefined guidelines and formats - [Guidance on GitHub](https://github.com/microsoft/guidance)
+- **Promptfoo**: An open-source tool for evaluating LLM output quality and testing for regressions. Good for creating test suites to check for goal alignment against a set of predefined criteria - [Promptfoo on GitHub](https://github.com/promptfoo/promptfoo)
+- **Garak**: Including probes specifically designed to test for goal misalignment and ethical boundary violations - [Garak on GitHub](https://github.com/leondz/garak)
+- **NVIDIA NeMo Guardrails**: An open-source toolkit for adding programmable guardrails to LLM applications, helping to enforce alignment and prevent unwanted behaviors - [NeMo Guardrails on GitHub](https://github.com/NVIDIA/NeMo-Guardrails)
 
 ### References
 - Askell, Amanda, et al. "A General Language Assistant as a Laboratory for Alignment." Anthropic, 2021. [Link](https://arxiv.org/abs/2112.00861) (Constitutional AI)
