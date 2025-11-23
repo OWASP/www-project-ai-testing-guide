@@ -274,15 +274,15 @@ Effective remediation of embedding manipulation vulnerabilities requires a defen
 
 **Regular Security Audits and Penetration Testing**: Conduct periodic security assessments of the entire RAG pipeline, including data ingestion, embedding generation, vector storage, and retrieval mechanisms. Perform penetration testing specifically focused on embedding manipulation attack vectors. Engage third-party security experts to provide independent evaluation of embedding security controls.
 
-### Suggested Tools for this Specific Test
+### Suggested Tools
 
-**Garak Framework**: A comprehensive adversarial robustness testing tool designed specifically for LLMs and RAG systems. Garak includes modules for testing embedding manipulation scenarios, data poisoning attacks, and retrieval vulnerabilities. It provides automated testing workflows and detailed reporting of identified weaknesses. [Garak GitHub](https://github.com/leondz/garak)
+**Garak Framework**: Garak includes modules for testing embedding manipulation scenarios, data poisoning attacks, and retrieval vulnerabilities. [Garak GitHub](https://github.com/leondz/garak)
 
 **The Adversarial Robustness Toolbox (ART)**: Developed by IBM, ART offers extensive support for testing embedding manipulation vulnerabilities and adversarial attacks on machine learning models. It includes implementations of embedding inversion attacks, poisoning detection, and defensive techniques. ART supports multiple frameworks including TensorFlow, PyTorch, and scikit-learn. [ART GitHub](https://github.com/Trusted-AI/adversarial-robustness-toolbox)
 
-**Armory**: A comprehensive adversarial robustness evaluation platform that provides standardized testing for embedding-based systems. Armory includes pre-built scenarios for RAG security testing, embedding manipulation attacks, and defensive measure evaluation. It offers containerized testing environments for reproducible security assessments. [Armory GitHub](https://github.com/twosixlabs/armory)
+**Armory**: A comprehensive adversarial robustness evaluation platform that provides standardized testing for embedding-based systems. Armory includes pre-built scenarios for RAG security testing, embedding manipulation attacks, and defensive measure evaluation. [Armory GitHub](https://github.com/twosixlabs/armory)
 
-**PromptFoo**: While primarily focused on prompt security, PromptFoo includes modules for testing RAG poisoning attacks and embedding manipulation vulnerabilities. It provides automated red teaming capabilities and integration with popular vector databases. [PromptFoo](https://www.promptfoo.dev/)
+**PromptFoo**: PromptFoo includes modules for testing RAG poisoning attacks and embedding manipulation vulnerabilities. It provides automated red teaming capabilities and integration with popular vector databases. [PromptFoo](https://www.promptfoo.dev/)
 
 **Custom Testing Scripts**: For organization-specific testing requirements, develop custom scripts using libraries such as:
 - **LangChain**: For building and testing RAG pipelines
