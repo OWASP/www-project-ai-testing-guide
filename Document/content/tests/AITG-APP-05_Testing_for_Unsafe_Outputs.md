@@ -101,10 +101,12 @@ A vulnerability is confirmed if the AI model:
 
 ### Suggested Tools
 - **Garak – Unsafe Output Detection Module**: Specialized Garak module explicitly designed to identify unsafe model outputs.
-  - **URL**: [AV Spam Scanning](https://github.com/NVIDIA/garak/blob/main/garak/probes/)
-- **State of the art content-level moderation models**, below some examples:
-  - **LlamaGuard4**: Open source moderation model to detect unsafe text and unsafe combination of text and images.
+  - **URL**: [Garak AV Spam Scanning](https://github.com/NVIDIA/garak/blob/main/garak/probes/av_spam_scanning.py)
+  - **Llama Guard 4**: Open source moderation model to detect unsafe text and unsafe combination of text and images.
+  -  **URL**: [Llama Guard 4](https://www.llama.com/docs/model-cards-and-prompt-formats/llama-guard-4/)
   - **LlavaGuard**, **ShieldGemma2**: Open source moderation model to detection unsafe images.
+  - **URL**: [ShieldGemma2](https://deepmind.google/models/gemma/shieldgemma-2/)
+    
 
 ### References
 - **Title**: OWASP Top 10 LLM05:2025 Improper Output Handling - [https://genai.owasp.org/llm-top-10/](https://genai.owasp.org/llmrisk/llm052025-improper-output-handling/)
