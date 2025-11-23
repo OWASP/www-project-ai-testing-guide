@@ -29,13 +29,10 @@ This test identifies vulnerabilities associated with runtime model poisoning, wh
 - **Weight Feedback Based on Trust**: Implement a trust score for users. Feedback from new or low-trust users should have a much smaller impact on model updates than feedback from long-standing, high-trust users.
 - **Periodically Retrain from Scratch**: To wash out any poison that may have accumulated, periodically discard the online model and retrain a new one from scratch using a clean, verified, and comprehensive dataset.
 
-### Suggested Tools for this Specific Test
-- **Adversarial Robustness Toolbox (ART)**
-  - Provides capabilities for crafting and defending against runtime poisoning attacks, particularly for deep learning models.
-  - Tool Link: [ART on GitHub](https://github.com/Trusted-AI/adversarial-robustness-toolbox)
+### Suggested Tools
+- **Adversarial Robustness Toolbox (ART)**: Provides capabilities for crafting and defending against runtime poisoning attacks, particularly for deep learning models - [ART on GitHub](https://github.com/Trusted-AI/adversarial-robustness-toolbox)
 - **Custom Scripts with Scikit-learn**: As demonstrated above, `scikit-learn`'s `partial_fit` method is excellent for simulating online learning and testing runtime poisoning concepts.
-- **River**: A Python library specifically designed for online machine learning, providing a more advanced environment for simulating these attacks.
-  - Tool Link: [River on GitHub](https://github.com/online-ml/river)
+- **River**: A Python library specifically designed for online machine learning, providing a more advanced environment for simulating these attacks - [River on GitHub](https://github.com/online-ml/river)
 
 ### References
 - OWASP Top 10 for LLM Applications 2025. "LLM04: Data and Model Poisoning." OWASP, 2025. [Link](https://genai.owasp.org/llmrisk/llm042025-data-and-model-poisoning/)
