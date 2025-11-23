@@ -347,11 +347,9 @@ In 2023, researchers were able to bypass ChatGPT's filters using the "DAN" jailb
 - Defeating Prompt Injections by Design. [CaMeL](https://arxiv.org/pdf/2503.18813)
 
 ### Suggested Tools
-- **Garak – Prompt Injection Probe**: Specifically designed module within Garak for detecting prompt injection vulnerabilities.
-  - **URL**: [https://github.com/NVIDIA/garak/blob/main/garak/probes/promptinject.py](https://github.com/NVIDIA/garak/blob/main/garak/probes/promptinject.py)
-- **Prompt Security Fuzz** (https://github.com/prompt-security/ps-fuzz)
-- **Promptfoo**: Tool precisely tailored for direct prompt injection testing and adversarial prompt crafting.
-  - **URL**: [https://promptfoo.dev](https://promptfoo.dev)
+- **Garak – Prompt Injection Probe**: Specifically designed module within Garak for detecting prompt injection vulnerabilities - [Link](https://github.com/NVIDIA/garak/blob/main/garak/probes/promptinject.py)
+- **Prompt Security Fuzz** - [Link](https://github.com/prompt-security/ps-fuzz)
+- **Promptfoo**: Tool precisely tailored for direct prompt injection testing and adversarial prompt crafting - [Link](https://promptfoo.dev)
 
 ### References
 - OWASP Top 10 LLM01:2025 Prompt Injection - [https://genai.owasp.org](https://genai.owasp.org/llmrisk/llm01-prompt-injection)
