@@ -22,7 +22,7 @@ The following is a diagram that represents this kind of test:
   <img src="/Document/images/IndirectPromptInjection.png" alt="Description" width="600"/>
 </p>
 
-*Fig. 5 A schema of indirect prompt injection technique*
+*Fig. 5: A schema of indirect prompt injection technique*
 
 For this kind of test you need to craft a web page with the malicious payload that will be executed in the user prompt and observe if the AI system will execute your payload.
 
