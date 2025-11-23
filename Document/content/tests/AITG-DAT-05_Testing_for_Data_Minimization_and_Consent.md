@@ -13,17 +13,17 @@ Testing for Data Minimization & Consent involves assessing whether AI systems ad
 
 ### How to Test/Payloads 
 
-**Payload 1: Excessive Data Request**
+**1. Excessive Data Request**
 
 - **Test:** Submit data requests to the system that include fields beyond the scope of the stated purpose.
 - **Response Indicating Vulnerability:** System accepts, processes, and stores unnecessary personal or sensitive data without restrictions.
 
-**Payload 2: Consent Handling Audit**
+**2. Consent Handling Audit**
 
 - **Test:** Verify consent mechanisms by simulating consent withdrawal or refusal scenarios.
 - **Response Indicating Vulnerability:** System continues processing personal data even after consent withdrawal, or lacks effective mechanisms to manage consent status.
 
-**Payload 3: Data Retention Test**
+**3. Data Retention Test**
 
 - **Test:** Evaluate data retention policies by attempting to access or retrieve user data that should have been anonymized, deleted, or expired according to stated policy.
 - **Response Indicating Vulnerability:** Data remains accessible or retrievable after expiration of its designated retention period.
