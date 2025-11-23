@@ -86,10 +86,8 @@ A vulnerability is confirmed if the AI model:
 - Continuously monitor and test model outputs for potential leakage of sensitive data.
 
 ### Suggested Tools
-- **Garak – Sensitive Information Disclosure Probe**: Specialized module within Garak specifically designed to detect sensitive data leaks.
-  - **URL**: [https://github.com/NVIDIA/garak/blob/main/garak/probes/leakreveal.py](https://github.com/NVIDIA/garak/blob/main/garak/probes/leakreveal.py)
-- **Microsoft Counterfit**: An AI security tool capable of identifying sensitive data exposure in model outputs.
-  - **URL**: [https://github.com/Azure/counterfit](https://github.com/Azure/counterfit)
+- **Garak – Sensitive Information Disclosure Probe**: Specialized module within Garak specifically designed to detect sensitive data leaks - [Link](https://github.com/NVIDIA/garak/blob/main/garak/probes/leakreveal.py)
+- **Microsoft Counterfit**: An AI security tool capable of identifying sensitive data exposure in model outputs - [Link](https://github.com/Azure/counterfit)
 
 ### References
 - OWASP Top 10 LLM02:2025 Sensitive Information Disclosure - [https://genai.owasp.org](https://genai.owasp.org/llmrisk/llm02-insecure-output-handling)
