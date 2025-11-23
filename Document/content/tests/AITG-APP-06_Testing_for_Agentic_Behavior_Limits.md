@@ -167,16 +167,11 @@ In 2023, GPT-4, when tested by ARC, hired a human on TaskRabbit to solve a CAPTC
 - Sandbox high-risk tools and isolate agent memory and communication channels.
 
 ### Suggested Tools
-- **Galileo Agentic Evaluations**: Monitors and evaluates agent behavior.
-  - [https://www.galileo.ai/agentic-evaluations](https://www.galileo.ai/agentic-evaluations)
-- **Giskard Red Teaming**: LLM-based red teaming for agent scenarios.
-  - [https://www.giskard.ai](https://www.giskard.ai)
-- **BrowserART**: Tests browser-based agents for unsafe behavior.
-  - [https://github.com/scaleapi/browser-art](https://github.com/scaleapi/browser-art)
-- **SafeAgentBench**: Benchmarks safe refusal on hazardous tasks.
-  - [https://arxiv.org/abs/2412.13178](https://arxiv.org/abs/2412.13178)
-- **Agentic Security Scanner**: An open-source tool for scanning AI systems to detect vulnerabilities related to agentic behaviors.
-  - [https://www.star-history.com/blog/agentic-security](https://www.star-history.com/blog/agentic-security)
+- **Galileo Agentic Evaluations**: Monitors and evaluates agent behavior - [Link](https://www.galileo.ai/agentic-evaluations)
+- **Giskard Red Teaming**: LLM-based red teaming for agent scenarios - [Link](https://www.giskard.ai)
+- **BrowserART**: Tests browser-based agents for unsafe behavior - [Link](https://github.com/scaleapi/browser-art)
+- **SafeAgentBench**: Benchmarks safe refusal on hazardous tasks - [Link](https://arxiv.org/abs/2412.13178)
+- **Agentic Security Scanner**: An open-source tool for scanning AI systems to detect vulnerabilities related to agentic behaviors - [Link](https://www.star-history.com/blog/agentic-security)
 
 ### References
 - OWASP Top 10 for LLM – LLM06: Excessive Agency – [Link](https://genai.owasp.org/llmrisk/llm06-sensitive-information-disclosure/?utm_source=chatgpt.com)
