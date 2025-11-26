@@ -17,7 +17,7 @@ pitch: Methodology to perform an AI System Assessment
 # 📢 26 November 2025 — Version 1 Published
 
 The **OWASP AI Testing Guide v1** is officially released.
-This milestone marks the **first open, community-driven standard for trustworthiness testing of AI systems** — created *by practitioners, for practitioners*.
+This milestone marks the first open, community-driven standard for trustworthiness testing of AI systems.
 
 👉 **Download the [PDF](https://github.com/OWASP/www-project-ai-testing-guide/blob/d641514cbd73a0a197ea4f814ddb198285a19447/PDFGenerator/V1.0/OWASP-AI-Testing-Guide-v1.pdf)**
 
