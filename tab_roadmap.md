@@ -16,8 +16,8 @@ Publish an initial project outline clearly defining the scope, mission, and test
 Establish an OWASP GitHub repository and set up a dedicated community team: [OWASP AI Testing Guide Table of Contents](https://github.com/OWASP/www-project-ai-testing-guide/blob/main/Document/README.md)
 Conduct initial outreach to invite contributions from the OWASP and AI communities.
 
-- Phase 2: Refinement, Release, and Promotion (SEPTEMBER 2025)
-Incorporate community and industry feedback to finalize the first official release of the OWASP AI Testing Guide.
+- Phase 2: Refinement, Release, and Promotion (NOVEMBER 2025)
+Incorporate community and industry feedback to finalize the first official release of the OWASP AI Testing Guide v1.
 Present the guide at global OWASP conferences, including hosting workshops and interactive sessions to encourage broader adoption and continuous improvement.
 Establish a structured update cycle to ensure ongoing relevance with advancements in AI.
 
