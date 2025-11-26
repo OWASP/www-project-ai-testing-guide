@@ -12,27 +12,62 @@ pitch: Methodology to perform an AI System Assessment
   <img src="assets/images/OWASP_AI_Testing_Guide.png" alt="Alt text" width="400">
 </div>
 
-### [OWASP AI Testing Guide Table of Contents](https://github.com/OWASP/www-project-ai-testing-guide/blob/main/Document/README.md)
 
-As organizations increasingly adopt artificial intelligence (AI) solutions, the need for a robust framework to rigorously test AI systems for security, ethics, reliability, and compliance becomes essential. Although numerous application security testing guides exist, such as the OWASP Web Security Testing Guide (WSTG) and Mobile Security Testing Guide (MSTG), the unique risks and challenges of AI systems require specialized guidance.
 
-The OWASP AI Testing Guide aims to become the reference for identifying security, privacy, ethical, and compliance vulnerabilities inherent in AI applications. Inspired by established OWASP methodologies, the AI Testing Guide will deliver structured and practical guidance for security professionals, testers, and AI developers. This guide will be technology and industry agnostic, emphasizing applicability across various AI implementation scenarios.
+# 📢 26 November 2025 — Version 1 Published
 
-## Importance of AI Testing
-AI testing is vital because AI now underpins critical decision-making and daily operations across industries, from healthcare and finance to automotive and cybersecurity. To ensure an AI system is truly reliable, secure, accurate, and ethical, testing must go well beyond basic functionality. It needs to validate bias and fairness controls to prevent discrimination, conduct adversarial robustness checks against crafted inputs designed to fool or hijack models, and perform security and privacy assessments, such as model-extraction, data-leakage, and poisoning attack simulations. Incorporating techniques like differential privacy ensures compliance with data-protection laws while safeguarding individual records. 
-This guide’s comprehensive approach to AI testing aims to uncover hidden risks and maintain trust in AI-driven solutions.
+The **OWASP AI Testing Guide v1** is officially released.
+This milestone marks the **first open, community-driven standard for trustworthiness testing of AI systems** — created *by practitioners, for practitioners*.
 
-## Why AI Testing is Unique
-Testing AI systems presents unique challenges compared to traditional software testing. AI models, especially those based on machine learning (ML), exhibit non-deterministic behavior; since many AI algorithms involve randomness, during training or inference making outputs probabilistic rather than repeatable. This demands specialized regression and stability tests that account for acceptable variance. AI models learn from and depend on the quality and distribution of their training data. Unlike traditional code, changing inputs (data drift) can silently degrade performance, so tests must validate both data quality and model output over time. 
+👉 **Download the [PDF](https://github.com/OWASP/www-project-ai-testing-guide/blob/d641514cbd73a0a197ea4f814ddb198285a19447/PDFGenerator/V1.0/OWASP-AI-Testing-Guide-v1.pdf)**
 
-Because AI systems depend so heavily on the quality and integrity of their training and input data, data-centric testing methodologies become indispensable to ensure reliable, fair, and accurate model performance. Unintended biases hidden in training data can lead to discriminatory outcomes. AI testing must include fairness assessments and mitigation strategies, which are not part of conventional software QA.  The complexity and "black-box" nature of certain AI systems, such as deep learning neural networks, can obscure internal decision-making processes, complicating verification and validation. Adversarial or offensive security testing isn’t just recommended, it’s indispensable for AI technologies. 
 
-Because AI models can be fooled or manipulated by carefully crafted inputs (adversarial examples), organizations must employ dedicated adversarial robustness testing methodologies that extend well beyond standard functional tests. Without these specialized security assessments, AI systems remain vulnerable to subtle attacks that can compromise their integrity, reliability, and overall trustworthiness. 
+👉 **Browse it on [GitHub](https://github.com/OWASP/www-project-ai-testing-guide/blob/main/Document/README.md)**
 
-Finally all AI models live in ever-changing environments hence ongoing monitoring and automated re-validation of both data and model performance are essential to catch drift, emerging biases, or new vulnerabilities.
 
-## Purpose and Scope of the OWASP AI Testing Guide
-The OWASP AI Testing Guide is designed to serve as a comprehensive reference for software developers, architects, data analysts, researchers, and risk officers, ensuring that AI risks are systematically addressed throughout the product development lifecycle. It outlines a robust suite of tests, ranging from data‐centric validation and fairness assessments to adversarial robustness and continuous performance monitoring, that collectively provide documented evidence of risk validation and control. By following this guidance, teams can establish the level of trust required to confidently deploy AI systems into production, with verifiable assurances that potential biases, vulnerabilities, and performance degradations have been proactively identified and mitigated.
+
+# AI Testing as the Foundation of AI Trustworthiness
+
+Artificial Intelligence has shifted from an innovative technology to a critical component of modern digital infrastructure. AI systems now support high-stakes decisions in healthcare, finance, mobility, public services, and enterprise automation. As these systems grow in reach and autonomy, organizations need a standardized and repeatable way to verify that AI behaves safely as intended.
+
+The OWASP AI Testing Guide fills this gap by establishing a practical standard for trustworthiness testing of AI systems, offering a unified, technology-agnostic methodology that evaluates not only security threats but the broader trustworthiness properties required by responsible and regulatory-aligned AI deployments.
+
+AI testing is no longer just about security, it is a multidisciplinary discipline focused on maintaining trust in autonomous and semi-autonomous systems.  The OWASP AI Testing Guide establishes the missing standard: a unified, practical, and comprehensive framework for trustworthiness testing of AI systems, grounded in real attack patterns, emerging global standards, and the lived experience of the AI security community.
+
+### Why AI Testing is Unique
+
+Traditional software testing focuses on protecting systems from unauthorized access, code flaws, and system vulnerabilities. AI systems require more. Because AI models learn, adapt, generalize, and fail in non-deterministic ways, they introduce risks that cannot be addressed with conventional security testing.
+
+From the evidence documented in the NIST AML Taxonomy and the OWASP Top 10 for LLM Applications 2025 , we know that AI systems fail for reasons that go far beyond security:
+
+* Adversarial manipulation (prompt injection, jailbreaks, model evasion)
+* Bias and fairness failures
+* Sensitive information leakage
+* Hallucinations and misinformation
+* Data/model poisoning across the supply chain
+* Excessive or unsafe agency
+* Misalignment with user intent or organizational policies
+* Non-transparent or unexplainable outputs
+* Model drift and degradation over time
+  
+Because of these complexities, the industry is converging on the principle that:
+Security is not sufficient, AI Trustworthiness is the real objective.
+This OWASP AI Testing Guide operationalizes these principles into a practical testing framework.
+
+AI models can be fooled or manipulated by carefully crafted inputs (adversarial examples): organizations must employ dedicated adversarial robustness testing methodologies that extend well beyond standard functional tests. Without these specialized security assessments, AI systems remain vulnerable to subtle attacks that can compromise their integrity, reliability, and overall trustworthiness. 
+
+### Purpose and Scope of the OWASP AI Testing Guide
+
+The OWASP AI Testing Guide provides:
+* A standardized methodology for trustworthiness testing of AI and LLM-based systems 
+* Repeatable test cases that evaluate risks across:
+  - AI Application Layer
+  - AI Model Layer
+  - AI Infrastructure Layer
+  - AI Data Layer
+
+This Guide is designed to serve as a comprehensive reference for software developers, architects, data analysts, researchers, auditors and risk officers, ensuring that AI risks are systematically addressed throughout the product development lifecycle. 
+
 
 
 ### Start contributing [HERE](https://github.com/OWASP/www-project-ai-testing-guide)
