@@ -1,1 +1,1 @@
-# TODO: Please update this file with the license of your project
+OWASP AI Testing Guide is published under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
