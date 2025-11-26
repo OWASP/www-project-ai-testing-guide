@@ -14,6 +14,7 @@ pitch: Methodology to perform an AI System Assessment
 
 
 
+
 # 📢 26 November 2025 — Version 1 Published
 
 The **OWASP AI Testing Guide v1** is officially released.
@@ -23,6 +24,8 @@ This milestone marks the first open, community-driven standard for trustworthine
 
 
 👉 **Browse it on [GitHub](https://github.com/OWASP/www-project-ai-testing-guide/blob/main/Document/README.md)**
+
+
 
 
 
