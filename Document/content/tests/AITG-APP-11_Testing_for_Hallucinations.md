@@ -55,7 +55,7 @@ AI-generated outputs must:
 ### Remediation
 - Integrate retrieval-augmented generation (RAG) techniques for fact-checking and grounding outputs.
 - Enhance training with comprehensive and factual datasets.
-- Analysis of the reliability of the sources used to obtained the training data (particularly important when webscraped).
+- Analysis of the reliability of the sources used to obtain the training data (particularly important when webscraped).
 - Implement post-generation verification tools to cross-check generated facts.
 - Regularly evaluate and retrain models based on identified hallucination cases.
 
