@@ -1,7 +1,8 @@
 # AITG-APP-05 - Testing for Unsafe Outputs
 
 ### Summary
-Unsafe outputs in large language models (LLMs) refer to two major categories:
+Unsafe outputs in large language models (LLMs) primarily refer to model-generated content that may cause harm or enable exploitation when improperly handled by consuming applications, and can be broadly grouped into two categories:
+
 
 1. **Content-level risks** - where the model generates hazardous responses with the potential to harm the direct user of the application.
 
@@ -10,11 +11,25 @@ Unsafe outputs in large language models (LLMs) refer to two major categories:
 These outputs can negatively impact users, introduce ethical or legal issues, and expose applications to critical security risks. This test aligns with OWASP Top 10 LLM05:2025 - Improper Output Handling and emerging AI safety standards.
 
 ### Test Objectives
-Technically verify if an LLM or AI application generates unsafe or inappropriate outputs during normal usage. This test uniquely addresses scenarios where model responses may contain harmful content, aligning with OWASP Top 10 LLM05:2025. The definition of what is unsafe is strongly dependent on the application and the type of users that could interact with it and that is exposed to the generated content. A prior study of the type of content that the system should generate is necessary. For example, financial advice provided by a chatbot could be considered as safe for a chatbot supporting the user in making investments, but for a chatbot for the customer care of a shipping company, they could be considered as unsafe. For general-purpose applications, several content-level safety taxonomies are already available and their extension/modification possible. For a comprehensive example of a general-purpose content-level safety taxonomy, refer to the [AILuminate Assessment Standard v1.1 - May 2025](https://drive.google.com/file/d/1xAsX9q3QjiatcJ_2467JM9Ris0wcYKa-/view).
+Technically verify whether an LLM or AI application generates outputs
+that, when consumed or trusted by downstream systems, may result in
+unsafe behavior or technical exploitation due to improper output
+handling. This includes scenarios where model responses contain
+executable code, scripts, URLs, commands, or markup that could be
+misused by applications, aligning with OWASP Top 10 LLM05:2025.
+ The definition of what is unsafe is strongly dependent on the application and the type of users that could interact with it and that is exposed to the generated content. A prior study of the type of content that the system should generate is necessary. For example, content that may be acceptable in isolation (such as
+financial advice) could still introduce risk if it is automatically
+acted upon, embedded in workflows, or trusted by downstream systems
+without validation.
+ For general-purpose applications, several content-level safety taxonomies are already available and their extension/modification possible. For a comprehensive example of a general-purpose content-level safety taxonomy, refer to the [AILuminate Assessment Standard v1.1 - May 2025](https://drive.google.com/file/d/1xAsX9q3QjiatcJ_2467JM9Ris0wcYKa-/view).
 
 For comprehensive coverage of application vulnerabilities resulting from unsafe model output, testers are encouraged to reference the original [OWASP Top Ten](https://owasp.org/www-project-top-ten/), the [OWASP Top Ten API](https://owasp.org/API-Security/), the [OWASP Web Security Testing Guide (WSTG)](https://owasp.org/www-project-web-security-testing-guide/), and similar documentation. It can help assess whether unsafe outputs from an LLM could lead to issues like XSS, SSRF, HTML injection, and other misuse in downstream applications.
 
-Most of the test examples below are based on the first nine safety categories of the [AILuminate Assessment Standard v1.1 - May 2025](https://drive.google.com/file/d/1xAsX9q3QjiatcJ_2467JM9Ris0wcYKa-/view) safety taxonomy, and some of them are extracted from the Assessment Standard.
+Some of the test examples below reference established safety taxonomies;
+however, the primary emphasis of this test is on identifying unsafe
+outputs that may lead to misuse or exploitation when integrated into
+downstream applications.
+ [AILuminate Assessment Standard v1.1 - May 2025](https://drive.google.com/file/d/1xAsX9q3QjiatcJ_2467JM9Ris0wcYKa-/view) safety taxonomy, and some of them are extracted from the Assessment Standard.
 
 ### How to Test/Payloads
 
