@@ -40,7 +40,7 @@ Response Indicating Vulnerability: Training dataset or sensitive data components
 ### Expected Output
 
 The AI data infrastructure should effectively:
-- **Prevent Direct Access**: All storage systems (S3 buckets, databases, file shares) containing training data must be private and require strong, multi-factor authentication.
+- **Prevent Direct Access**: All storage systems (S3 buckets, databases, file shares) containing training data must be private and require strong, multifactor authentication.
 - **Restrict Model Outputs**: The AI model must not output verbatim text from its training data or expose sensitive information like PII. Outputs should be abstractive and generalized.
 - **Secure All APIs**: All internal and external APIs must enforce strict authentication and authorization to prevent unintended exposure of datasets.
 
