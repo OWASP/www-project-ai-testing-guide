@@ -19,7 +19,7 @@ Technically verify whether an LLM or AI application can be indirectly manipulate
 The following is a diagram that represents this kind of test:
 
 <p align="center">
-  <img src="/Document/images/IndirectPromptInjection.png" alt="Description" width="600"/>
+  <img src="/Document/images/Indirect-Prompt-Injection.png" alt="Description" width="600"/>
 </p>
 
 *Fig. 5: A schema of indirect prompt injection technique*
