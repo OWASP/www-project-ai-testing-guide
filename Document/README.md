@@ -37,6 +37,7 @@
 - 3.1.12 | AITG-APP-12   | [Testing for Toxic Output](https://github.com/OWASP/www-project-ai-testing-guide/blob/main/Document/content/tests/AITG-APP-12_Testing_for_Toxic_Output.md) |
 - 3.1.13 | AITG-APP-13   | [Testing for Over-Reliance on AI](https://github.com/OWASP/www-project-ai-testing-guide/blob/main/Document/content/tests/AITG-APP-13_Testing_for_Over-Reliance_on_AI.md) |
 - 3.1.14 | AITG-APP-14   | [Testing for Explainability and Interpretability](https://github.com/OWASP/www-project-ai-testing-guide/blob/main/Document/content/tests/AITG-APP-14_Testing_for_Explainability_and_Interpretability.md) |
+- 3.1.15 | AITG-APP-15   | [Testing for Recursive Task Chain Manipulation](https://github.com/OWASP/www-project-ai-testing-guide/blob/main/Document/content/tests/AITG-APP-15_Testing_for_Recursive_Task_Chain_Manipulation.md) |
 
 - 3.2 🟪 [AI Model Testing](https://github.com/OWASP/www-project-ai-testing-guide/blob/main/Document/content/3.2_AI_Model_Testing.md)
 
