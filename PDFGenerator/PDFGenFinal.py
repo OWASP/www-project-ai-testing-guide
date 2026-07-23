@@ -3,11 +3,8 @@
 import argparse
 import re
 import subprocess
-from datetime import datetime
 from pathlib import Path
-from urllib.parse import urljoin, urlparse
 
-import requests
 from markdown import markdown
 from weasyprint import HTML
 
@@ -172,7 +169,7 @@ def resolve_image_paths(html: str, base_path: Path, repo_root: Path = None) -> s
     return re.sub(r'<img\s+[^>]*src="([^"]+)"[^>]*>', repl, html)
 
 
-def parse_toc_file(toc_path: Path):
+def parse_toc_file(toc_path: Path, repo_root: Path):
     print(f"\nParsing ToC file: {toc_path}")
     toc_content = toc_path.read_text(encoding="utf-8")
 
@@ -182,14 +179,12 @@ def parse_toc_file(toc_path: Path):
     file_refs = []
     toc_dir = toc_path.parent
     
-    # repo locale clonato accanto allo script
-    REPO_ROOT = (Path(__file__).parent / "www-project-ai-testing-guide").resolve()
     GITHUB_PREFIX = "https://github.com/OWASP/www-project-ai-testing-guide/blob/main/"
 
     for title, href in matches:
         if href.startswith(GITHUB_PREFIX):
             rel_path = href[len(GITHUB_PREFIX):]
-            abs_path = (REPO_ROOT / rel_path).resolve()
+            abs_path = (repo_root / rel_path).resolve()
         else:
             abs_path = (toc_dir / href).resolve()
 
@@ -264,7 +259,7 @@ def generate_pdf(input_path: Path, output_file: Path, project_name: str = "Docum
         toc_md = input_path.read_text(encoding="utf-8")
         toc_md = transform_special_blockquotes(toc_md)
         toc_html = markdown(toc_md, extensions=['extra', 'nl2br', 'sane_lists', 'attr_list'])
-        file_entries = parse_toc_file(input_path)
+        file_entries = parse_toc_file(input_path, REPO_ROOT)
     elif input_path.is_dir():
         print("Mode: Directory scan")
         file_entries = scan_directory(input_path)
@@ -681,6 +676,14 @@ hr {{
 
 # ------------------ CLI entrypoint ------------------ #
 
+def resolve_config_path(config_path: Path, value: str) -> Path:
+    """Resolve a path from config relative to the config file."""
+    path_value = Path(value).expanduser()
+    if path_value.is_absolute():
+        return path_value
+    return config_path.resolve().parent / path_value
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="Generate PDF from markdown files with optional configuration file support."
@@ -711,12 +714,28 @@ if __name__ == "__main__":
         config = load_config(args.config)
         
         # Use command line arguments if provided, otherwise use config
-        input_path = args.input_path if args.input_path else Path(config['TOC_PATH'])
-        output_file = args.output_file if args.output_file else Path(config['OUTPUT_FILE'])
+        input_path = (
+            args.input_path
+            if args.input_path
+            else resolve_config_path(args.config, config['TOC_PATH'])
+        )
+        output_file = (
+            args.output_file
+            if args.output_file
+            else resolve_config_path(args.config, config['OUTPUT_FILE'])
+        )
         project_name = config['PROJECT_NAME']
         version = config['VERSION']
-        cover_image = config['COVER_IMAGE']
-        header_image = config['HEADER_IMAGE']
+        cover_image = (
+            str(resolve_config_path(args.config, config['COVER_IMAGE']))
+            if config['COVER_IMAGE']
+            else ""
+        )
+        header_image = (
+            str(resolve_config_path(args.config, config['HEADER_IMAGE']))
+            if config['HEADER_IMAGE']
+            else ""
+        )
     else:
         # Traditional mode: require both arguments
         if not args.input_path or not args.output_file:

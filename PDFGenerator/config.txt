@@ -6,13 +6,13 @@
 PROJECT_NAME=OWASP AI Testing Guide
 
 # Version number (appears in footer on the left)
-VERSION=Version 0.9
+VERSION=Version 1.0
 
 # Path to Table of Contents markdown file
-TOC_PATH=md/ToC.md
+TOC_PATH=ToC.md
 
 # Output PDF file name
-OUTPUT_FILE=OWASP-AI-Testing-Guide-v0.9.pdf
+OUTPUT_FILE=V1.0/OWASP-AI-Testing-Guide-v1.pdf
 
 # Path to cover image (optional, leave empty if not needed)
 COVER_IMAGE=Cover.png
