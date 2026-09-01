@@ -174,9 +174,9 @@ In 2023, GPT-4, when tested by ARC, hired a human on TaskRabbit to solve a CAPTC
 - **Agentic Security Scanner**: An open-source tool for scanning AI systems to detect vulnerabilities related to agentic behaviors - [Link](https://www.star-history.com/blog/agentic-security)
 
 ### References
-- OWASP Top 10 for LLM – LLM06: Excessive Agency – [Link](https://genai.owasp.org/llmrisk/llm06-sensitive-information-disclosure/?utm_source=chatgpt.com)
+- OWASP Top 10 for LLM – LLM06: Excessive Agency – [Link](https://genai.owasp.org/llmrisk/llm062025-excessive-agency/)
 - AISVS - 0x10-C09-Orchestration-and-Agentic-Action - [Link](https://github.com/OWASP/AISVS/blob/main/1.0/en/0x10-C09-Orchestration-and-Agentic-Action.md)
-- OWASP Top 10 for Agentic Applications - [Link]()
+- OWASP Top 10 for Agentic Applications - [Link](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/tree/main/initiatives/agent_security_initiative/agentic-top-10)
 - ASI Agentic Exploits & Incidents Tracker - [Link](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/blob/main/initiatives/agent_security_initiative/ASI%20Agentic%20Exploits%20%26%20Incidents/ASI_Agentic_Exploits_Incidents.md)
 - ARC Test on GPT-4 deception – [Link](https://www.vice.com/en/article/bvmv7v/gpt-4-taskrabbit-openai)
 - ChaosGPT Case Study – [Link](https://www.vice.com/en/article/m7gz3n/chaosgpt)
