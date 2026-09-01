@@ -18,12 +18,12 @@ OWASP Yapay Zeka Test Rehberi (AITG), yapay zeka ve büyük dil modeli (LLM) tab
 
 ### 3. [OWASP AITG Test Çerçevesi (4 Katman)](3.0_AITG_Cercevesi.md)
 - **3.1 🟦 Yapay Zeka Uygulama Katmanı Testleri (AITG-APP)**
-  - AITG-APP-01: Doğrudan Prompt Injection Testleri
-  - AITG-APP-02: Dolaylı (Indirect) Prompt Injection Testleri
+  - [AITG-APP-01: Doğrudan Prompt Injection Testi](tests/AITG-APP-01_Dogrudan_Prompt_Injection_Testi.md)
+  - [AITG-APP-02: Dolaylı (Indirect) Prompt Injection Testi](tests/AITG-APP-02_Dolayli_Prompt_Injection_Testi.md)
   - AITG-APP-03: Hassas Veri Sızıntısı Testleri
   - AITG-APP-04: Girdi Sızıntısı Testleri
   - AITG-APP-05: Güvensiz Çıktı Testleri
-  - AITG-APP-06: Otonom Ajan Davranış Sınırları Testleri
+  - [AITG-APP-06: Otonom Ajan Davranış Sınırları Testi](tests/AITG-APP-06_Ajan_Davranis_Sinirlari_Testi.md)
   - AITG-APP-07: Sistem Promptunun İfşa Edilmesi Testleri
   - AITG-APP-08: Vektör ve Embedding Manipülasyonu Testleri (RAG Güvenliği)
   - AITG-APP-09: Model Çıkarma (Extraction) Testleri
