@@ -48,6 +48,7 @@ The AI infrastructure should effectively:
 - **Image Signing and Verification:** [Sigstore Cosign](https://github.com/sigstore/cosign), [Docker Content Trust](https://docs.docker.com/engine/security/trust/)
 - **Pipeline Security and Governance:** [Open Source Security Foundation (OpenSSF) Scorecards](https://github.com/ossf/scorecard), [Allstar](https://github.com/ossf/allstar)
 - **SBOM Generation:** [CycloneDX](https://cyclonedx.org/), [SPDX](https://spdx.dev/)
+- **MCP Tool Contract Integrity:** [RugSnare](https://github.com/Paraphern/rugsnare) - pins tool contracts at approval (sha-256, Ed25519-signed store), gates CI on direction-graded drift, verifies releases against on-chain hashes; zero runtime dependencies
 
 ### References
 
