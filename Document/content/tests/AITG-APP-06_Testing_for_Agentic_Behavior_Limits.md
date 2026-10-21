@@ -172,6 +172,7 @@ In 2023, GPT-4, when tested by ARC, hired a human on TaskRabbit to solve a CAPTC
 - **BrowserART**: Tests browser-based agents for unsafe behavior - [Link](https://github.com/scaleapi/browser-art)
 - **SafeAgentBench**: Benchmarks safe refusal on hazardous tasks - [Link](https://arxiv.org/abs/2412.13178)
 - **Agentic Security Scanner**: An open-source tool for scanning AI systems to detect vulnerabilities related to agentic behaviors - [Link](https://www.star-history.com/blog/agentic-security)
+- **RugSnare**: Pins MCP tool contracts (name, description, inputSchema) at approval and diffs every PR against the baseline - direction-graded findings (BREAKING / LOOSENED / EXPANDED), prompts and resources compared too, advisory scoring of changed descriptions - [Link](https://github.com/Paraphern/rugsnare)
 
 ### References
 - OWASP Top 10 for LLM – LLM06: Excessive Agency – [Link](https://genai.owasp.org/llmrisk/llm06-sensitive-information-disclosure/?utm_source=chatgpt.com)
